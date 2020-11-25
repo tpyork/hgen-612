@@ -1,4 +1,4 @@
-# {tidyverse} review             ----
+# {tidyverse} features           ----
 # 10 great functions             ---
 #
 # author:  T. York               ---
@@ -168,6 +168,7 @@ mpg_long_summary_table %>%
 
 
 # 4.0 dplyr::group_split; purrr::map --------------------------------------
+# ADVANCED
 library(tidyquant)
 library(tidyverse)
 library(broom)
