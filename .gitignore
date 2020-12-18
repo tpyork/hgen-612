@@ -41,4 +41,8 @@ vignettes/*.pdf
 # instructor files
 *_instructor*
 
+# production files
+*.Rmd
+
+
 

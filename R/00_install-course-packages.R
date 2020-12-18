@@ -7,8 +7,12 @@ r_pkgs <- c(
   "tidyverse",
   
   # Lecture 05_flexdashboard ----
-  "flexdashboard"
+  "flexdashboard", "DT", "plotly", "corrr", "emo",
+
+  # Lecuture 06_flexdashboard ----
+  "tidymodels", "vip"
   
+    
   )
 
 
