@@ -7,10 +7,11 @@ output: html_document
 ## SPRING 2021, 3 credit hours
 
 Time: Thursday, 10:00a-11:20a  
-Location: VIPBG Conference Room, Biotech 1, rm 1-160  
+Location: https://zoom.us/j/9927704427  
 
 **DIRECTOR:**  
 **Tim York**, PhD  
+Director, VCU Data Science Lab  
 Associate Professor, Human and Molecular Genetics  
 
 **INSTRUCTORS:**  
@@ -21,68 +22,60 @@ Assistant Professor, Adult Health and Nursing Systems
 **Dana Lapato**, PhD  
 Instructor, Human and Molecular Genetics  
 
+**INVITED LECTURERS:**  
+**Aaron Wolen**, PhD  
+Senior Software Engineer, TileDB  
+**Steve Norum**  
+**Jerome Dixon**  
+
 - - -
+
+## Our current situation
+As of publishing this syllabus we are currently in VCU's Phase 3 restrictions. Being so, HGEN 612 will meet remotely for the entire semester by Zoom. My preference is that all students attend lectures synchronously with their cameras on. I understand this may not be feasible at all times. Lectures will be recorded for asynchronous viewing between 24-48 hours after each session so plan accordingly but there will be times this does not work as expected. Please note that regardless of viewing behavior your participation and attendance grade will not be assessed in the regular fashion. I am more interested that you are engaged with the class (e.g., during class and/or on Slack) and your assignments reflect attempts to innovate past what you were taught (i.e., coding creativity requires some degree of self-study). We will discuss this more in class but the bottom line is, because we are still in an atypical situation, no one should expect business as usual. For instance, lectures will likely not extend the entire time to avoid Zoom fatigue and we will strive to use our time in a way that we find is most beneficial for learning. All I ask is that you reach out to me to discuss your circumstances if your remote learning experience is faltering.  
+
 
 ## Course Description
 This course builds upon the material introduced in the prerequisite (HGEN 611/OVPR 611) by providing instruction on advanced techniques for working with data and producing highly reproducible data products. The learning path focuses on the fundamentals of both machine learning and the creation of production ready web applications as two highly marketable skills for future data scientists. Project based assignments culminate in students creating their own applications that take advantage of tidymodel principles to automate machine learning workflows, visually communicate knowledge with interactive graphics, and the use of Git and OSF for project management. The guiding principle of the course is that the these products of research should be open and accessible to all members of a project team for maximum impact. This course will continue the use of the statistical programming language R with a focus on advanced tidyverse functions for data wrangling and statistical model development.  
 
+
 ## Prerequisite
-HGEN/OVPR 611 Data Science 1 or Instuctor permission.  
+HGEN/OVPR 611 Data Science 1 or Instructor permission.  
+
 
 ## Textbook
-All required reading material will be posted on the class OSF page. There is no required textbook. However, *R for Data Science* (Wickham & Grolemund) is an excellent general reference.  
- 
-## Grading
-Grading will be based upon class attendance and participation. Students are required to attend all 1.5 hour lectures. This amounts to at least 15 hours of instruction for a 1 credit course. Only 1 absence (excused or non-excused) will be allowed. A total of 10 points will be deducted from the final grade for each class not attended under the required amount. No additional excused absences will be granted so plan accordingly.  
+All required reading material will be posted on the class OSF page. There is no required textbook. However, [*R for Data Science*][101] (Wickham & Grolemund) is an excellent general reference and [*Advanced R*][102] (Wickham) is great for a more in-depth guide to the R language.  
+
 
 ## Student Responsibilities
-
-Students are required to bring their laptop to each class and be prepared to follow along with practical data examples. 
+  - Bring your laptop to each class and be prepared to follow along with practical data examples.
+  - Complete assigned readings before the scheduled lecture date.  
+  - Review and practice using the code presented in the previous session.  
+  - Please ask questions during class.
+  - Ask questions and seek help whenever needed. Instructors will try to respond to messages within 24 hours. For best response times on, for instance, coding problems posting on the #general channel is recommended and allows others to learn from your question.
+  - Get used to finding answers to coding problems on stackoverflow.com and sharing them on #general.
+  
+  
+## Communication Guidelines
+  - Communicate with instructors using Direct Messaging within the class Slack workspace.  
+  - Interact with fellow students and faculty members on the #general Slack channel.
+  - Expect some emails generated by Canvas.
+  - Be encouraging and helpful in all interactions. These are difficult concepts that take practice to master. We all make mistakes. Patience and positive feedback is appreciated.
 
 
 ## ReproducibiliTea
-This is a journal club sponsored by the VCU Data Science Lab and VCU Libraries with the ambitious goal of fixing science (or at least to start a conversation about a few lingering issues). Students are required to attend at least one meeting before 2020-04-30. Be sure to read the journal article beforehand. And yes, tea will be provided (when we are in-person again). Students are required to attend at least one ReproducibiliTea session. Official ReproducibiliTea meetings occur monthly on ~~the second Tuesday at 2pm in Biotech I (Rm 3029, Suite 300)~~. As a result, this class is only required for those who cannot attend those monthly meetings.
+This is a journal club sponsored by the VCU Data Science Lab and VCU Libraries with the ambitious goal of fixing science (or at least to start a conversation about a few lingering issues). **Students are required to attend at least one meeting by 2021-04-30**. Be sure to read the journal article beforehand. And yes, tea will be provided (when we are in-person again). Official ReproducibiliTea meetings occur monthly on ~~the second Tuesday at 2pm in Biotech I (Rm 3029, Suite 300)~~ (TBD).  
 
 
-- - -
+## Grading
+The point distribution for grades is listed below. Details for each assignment will be presented in class.    
 
-## Lecture Schedule
-| Lecture | Date      | Topic                                      | Instructor       | Reading Assignment         |
-|---------| --------- | ------------------------------------------ | ---------------- | -------------------------- |
-| 1       | 01/27     | Project Management: Discussion             | York/Lapato      | [A1][1]; [A2][2]; [A3][3] |
-| 2       | 01/29     | *No class meeting*                         |                  |                            |
-| 3       | 02/03     | *No class meeting*                         |                  |                            |
-| 4       | 02/05     | Machine Learning: Regression-based 1       | Smirnova         | [Article-7][7]; [Article-8][8] (Ch 3 (skip 3.5) & Ch 4.3) |
-| 5       | 02/10     | Machine Learning: Regression-based 2       | Smirnova         |                            |
-| 6       | 02/12     | Machine Learning: Regression-based 3       | Smirnova         |                            |
-| 7       | 02/17     | ReproducibiliTea Meeting**                 |                  | [Main Article](https://osf.io/jnh8k), [Supplemental Article](https://osf.io/8cahj)                           |
-| 8       | 03/05     | *No class meeting*                         |                  |                            |
-| 9       | 03/19     | *No class meeting*                         |                  |                            |
-| 10      | 03/26     | Machine Learning in the Wild               | Sargent          | [Article-9][9]; [Article-10][10]                    |
-| 11      | 04/02     | Shiny App Development                      | York             | **TBA**                    |
-| 12      | 04/09     | Machine Learning: Classification 1         | Smirnova         | **TBA**                    |
-| 13      | 04/16     | Machine Learning: Classification 2         | Smirnova         |                            |
-| 14      | 04/23     | Machine Learning: Classification 3         | Smirnova         |                            |
-| 15      | 04/30     | Project Management: `osfr`                 | York             | [Article-4][4]; [Article-5][5]; [Article-6][6] |
+  - (25 points) Project 1 
+  - (25 points) Project 2
+  - (15 points) Project 2 presentation
+  - (10 points) ReproducibiliTea attendance
+  - (25 points) Participation and attendance (see below)  
 
 
 
-
-
-
-
-
-
-
-
-[1]: https://osf.io/cznxv "Manifesto for Reproducible Research"
-[2]: https://osf.io/njs9g/ "Good Enough Practices"
-[3]: https://osf.io/r58tn/ "ReproducibiliTEA"
-[4]: https://osf.io/njw5p/ "osfr JOSS article"
-[5]: https://osf.io/rs6m3/ "Reproducibility of Psychology"
-[6]: https://osf.io/4a26g "Democratic Science"
-[7]: https://osf.io/d7we8/ "Pine Beetle Data"
-[8]: https://osf.io/nstcw/ "Introduction to Statistical Learning"
-[9]: https://osf.io/rmtsx/ "Machine Learning and Science"
-[10]: https://osf.io/gpt3h/ "Machine Learning and Aging Research"
-
+[101]: https://r4ds.had.co.nz/ "R for Data Science"
+[102]: https://adv-r.hadley.nz/index.html "Advanced R"
