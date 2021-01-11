@@ -74,5 +74,5 @@ The point distribution for grades is listed below. Details for each assignment w
 
 
 
-[101]: https://r4ds.had.co.nz/ "R for Data Science"
+[101]: https://r4ds.had.co.nz/            "R for Data Science"
 [102]: https://adv-r.hadley.nz/index.html "Advanced R"
