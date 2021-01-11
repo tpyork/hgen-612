@@ -59,6 +59,12 @@ All required reading material will be posted on the class OSF page. There is no 
   - Be encouraging and helpful in all interactions. These are difficult concepts that take lots of practice to master. We all make mistakes. Patience and positive feedback is appreciated.
 
 
+## Course Materials
+We will be using OSF (https://osf.io/24mp7/) to 
+
+  - Code and will be link to OSF
+
+
 ## ReproducibiliTea
 This is a journal club sponsored by the VCU Data Science Lab and VCU Libraries with the ambitious goal of fixing science (or at least to start a conversation about a few lingering issues). **Students are required to attend at least one meeting by 2021-04-30**. Be sure to read the journal article beforehand. And yes, tea will be provided (when we are in-person again). Official ReproducibiliTea meetings occur monthly on ~~the second Tuesday at 2pm in Biotech I (Rm 3029, Suite 300)~~ (TBD).  
 
