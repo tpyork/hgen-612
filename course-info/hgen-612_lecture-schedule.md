@@ -2,6 +2,7 @@
 ## Data Science 2
 ## HGEN 612
 *Subject to change*  
+https://github.com/tpyork/hgen-612/blob/main/course-info/hgen-612_lecture-schedule.md  
 
 
 | Lecture | Date      | Topic                                      | Instructor       | Reading Assignment         |  
