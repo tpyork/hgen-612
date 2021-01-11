@@ -1,9 +1,5 @@
----
-title: "Syllabus"
-output: html_document
----
-
-# HGEN 612: Methods in Data Science
+# Syllabus
+## HGEN 612: Methods in Data Science
 ## SPRING 2021, 3 credit hours
 
 Time: Thursday, 10:00a-11:20a  
@@ -48,6 +44,7 @@ All required reading material will be posted on the class OSF page. There is no 
 
 ## Student Responsibilities
   - Bring your laptop to each class and be prepared to follow along with practical data examples.
+  - Check `R/00_install-course-packages.R` before each class to install any new packages.
   - Complete assigned readings before the scheduled lecture date.  
   - Review and practice using the code presented in the previous session.  
   - Please ask questions during class.
