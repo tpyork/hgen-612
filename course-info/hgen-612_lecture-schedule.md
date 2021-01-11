@@ -1,14 +1,13 @@
-
 # Lecture Schedule
 ## Data Science 2
 ## HGEN 612
-### Subject to change
+*Subject to change*  
 
 
 | Lecture | Date      | Topic                                      | Instructor       | Reading Assignment         |
 |---------| --------- | ------------------------------------------ | ---------------- | -------------------------- |
 | 1       | 01/27     | Tidyverse Features                         | York             |                            |
-| 2       | 01/29     | Git, Github & RStudio                      | York             | [git1][1]; [git2][2]       |
+| 2       | 01/29     | Git, Github & RStudio                      | York             | [git][1]; [happygit][2]    |
 | 3       | 02/03     | Command Line Basics                        | Norum            |                            |
 | 4       | 02/05     | Functional programming with purrr          | Wolen            |                            |
 | 5       | 02/10     | flexdashboard 1                            | York             |                            |
