@@ -1,5 +1,5 @@
 # {tidyverse} features           ----
-# 10 great functions             ---
+# great tidyverse functions      ---
 #
 # author:  T. York               ---
 # credits: M. Dancho             ---
@@ -41,6 +41,12 @@ mpg %>%
   relocate(manufacturer, .after = last_col(offset = 1))
 
 
+# YOUR TURN <><><><><><><><><><><><><>
+# Move `manufacturer` before `cyl`
+
+
+
+
 
 # - Move multiple columns by data type
 mpg %>%
@@ -54,9 +60,12 @@ mpg %>%
 
 
 
-# - Use tidyselect to match columns
+# YOUR TURN <><><><><><><><><><><><><>
+# Move all variables that start with "m" before year
 mpg %>%
   relocate(starts_with("m"), .before = year)
+
+
 
 
 
@@ -102,13 +111,14 @@ mpg %>%
 
 # ADVANCE USE
 # - CUSTOMIZE NAMING SCHEME
+
 mpg %>%
   group_by(class) %>%
   summarise(
     across(
       c(cty, hwy),
       .fns = list(mean = mean, stdev = sd),
-      .names = "{.fn} {.col} Consumption"
+      .names = "{.fn} {.col} Consumption"     #see ?across
     ),
     .groups = "drop"
   ) %>%
@@ -168,6 +178,8 @@ mpg_long_summary_table %>%
 
 
 # 4.0 dplyr::group_split; purrr::map --------------------------------------
+# - Advanced but it shows where we are headed with {purrr}
+
 # ADVANCED
 library(tidyquant)
 library(tidyverse)
@@ -181,7 +193,6 @@ library(htmltools)
 
 # GROUP SPLIT
 # - Turns a grouped data frame into an list of data frames (iterable)
-# - Iteration & functions - Covered in Week 5 of DS4B 101-R
 
 # Group Split
 mpg %>%
@@ -202,7 +213,6 @@ mpg %>%
 
 # THE POWER OF BROOM
 # - Tidy up our linear regression metrics with glance()
-# - Modeling & Machine Learning - Covered in Week 6 of DS4B 101-R Course
 
 hwy_vs_city_tbl <- mpg %>%
   mutate(manufacturer = as_factor(manufacturer)) %>%
@@ -217,7 +227,6 @@ hwy_vs_city_tbl <- mpg %>%
 
 
 # SUPER AWESOME TABLE WITH GT PACKAGE
-# - Advanced but it shows where we are headed with {purrr}
 # - Source: https://themockup.blog/posts/2020-10-31-embedding-custom-features-in-gt-tables/
 rating_stars <- function(rating, max_rating = 5) {
   rounded_rating <- floor(rating + 0.5)  # always round up
@@ -262,6 +271,52 @@ hwy_vs_city_tbl %>%
     p.value = gt::md("__P-Value__"),
     rating  = gt::md("__Rating__")
   )
+
+
+
+
+# 5.0 BONUS: Keyboard Shortcuts -------------------------------------------
+## Note: Option::Mac as Alt::PC
+
+# 1. The pipe, [Command + Shift + M] ----
+iris %>% head()
+
+
+
+# 2. Commenting/Uncommenting, [Ctrl + Shift + C] ----
+iris %>% head()
+
+
+
+# 3. Assignment, [Option + -] ----
+iris2 <- iris
+
+
+
+# 4. Select Multiple Lines, [Ctrl + Option + Up/Down] ----
+library(tidyverse)
+library(ggplot2)
+library(gt)
+library(tidymodels)
+
+
+
+# 5. Find in Files, [Ctrl + Shift + F] ----
+
+
+
+
+
+# 6. Get All Keyboard Shortcuts,  [Option + Shift + K] ----
+
+
+
+
+
+
+
+
+
 
 
 

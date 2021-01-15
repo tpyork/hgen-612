@@ -1,10 +1,14 @@
+# Check back before each lecture for any additions ----
 
+
+
+devtools::install_github("rstudio/fontawesome")
 
 
 r_pkgs <- c(
 
   # Lecture 01_tidyverse-features ----
-  "tidyverse",
+  "tidyverse", "tidyquant", "broom", "gt", "htmltools",
   
   # Lecture 05_flexdashboard ----
   "flexdashboard", "DT", "plotly", "corrr", "emo",
