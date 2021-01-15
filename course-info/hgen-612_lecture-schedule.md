@@ -3,7 +3,7 @@
 ## HGEN 612
 *Subject to change*  
 Course Schedule:  https://github.com/tpyork/hgen-612/blob/main/course-info/hgen-612_lecture-schedule.md  
-ReproducibiliTea Schecule:  osf.io/g56qp/wiki/Schedule
+ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/  
 
 
 | Lecture | Date      | Topic                                      | Instructor       | Assignment                 |  

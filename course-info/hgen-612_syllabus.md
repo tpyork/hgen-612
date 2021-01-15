@@ -21,7 +21,8 @@ Instructor, Human and Molecular Genetics
 **INVITED LECTURERS:**  
 **Aaron Wolen**, PhD  
 Senior Software Engineer, TileDB  
-**Steve Norum**  
+**Steve Norum**, BA Math and Computer Science (and Physics)  
+Senior Software Development Engineer, Amazon Web Services  
 **Jerome Dixon**  
 
 - - -
