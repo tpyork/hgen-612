@@ -8,7 +8,7 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 
 | Lecture | Date      | Topic                                      | Instructor       | Assignment                 |  
 |---------| --------- | ------------------------------------------ | ---------------- | -------------------------- |  
-| 1       | 01/27     | Tidyverse Features                         | York             |                            |  
+| 1       | 01/27     | Tidyverse Features                         | York             | [Talk to Yourself][7]      |  
 | 2       | 01/29     | Git, Github & RStudio                      | York             | [git][1]; [happygit][2]    |  
 | 3       | 02/03     | Command Line Basics                        | Norum            |                            |  
 | 4       | 02/05     | Functional programming with purrr          | Wolen            |                            |  
@@ -47,6 +47,7 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 [4]: https://osf.io/nstcw/ "Introduction to Statistical Learning"
 [5]: https://osf.io/rmtsx/ "Machine Learning and Science"
 [6]: https://osf.io/gpt3h/ "Machine Learning and Aging Research"
+[7]: https://rstudio.com/resources/rstudioconf-2020/don-t-repeat-yourself-talk-to-yourself-repeated-reporting-in-the-r-universe/ "DRY"
 
 
 
