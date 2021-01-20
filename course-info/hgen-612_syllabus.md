@@ -40,7 +40,7 @@ HGEN/OVPR 611 Data Science 1 or Instructor permission.
 
 
 ## Textbook
-All required reading material will be posted on the class OSF page. There is no required textbook. However, [*R for Data Science*][101] (Wickham & Grolemund) is an excellent general reference and [*Advanced R*][102] (Wickham) is great for a more in-depth guide to the R language.  
+All required reading/viewing material will be posted on the class OSF page. There is no required textbook. However, [*R for Data Science*][101] (Wickham & Grolemund) is an excellent general reference and [*Advanced R*][102] (Wickham) is great for a more in-depth guide to the R language.  
 
 
 ## Student Responsibilities
@@ -50,7 +50,7 @@ All required reading material will be posted on the class OSF page. There is no 
   - Review and practice the code presented in the previous session.  
   - Please ask questions during class.
   - Ask for help whenever needed. Instructors will try to respond to messages within 24 hours. For best response times on, for instance, coding problems posting on the `#general` channel is recommended and allows others to benefit from your question. Students are encouraged to contribute answers.
-  - Get used to finding answers to coding problems on stackoverflow.com and sharing them on #general.
+  - Get used to finding answers to coding problems on stackoverflow.com and sharing them on `#general`.
   
   
 ## Communication Guidelines
@@ -61,7 +61,7 @@ All required reading material will be posted on the class OSF page. There is no 
 
 
 ## Course Materials
-We will be using OSF (https://osf.io/24mp7/) as the hub for all course materials in combination with Github. Both of these file management  Details where each group of files live are as follows:  
+We will be using OSF (https://osf.io/24mp7/) as the hub for all course materials in combination with Github. Both of these file management tools work nicely together and allow for users of different skill levels to access and interact with materials. This approach is commonly used in the wild and so we will adopt it in this course, in lieu of Canvas, to promote familiarity with this system. Details where each group of files live are as follows:  
 
   - Presentations and reading materials will be stored directly on OSF.
   - Code and course meta-information (e.g., syllabus) will be stored on the course Github site and linked to OSF.
@@ -69,7 +69,7 @@ We will be using OSF (https://osf.io/24mp7/) as the hub for all course materials
   - I do not plan on storing any materials on Canvas.
 
 ## ReproducibiliTea
-This is a journal club sponsored by the VCU Data Science Lab and VCU Libraries with the ambitious goal of fixing science (or at least to start a conversation about a few lingering issues). **Students are required to attend at least one meeting by 2021-04-30**. Be sure to read the journal article beforehand. And yes, tea will be provided (when we are in-person again). Official ReproducibiliTea meetings occur monthly on ~~the second Tuesday at 2pm in Biotech I (Rm 3029, Suite 300)~~ (TBD). See schedule at osf.io/g56qp/wiki/Schedule  
+This is a journal club sponsored by the VCU Data Science Lab and VCU Libraries with the ambitious goal of fixing science (or at least to start a conversation about a few lingering issues). **Students are required to attend at least one meeting by 2021-04-30**. Be sure to read the journal article beforehand. And yes, tea will be provided (when we are in-person again). Official ReproducibiliTea meetings occur monthly on ~~the second Tuesday at 2pm in Biotech I (Rm 3029, Suite 300)~~ (TBD). See schedule at https://osf.io/g56qp/wiki/Schedule.  
 
 
 ## Grading
