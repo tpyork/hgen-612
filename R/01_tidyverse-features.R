@@ -22,6 +22,10 @@ mpg  %>%
   relocate(model, manufacturer, class, year)
 
 ?relocate
+?arrange
+
+mpg %>% 
+  arrange(displ)
 
 mpg %>%
   select(everything())
@@ -62,8 +66,6 @@ mpg %>%
 
 # YOUR TURN <><><><><><><><><><><><><>
 # Move all variables that start with "m" before year
-mpg %>%
-  relocate(starts_with("m"), .before = year)
 
 
 
@@ -91,6 +93,7 @@ mpg %>%
   )
 
 
+
 # AVERAGE & STDEV CITY FUEL CONSUMPTION BY VEHICLE CLASS
 mpg %>%
   group_by(class) %>%
@@ -98,6 +101,18 @@ mpg %>%
     across(cty, .fns = list(mean = mean, stdev = sd)), 
     .groups = "drop"
   )
+
+
+# OR purrr STYLE TILDAS (YOU'LL LEARN THIS NEXT WEEK)
+# mpg %>%
+#   group_by(class) %>%
+#   summarise(
+#     across(cty, list(mean = ~ mean(.x, na.rm = TRUE), 
+#                      stdev = ~ sd(.x, na.rm = TRUE))),
+#     .groups = "drop"
+#   )
+
+
 
 
 # AVERAGE & STDEV CITY + HWY FUEL CONSUMPTION BY VEHICLE CLASS
@@ -109,9 +124,9 @@ mpg %>%
   )
 
 
+
 # ADVANCE USE
 # - CUSTOMIZE NAMING SCHEME
-
 mpg %>%
   group_by(class) %>%
   summarise(
@@ -125,7 +140,7 @@ mpg %>%
   rename_with(.fn = str_to_upper)
 
 
-# COMPLEX FUNCTIONS
+# COMPLEX FUNCTIONS (NOTICE THE TILDAS)
 mpg %>%
   group_by(class) %>%
   summarise(
@@ -180,7 +195,6 @@ mpg_long_summary_table %>%
 # 4.0 dplyr::group_split; purrr::map --------------------------------------
 # - Advanced but it shows where we are headed with {purrr}
 
-# ADVANCED
 library(tidyquant)
 library(tidyverse)
 library(broom)
@@ -213,7 +227,6 @@ mpg %>%
 
 # THE POWER OF BROOM
 # - Tidy up our linear regression metrics with glance()
-
 hwy_vs_city_tbl <- mpg %>%
   mutate(manufacturer = as_factor(manufacturer)) %>%
   group_by(manufacturer) %>%
@@ -243,6 +256,7 @@ rating_stars <- function(rating, max_rating = 5) {
   as.character(div_out) %>%
     gt::html()
 }
+
 
 hwy_vs_city_tbl %>%
   select(manufacturer, nobs, r.squared, adj.r.squared, p.value) %>%
