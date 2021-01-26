@@ -69,6 +69,7 @@ We will be using OSF (https://osf.io/24mp7/) as the hub for all course materials
   - Code and course meta-information (e.g., syllabus) will be stored on the course Github site and linked to OSF.
   - Github has a steep learning curve and not everyone will become proficient users immediately - it takes a lot of practice. I will teach the basics so that everyone should be able to automagically access course materials. Otherwise, as previously stated, all materials will be accessible via the course OSF hub.
   - I do not plan on storing any materials on Canvas.
+  - Recorded lectures will be stored at: TBD.  
 
 ## ReproducibiliTea
 This is a journal club sponsored by the VCU Data Science Lab and VCU Libraries with the ambitious goal of fixing science (or at least to start a conversation about a few lingering issues). **Students are required to attend at least one meeting by 2021-04-30**. Be sure to read the journal article beforehand. And yes, tea will be provided (when we are in-person again). Official ReproducibiliTea meetings occur monthly on ~~the second Tuesday at 2pm in Biotech I (Rm 3029, Suite 300)~~ (TBD). See schedule at https://osf.io/g56qp/wiki/Schedule.  
