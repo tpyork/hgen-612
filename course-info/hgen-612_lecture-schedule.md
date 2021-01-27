@@ -8,7 +8,7 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 
 | Lecture | Date      | Topic                                      | Instructor       | Assignment                 |  
 |---------| --------- | ------------------------------------------ | ---------------- | -------------------------- |  
-| 1       | 01/27     | Tidyverse Features                         | York             | [Talk to Yourself][7]      |  
+| 1       | 01/27     | Intro & Tidyverse Features                 | York             | [Talk to Yourself][7]      |  
 | 2       | 01/29     | Git, Github & RStudio                      | York             | [git][1]; [happygit][2]    |  
 | 3       | 02/03     | Command Line Basics                        | Norum            |                            |  
 | 4       | 02/05     | Functional programming with purrr          | Wolen            |                            |  

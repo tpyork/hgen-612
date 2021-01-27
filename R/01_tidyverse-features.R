@@ -3,6 +3,7 @@
 #
 # author:  T. York               ---
 # credits: M. Dancho             ---
+#          G. Karamanis          ---
 
 
 
@@ -51,7 +52,6 @@ mpg %>%
 
 
 
-
 # - Move multiple columns by data type
 mpg %>%
   relocate(where(is.numeric))
@@ -66,7 +66,6 @@ mpg %>%
 
 # YOUR TURN <><><><><><><><><><><><><>
 # Move all variables that start with "m" before year
-
 
 
 
@@ -92,6 +91,8 @@ mpg %>%
     .groups = "drop"
   )
 
+# see ?summarise re .groups; what if you set .groups to "keep" ?
+
 
 
 # AVERAGE & STDEV CITY FUEL CONSUMPTION BY VEHICLE CLASS
@@ -107,7 +108,7 @@ mpg %>%
 # mpg %>%
 #   group_by(class) %>%
 #   summarise(
-#     across(cty, list(mean = ~ mean(.x, na.rm = TRUE), 
+#     across(cty, list(mean = ~ mean(.x, na.rm = TRUE),
 #                      stdev = ~ sd(.x, na.rm = TRUE))),
 #     .groups = "drop"
 #   )
@@ -194,7 +195,6 @@ mpg_long_summary_table %>%
 
 # 4.0 dplyr::group_split; purrr::map --------------------------------------
 # - Advanced but it shows where we are headed with {purrr}
-
 library(tidyquant)
 library(tidyverse)
 library(broom)
@@ -239,7 +239,94 @@ hwy_vs_city_tbl <- mpg %>%
   })
 
 
-# SUPER AWESOME TABLE WITH GT PACKAGE
+
+
+# CREATE TABLE OF RESULTS WITH EMBEDDED skimr HISTOGRAMS
+# Inspiration from https://github.com/gkaramanis/tidytuesday/tree/master/2020-week39
+mpg2 <- mpg %>%
+  group_by(manufacturer) %>% 
+  mutate(hist = inline_hist(hwy, n_bins = 7)) %>% 
+  ungroup() %>% 
+  distinct(manufacturer, hist)
+
+
+hwy_vs_city_hist_tbl <- 
+  left_join(hwy_vs_city_tbl, mpg2, by = "manufacturer") %>% 
+  select(manufacturer, nobs, r.squared, p.value, hist) %>% 
+  mutate(across(where(is.numeric), round, 3)) %>% 
+  mutate(manufacturer = str_to_title(manufacturer)) %>% 
+  arrange(desc(r.squared))
+
+
+hwy_vs_city_hist_tbl %>% 
+  gt() %>% 
+  data_color(
+    columns = vars(r.squared),
+    colors = scales::col_numeric(
+      palette = c(
+        "grey10", "grey30", "grey97"),
+      domain = c(0, 1)
+    )
+  ) %>% 
+  tab_header(
+    title = "Relationship between City and Highway Mileage",
+    subtitle = "lm(formula = hwy ~ cty)"
+  ) %>% 
+  tab_source_note("Data Source: ggplot2::mpg") %>% 
+  cols_label(
+    manufacturer = "Manufacturer",
+    nobs         = "Obs.",
+    r.squared    = "R-squared",
+    p.value      = "P-value",
+    hist         = "Distribution of Highway Mileage"
+  ) %>% 
+  cols_width(
+    vars(manufacturer) ~ px(85),
+    vars(nobs)         ~ px(80),
+    vars(r.squared)    ~ px(85),
+    vars(p.value)      ~ px(85),
+    vars(hist)         ~ px(160)
+  ) %>% 
+  tab_style(
+    style = cell_text(font = "Proxima Nova"),
+    locations = cells_body(columns = 1)
+  ) %>% 
+  tab_style(
+    style = cell_text(font = "IBM Plex Sans Condensed"),
+    locations = cells_body(columns = 2:4)
+  ) %>% 
+  tab_style(
+    style = cell_text(font = "Graphik Compact", weight = "bold"),
+    locations = cells_column_labels(columns = gt::everything())
+  ) %>% 
+  tab_style(
+    style = cell_text(font = "Graphik Compact"),
+    locations = cells_title()
+  ) %>% 
+  tab_style(
+    style = cell_text(font = "Graphik Compact"),
+    locations = cells_row_groups()
+  ) %>% 
+  tab_options(
+    table.layout = "auto",
+    row_group.border.top.width = px(5),
+    row_group.border.top.color = "white",
+    row_group.border.bottom.width = px(1),
+    row_group.border.bottom.color = "lightgrey",
+    table.border.top.color = "white",
+    table.border.top.width = px(5),
+    table.border.bottom.color = "white",
+    column_labels.border.bottom.color = "white",
+    column_labels.border.bottom.width = px(1),
+    column_labels.border.top.width = px(10),
+    column_labels.border.top.color = "white"
+  ) 
+
+
+
+
+
+# BONUS CODE: TABLE WITH GT PACKAGE SHOWING RATING STARS
 # - Source: https://themockup.blog/posts/2020-10-31-embedding-custom-features-in-gt-tables/
 rating_stars <- function(rating, max_rating = 5) {
   rounded_rating <- floor(rating + 0.5)  # always round up
