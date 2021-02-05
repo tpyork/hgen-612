@@ -1,0 +1,125 @@
+---
+title: "Iteration"
+output: html_notebook
+editor_options:
+  chunk_output_type: inline
+---
+
+```{r setup}
+library(tidyverse)
+
+# Generate student exam data
+set.seed(1000)
+exams <- list(
+  student1 = round(runif(10, 50, 100)),
+  student2 = round(runif(10, 50, 100)),
+  student3 = round(runif(10, 50, 100)),
+  student4 = round(runif(10, 50, 100)),
+  student5 = round(runif(10, 50, 100))
+)
+```
+
+## Your Turn 1
+
+Here is a list:
+
+```{r}
+a_list <- list(num = c(8, 9),
+               log = TRUE,
+               alpha = as.list(letters[1:3]))
+```
+
+Here are two subsetting commands. Do they return the same values? Run the code chunk above, _and then_ run the code chunks below to confirm
+
+```{r}
+a_list["num"]
+```
+
+```{r}
+a_list$num
+```
+
+## Your Turn 2
+
+What will each of these return? Run the code chunks to confirm.
+
+```{r}
+vec <- c(-2, -1, 0, 1, 2)
+abs(vec)
+```
+
+```{r}
+lst <- list(-2, -1, 0, 1, 2)
+abs(lst)
+```
+
+## List Iteration
+
+Run the code in the chunks. What does it return?
+
+```{r}
+list(student1 = mean(exams$student1),
+     student2 = mean(exams$student2),
+     student3 = mean(exams$student3),
+     student4 = mean(exams$student4),
+     student5 = mean(exams$student5))
+```
+
+```{r}
+map(exams, mean)
+```
+
+## Your Turn 3
+
+Calculate the variance (`var()`) of each student’s exam grades.
+
+```{r}
+
+```
+
+## Your Turn 4
+
+Calculate the max grade (max()) for each student. Return the result as a vector.
+
+```{r}
+
+```
+
+## Functions
+
+Write out code that calculates a mean after dropping the lowest value.
+
+```{r}
+vec <- exams$student1
+(sum(vec) - min(vec)) / (length(vec) - 1)
+```
+
+1. Write code that solves a problem
+2. Convert code into a function by wrapping it with `function(){}`
+3. Add an argument to pass in different values
+4. Use `map_dbl()` to apply to all students
+
+
+## Your Turn 5
+
+Write a function that counts the best exam twice and then takes the average. Use it to grade all of the students.
+
+```{r}
+
+```
+
+
+# Take Aways
+
+Lists are a useful way to organize data, but you need to arrange manually for functions to iterate over the elements of a list.
+
+You can do this with the `map()` family of functions in the purrr package.
+
+To write a function,
+
+1. Write code that solves the problem for a real object
+2. Wrap the code in `function(){}` to save it
+3. Add the name of the real object as the function argument
+
+This sequence will help prevent bugs in your code (and reduce the time you spend correcting bugs).
+
