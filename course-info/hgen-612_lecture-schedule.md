@@ -11,7 +11,7 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 | 1       | 01/27     | Intro & Tidyverse Features                 | York             | [Talk to Yourself][7]      |  
 | 2       | 01/29     | Git, Github & RStudio                      | York             | [git][1]; [happygit][2]    |  
 | 3       | 02/03     | Command Line Basics                        | Norum            | [setup][8]; [intro][9]; [resource][10]                          |  
-| 4       | 02/05     | Functional programming with purrr          | Wolen            |                            |  
+| 4       | 02/05     | Functional programming with purrr          | Wolen            | [purrr][11]                |  
 | 5       | 02/10     | flexdashboard 1                            | York             |                            |  
 | 6       | 02/12     | flexdashboard 2                            | York             |                            |  
 | 7       | 02/17     | Machine Learning: Regression-based 1       | Smirnova         | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  
@@ -48,6 +48,7 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 [5]: https://osf.io/rmtsx/ "Machine Learning and Science"
 [6]: https://osf.io/gpt3h/ "Machine Learning and Aging Research"
 [7]: https://rstudio.com/resources/rstudioconf-2020/don-t-repeat-yourself-talk-to-yourself-repeated-reporting-in-the-r-universe/ "DRY"
-[8]: https://osf.io/wvfm2
-[9]: https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855
-[10]: https://happygitwithr.com/shell.html
+[8]: https://osf.io/wvfm2 "setup check"
+[9]: https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855 "Navigating the Terminal"
+[10]: https://happygitwithr.com/shell.html "The Shell"
+[11]: https://jennybc.github.io/purrr-tutorial/ "Jenny Bryan's purrr examples"
