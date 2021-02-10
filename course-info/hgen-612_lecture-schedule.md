@@ -12,8 +12,8 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 | 2       | 01/29     | Git, Github & RStudio                      | York             | [git][1]; [happygit][2]    |  
 | 3       | 02/03     | Command Line Basics                        | Norum            | [setup][8]; [intro][9]; [resource][10]                          |  
 | 4       | 02/05     | Functional programming with purrr          | Wolen            | [purrr][11]                |  
-| 5       | 02/10     | flexdashboard 1                            | York             |                            |  
-| 6       | 02/12     | flexdashboard 2                            | York             |                            |  
+| 5       | 02/10     | flexdashboard 1                            | York             | [flexdashboard1][12]       |  
+| 6       | 02/12     | flexdashboard 2                            | York             | [flexdashboard2][13]       |  
 | 7       | 02/17     | Machine Learning: Regression-based 1       | Smirnova         | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  
 | 8       | 02/19     | Machine Learning: Regression-based 2       | Smirnova         |                            |  
 | 9       | 02/24     | Machine Learning: Regression-based 3       | Smirnova         |                            |  
@@ -52,3 +52,5 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 [9]: https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855 "Navigating the Terminal"
 [10]: https://happygitwithr.com/shell.html "The Shell"
 [11]: https://jennybc.github.io/purrr-tutorial/ "Jenny Bryan's purrr examples"
+[12]: https://blog.rstudio.com/2016/05/17/flexdashboard-easy-interactive-dashboards-for-r/ "Introducing flexdashboard"
+[13]: https://rmarkdown.rstudio.com/flexdashboard/ "flexdashboard: Easy interactive dashboards for R"
