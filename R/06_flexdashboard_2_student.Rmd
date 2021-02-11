@@ -1,0 +1,54 @@
+---
+title: "Vehicle Year Prediction"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: scroll
+    
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+
+```
+
+
+
+Column {data-height=100}
+-----------------------------------------------------------------------
+
+### IMPORTANT FEATURES
+
+```{r}
+
+```
+
+
+Column {data-height=400}
+-----------------------------------------------------------------------
+
+### EVALUATION: AUC
+
+```{r}
+
+```
+
+
+Column {data-height=200}
+-----------------------------------------------------------------------
+
+### AUC ESTIMATE
+
+```{r}
+
+```
+
+
+Column {data-height=200}
+-----------------------------------------------------------------------
+
+### FEATURE IMPORTANCE
+
+```{r}
+
+```
