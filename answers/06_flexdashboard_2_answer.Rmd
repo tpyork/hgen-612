@@ -1,0 +1,126 @@
+---
+title: "Vehicle Year Prediction"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+    logo: ../img/motortrend.png
+    theme: lumen
+    source_code: embed
+    
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidymodels)
+library(vip)
+library(tidyverse)
+library(plotly)
+
+```
+
+
+```{r wrangle.data}
+data_prepared_tbl <- mpg %>%
+  select(displ:class) %>%
+  mutate(trans = ifelse(str_detect(trans, "auto"), "auto", "manual")) %>%
+  relocate(year, .before = 1) %>%
+  mutate(year = as.factor(year))
+
+
+# 3.0 TRAIN / TEST SPLITS ----
+set.seed(123)
+splits <- data_prepared_tbl %>%
+  initial_split(prop = 0.80)
+
+```
+
+
+```{r prediction}
+model_fit_glm <- logistic_reg() %>%
+  set_engine("glm") %>%
+  fit(year ~ . , data = training(splits))
+
+prediction_class_test <- predict(model_fit_glm, new_data = testing(splits), type = "class")
+
+prediction_prob_test  <- predict(model_fit_glm, new_data = testing(splits), type = "prob")
+
+results_tbl <- bind_cols(
+  prediction_class_test,
+  prediction_prob_test,
+  testing(splits)
+)
+
+```
+
+Column {data-height=600}
+-----------------------------------------------------------------------
+
+### IMPORTANT FEATURES
+
+```{r, fig.width = 14}
+feature.plot <- data_prepared_tbl %>%
+  ggplot(aes(class, hwy, color = year)) +
+  geom_boxplot() +
+  geom_jitter(alpha = 0.25) +
+  theme_minimal(base_size = 18) +
+  scale_color_viridis_d(end = 0.4, option = "viridis") +
+  labs(title = "Older Vehicles have Lower Fuel Economy")
+
+# ggplotly(feature.plot)  ## THIS DOESN'T WORK WELL FOR SOME REASON
+feature.plot
+
+```
+
+Column {data-height=400}
+-----------------------------------------------------------------------
+
+### EVALUATION: AUC
+
+```{r}
+results_tbl %>%
+  roc_curve(year, .pred_1999) %>%
+  autoplot(
+    options = list(
+      smooth = TRUE
+    )
+  )
+
+```
+
+### AUC ESTIMATE
+
+```{r}
+# put value box here
+auc_estimate <- results_tbl %>%
+  roc_auc(year, .pred_1999) %>% 
+  select(.estimate) %>% 
+  round(., 3)
+
+# auc_estimate <- .62
+# valueBox(auc_estimate, icon = "fa-chart-area", color = "#18bc9c")
+
+gauge(as.numeric(auc_estimate*100), min = 0, max = 100, symbol = '%', 
+      gaugeSectors(success = c(70, 100), 
+                   warning = c(60, 69), 
+                   danger = c(0, 59)
+))
+
+```
+
+### FEATURE IMPORTANCE
+
+```{r}
+model_fit_glm$fit %>%
+  vip(
+    num_features = 20,
+    geom         = "point",
+    aesthetics   = list(
+      size     = 4,
+      color    = "#18bc9c"
+    )
+  ) +
+  theme_minimal(base_size = 18) # +
+  # labs(title = "Logistic Regression: Feature Importance")
+
+```
