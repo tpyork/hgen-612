@@ -109,4 +109,5 @@ data_prepared_tbl %>%
   scale_color_viridis_d(end = 0.4, option = "viridis") +
   labs(title = "Older Vehicles have Lower Fuel Economy")
 
+# How would you make this a plotly graph ?
 

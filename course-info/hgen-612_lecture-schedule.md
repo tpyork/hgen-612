@@ -21,7 +21,7 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 | 11      | 03/03     | tidymodels 2                               | York             |                            |  
 | 12      | 03/05     | Data Products                              | York             |                            |  
 | 13      | 03/10     | Project 1 Consultations                    | York             | Project 1 Assigned         |  
-| 14      | 03/12     | Model Estimation                           | York             |                            |  
+| 14      | 03/12     | Model Estimation                           | York             | [Two Cultures][14]         |  
 | 15      | 03/26     | Special Topics: AWS Lamda                  | Dixon            |                            |  
 | 16      | 03/19     | rstudio::global                            | York / Lapato    |                            |  
 |         | 03/24     | Reading Day - VCU Closed                   |                  |                            |  
@@ -54,3 +54,4 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 [11]: https://jennybc.github.io/purrr-tutorial/ "Jenny Bryan's purrr examples"
 [12]: https://blog.rstudio.com/2016/05/17/flexdashboard-easy-interactive-dashboards-for-r/ "Introducing flexdashboard"
 [13]: https://rmarkdown.rstudio.com/flexdashboard/ "flexdashboard: Easy interactive dashboards for R"
+[14]: https://osf.io/r3pyb/ "Statistical Modeling: The Two Cultures"

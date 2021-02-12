@@ -27,7 +27,7 @@ Column {data-height=100}
 Column {data-height=400}
 -----------------------------------------------------------------------
 
-### EVALUATION: AUC
+### FEATURE IMPORTANCE
 
 ```{r}
 
@@ -47,7 +47,7 @@ Column {data-height=200}
 Column {data-height=200}
 -----------------------------------------------------------------------
 
-### FEATURE IMPORTANCE
+### EVALUATION: AUC
 
 ```{r}
 
