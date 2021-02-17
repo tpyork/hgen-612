@@ -14,7 +14,10 @@ r_pkgs <- c(
   "flexdashboard", "DT", "plotly", "corrr", "emo",
 
   # Lecuture 06_flexdashboard ----
-  "tidymodels", "vip"
+  "tidymodels", "vip",
+  
+  # Lecture 07_Machine-Learning-Regression ----
+  "ISLR", "MASS", "GGally", "ggfortify", "knitr", "kableExtra", "readxl"
   
     
   )
