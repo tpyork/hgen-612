@@ -17,8 +17,10 @@ r_pkgs <- c(
   "tidymodels", "vip",
   
   # Lecture 07_Machine-Learning-Regression ----
-  "ISLR", "MASS", "GGally", "ggfortify", "knitr", "kableExtra", "readxl"
+  "ISLR", "MASS", "GGally", "ggfortify", "knitr", "kableExtra", "readxl",
   
+  # Lecture 10_tidymodels-1 ----
+  "tidymodels", "patchwork", "nycflights13", "broom.mixed", "skimr", "timeDate", "rmdformats", "dotwhisker"
     
   )
 
