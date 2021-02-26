@@ -17,7 +17,7 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 | 7       | 02/17     | Machine Learning: Regression-based 1       | Smirnova         | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  
 | 8       | 02/19     | Machine Learning: Regression-based 2       | Smirnova         |                            |  
 | 9       | 02/24     | Machine Learning: Regression-based 3       | Smirnova         |                            |  
-| 10      | 02/26     | tidymodels 1                               | York             |                            |  
+| 10      | 02/26     | tidymodels 1                               | York             | [tidymodels][15]           |  
 | 11      | 03/03     | tidymodels 2                               | York             |                            |  
 | 12      | 03/05     | Data Products                              | York             |                            |  
 | 13      | 03/10     | Project 1 Consultations                    | York             | Project 1 Assigned         |  
@@ -55,3 +55,4 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 [12]: https://blog.rstudio.com/2016/05/17/flexdashboard-easy-interactive-dashboards-for-r/ "Introducing flexdashboard"
 [13]: https://rmarkdown.rstudio.com/flexdashboard/ "flexdashboard: Easy interactive dashboards for R"
 [14]: https://osf.io/r3pyb/ "Statistical Modeling: The Two Cultures"
+[15]: https://www.tidymodels.org/
