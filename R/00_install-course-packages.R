@@ -21,7 +21,7 @@ r_pkgs <- c(
   "ISLR", "MASS", "GGally", "ggfortify", "knitr", "kableExtra", "readxl", "car", "glmnet",
   
   # Lecture 10_tidymodels-1 ----
-  "tidymodels", "patchwork", "nycflights13", "broom.mixed", "skimr", "timeDate", "rmdformats", "dotwhisker"
+  "tidymodels", "patchwork", "nycflights13", "broom.mixed", "skimr", "timeDate", "rmdformats", "dotwhisker", "ranger", "randomForest"
     
   )
 
