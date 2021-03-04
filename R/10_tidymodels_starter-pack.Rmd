@@ -91,6 +91,12 @@ glimpse(iris_training)
 
 ```
 
+```{r}
+# View recipe and operations
+iris_recipe
+
+```
+
 
 
 ### Execute the Pre-Processing

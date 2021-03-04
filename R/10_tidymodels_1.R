@@ -5,8 +5,7 @@
 #  - predict values for new data
 #  - update {parsnip} model engine
 #  - preprocess data using {recipes} and {workflows}
-#  - test drive {corrr} for correlational analyses the {tidymodel} way
-#  - use {broom} to report results for many models
+#  - use {broom} to report model results
 # 
 # Reference:  https://www.tidymodels.org
 
@@ -29,7 +28,7 @@ library(broom.mixed)     # for converting bayesian model output to tidy tibbles
 
 
 
-## THE SEA URCHINS DATA ---------------------------------------------------
+## * THE SEA URCHINS DATA ---------------------------------------------------
 urchins_tbl <-
   # Data were assembled for a tutorial 
   # at https://www.flutterbys.com.au/stats/tut/tut7.5a.html
@@ -39,7 +38,8 @@ urchins_tbl <-
   # Factors are very helpful for modeling, so we convert one column
   mutate(food_regime = factor(food_regime, levels = c("Initial", "Low", "High")))
 
-urchins_tbl
+urchins_tbl %>% 
+  glimpse()
 
 
 # Plot raw data
@@ -57,7 +57,7 @@ urchins_plt
 
 
 
-## BUILD AND FIT A MODEL --------------------------------------------------
+## * BUILD AND FIT A MODEL --------------------------------------------------
 
 # Model specification the usual way
 # 2-way ANOVA with an interaction specified
@@ -78,6 +78,7 @@ lm_mod <-
   linear_reg() %>%     #functional form of the model from {parsnip}; intercept and slopes
   set_engine("lm")     #method for fitting the model
 
+lm_mod
 
 
 # Now we can estimate the model
@@ -103,7 +104,7 @@ tidy(lm_fit_2) %>%
 
 
 
-## USE A MODEL TO PREDICT -------------------------------------------------
+## * USE A MODEL TO PREDICT -------------------------------------------------
 
 # Use our model to predict response values on new data
 new_points <- expand.grid(initial_volume = 20, 
@@ -147,7 +148,7 @@ lm_plt
 
 
 
-## MODEL WITH A DIFFERENT ENGINE ------------------------------------------
+## * MODEL WITH A DIFFERENT ENGINE ------------------------------------------
 
 # set the prior distribution (a Bayesian detail..)
 prior_dist <- rstanarm::student_t(df = 1)
@@ -203,10 +204,12 @@ lm_plt + bayes_plt +
 # PART 2. PREPROCESS YOUR DATA WITH RECIPES -------------------------------
 
 
-## THE NEW YORK CITY FLIGHT DATA ------------------------------------------
+## * THE NEW YORK CITY FLIGHT DATA ------------------------------------------
 # Let’s use the nycflights13 data to predict whether a plane arrives more than 30 minutes
 # late. This data set contains information on 325,819 flights departing near New York City
 # in 2013. Let’s start by loading the data and making a few changes to the variables:
+
+?flights
 
 flight_tbl <- 
   flights %>% 
@@ -241,6 +244,8 @@ flight_tbl %>%
   skimr::skim() 
 
 
+
+
 # Split data for training/testing
 set.seed(456)
 
@@ -256,11 +261,10 @@ test_tbl  <- testing(data_split)
 # Create recipe and roles
 flight_rec <- 
   recipe(arr_delay ~ ., data = train_tbl) %>% 
-  update_role(flight, time_hour, new_role = "ID") 
+  update_role(flight, time_hour, new_role = "ID")                  # we will use these to track flights below
 
 flight_rec
 summary(flight_rec)
-
 
 
 # Feature engineering using {recipes}; adding to code above
@@ -277,16 +281,22 @@ flight_rec <-
 # 17 US holidays
 timeDate::listHolidays("US")
 
-flight_rec %>% prep %>% juice %>% glimpse()
+# A lot of new variables were just created automagically
+flight_rec %>% prep() %>% juice() %>% glimpse()
 
 
 # Some features only have values in `test_tbl` so use `step_zv()`; zero variance filter (above)
-test_tbl %>% 
+# note that dummy vars are created from all factor levels in `flight_tbl`
+train_tbl %>% 
   distinct(dest) %>% 
-  anti_join(train_tbl)
+  anti_join(test_tbl)
+
+skimr::skim(train_tbl %>% select(dest))
+skimr::skim(test_tbl %>% select(dest))
 
 
-## FIT A MODEL WITH A RECIPE ----------------------------------------------
+
+## * FIT A MODEL WITH A RECIPE ----------------------------------------------
 # Model specification (as done before)
 lr_mod <- 
   logistic_reg() %>% 
@@ -316,13 +326,13 @@ flight_fit %>%
   tidy()
 
 
-flight_fit %>% 
-  pull_workflow_prepped_recipe()
+# flight_fit %>% 
+#   pull_workflow_prepped_recipe()
 
 
 
 
-## USE A TRAINED WORKFLOW TO PREDICT --------------------------------------
+## * USE A TRAINED WORKFLOW TO PREDICT --------------------------------------
 # Our goal was to predict whether a plane arrives more than 30 minutes late. We have just:
 #   - Built the model (lr_mod)
 #   - Created a preprocessing recipe (flights_rec)
@@ -330,7 +340,7 @@ flight_fit %>%
 #   - Trained our workflow using a single call to fit()
 
 
-predict(flight_fit, test_tbl)
+predict(flight_fit, test_tbl)     # predicting with a trained workflow (preprocessor and model)
 
 flight_pred <- 
   predict(flight_fit, test_tbl, type = "prob") %>% 
