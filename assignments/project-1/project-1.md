@@ -1,16 +1,16 @@
 # Project 1
 
-## Data Science 2 {style="color: #808080"}
+## Data Science 2
 
-## HGEN 612 {style="color: #808080"}
+## HGEN 612
 
 <br>
 
-### Assignment Summary {style="color: #606060"}
+### Assignment Summary
 
 Create a data product to communicate key features of an analysis project. The end users of the app are your collaborators who require an informative, but succinct, overview of the research project progress. Imagine this as a visual project summary your collaborators can use as a reference and to generate insight. Each display item should include a title and/or subtitle that indicates its purpose and, as applicable, the take-home message. The motivation for the analysis is to use the information in the 'pine beetle' dataset to predict the minimum linear distance to the nearest brood tree (`DeadDist`).
 
-### Grading {style="color: #606060"}
+### Grading
 
 Your data product must include the following [100 total points]:
 
@@ -29,7 +29,7 @@ Your data product must include the following [100 total points]:
 -   [10] Aesthetics (i.e., start with a good theme). 
 -   [05] Publish the app to Rpubs and send Dr. York and Dr. Lapato the link as a direct message in Slack.
 
-### Notes {style="color: #606060"}
+### Notes
 
 -   Late assignments will not be accepted.
 -   I suggest reviewing all code and presentations before beginning assignment. Don't forget all the great resources at https://rmarkdown.rstudio.com/flexdashboard/index.html
@@ -41,4 +41,4 @@ Your data product must include the following [100 total points]:
 -   Feel free to explore all that HTML widgets have to offer (e.g., Plotly).
 -   You are not limited to the 4 predictor variables used in class so feel free to explore additional variables (see Dr. Smirnova's slide below).
 
-![](../../img/pine-beetle-variables.png){width="75%"}
+![](../../img/pine-beetle-variables.png)
