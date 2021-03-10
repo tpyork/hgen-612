@@ -219,15 +219,9 @@ lm(sqrt(DeadDist) ~ TreeDiam + Infest_Serv1 + BA_20th, data = pine_tbl) %>%
 
 
 
-
-
-
 # LASSO ----
 
 # create bootstrap samples for resampling and tuning the penalty parameter
-
-### EXPLAIN DATA LEAKAGE CONCEPT ###
-
 set.seed(1234)
 pine_boot <- bootstraps(pine_train)
 
@@ -288,6 +282,7 @@ lasso_grid %>%
 lowest_rmse <- lasso_grid %>%
   select_best("rmse")
 
+# update our final model with lowest rmse
 final_lasso <- finalize_workflow(
   pine_lasso_wflow,
   lowest_rmse
