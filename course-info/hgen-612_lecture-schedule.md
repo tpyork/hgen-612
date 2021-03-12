@@ -23,7 +23,7 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 | 13      | 03/10     | Project 1 Consultations                    | York             | Project 1 Assigned         |  
 | 14      | 03/12     | Model Estimation                           | York             | [Two Cultures][14]         |  
 | 15      | 03/17     | Special Topics: AWS Lamda                  | Dixon            |                            |  
-| 16      | 03/19     | rstudio::global                            | York / Lapato    | [Watch: Maintaining Code][16]     |  
+| 16      | 03/19     | rstudio::global                            | York / Lapato    | [Maintaining Code][16]     |  
 |         | 03/24     | Reading Day - VCU Closed                   |                  |                            |  
 | 17      | 03/26     | reprex                                     | Lapato           | Project 1 Due              |  
 | 18      | 03/31     | Machine Learning: Classification 1         | Smirnova         |                            |  
