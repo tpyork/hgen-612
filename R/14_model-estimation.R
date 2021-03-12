@@ -2,8 +2,8 @@
 #
 # After this module you should be able to:
 #  - understand how model parameters are estimated 
-#  - appreciate how the general idea behind modern data mining methods to 
-#    search a family of models to select the best fit
+#  - appreciate how the general idea behind some modern data mining methods
+#    to search a family of models to select the best fit
 
 
 

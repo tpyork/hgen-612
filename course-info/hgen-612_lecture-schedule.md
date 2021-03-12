@@ -23,7 +23,7 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 | 13      | 03/10     | Project 1 Consultations                    | York             | Project 1 Assigned         |  
 | 14      | 03/12     | Model Estimation                           | York             | [Two Cultures][14]         |  
 | 15      | 03/17     | Special Topics: AWS Lamda                  | Dixon            |                            |  
-| 16      | 03/19     | rstudio::global                            | York / Lapato    |                            |  
+| 16      | 03/19     | rstudio::global                            | York / Lapato    | [Watch: Maintaining Code][16]     |  
 |         | 03/24     | Reading Day - VCU Closed                   |                  |                            |  
 | 17      | 03/26     | reprex                                     | Lapato           | Project 1 Due              |  
 | 18      | 03/31     | Machine Learning: Classification 1         | Smirnova         |                            |  
@@ -56,3 +56,4 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 [13]: https://rmarkdown.rstudio.com/flexdashboard/ "flexdashboard: Easy interactive dashboards for R"
 [14]: https://osf.io/r3pyb/ "Statistical Modeling: The Two Cultures"
 [15]: https://www.tidymodels.org/
+[16]: https://rstudio.com/resources/rstudioglobal-2021/maintaining-the-house-the-tidyverse-built/ "rstudio::conf 2021"
