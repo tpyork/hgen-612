@@ -25,7 +25,7 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 | 15      | 03/17     | Special Topics: AWS Lamda                  | Dixon            |                            |  
 | 16      | 03/19     | rstudio::global                            | York / Lapato    | [Maintaining Code][16]     |  
 |         | 03/24     | Reading Day - VCU Closed                   |                  |                            |  
-| 17      | 03/26     | reprex                                     | Lapato           | [Pre-class Assignment][17] Project 1 Due              |  
+| 17      | 03/26     | reprex                                     | Lapato           | [Pre-class Assignment][17]; Project 1 Due              |  
 | 18      | 03/31     | Machine Learning: Classification 1         | Smirnova         |                            |  
 | 19      | 04/02     | Machine Learning: Classification 2         | Smirnova         |                            |  
 | 20      | 04/07     | Machine Learning: Classification 3         | Smirnova         |                            |  
@@ -57,4 +57,4 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 [14]: https://osf.io/r3pyb/ "Statistical Modeling: The Two Cultures"
 [15]: https://www.tidymodels.org/
 [16]: https://rstudio.com/resources/rstudioglobal-2021/maintaining-the-house-the-tidyverse-built/ "rstudio::conf 2021"
-[17]: https://forms.gle/tBtzGuRCu2hx722S6 
+[17]: https://forms.gle/tBtzGuRCu2hx722S6 "pre-class assignment"
