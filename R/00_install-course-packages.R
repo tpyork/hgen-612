@@ -22,7 +22,10 @@ r_pkgs <- c(
   
   # Lecture 10_tidymodels-1 ----
   "tidymodels", "patchwork", "nycflights13", "broom.mixed", "skimr", "timeDate", "rmdformats", 
-  "dotwhisker", "ranger", "randomForest"
+  "dotwhisker", "ranger", "randomForest",
+  
+  # Lecture 17_troubleshooting-code-reprex ----
+  "reprex"
     
   )
 
