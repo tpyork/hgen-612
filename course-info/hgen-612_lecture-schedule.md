@@ -25,14 +25,14 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 | 15      | 03/17     | Special Topics: AWS Lamda                  | Dixon            |                            |  
 | 16      | 03/19     | rstudio::global                            | York / Lapato    | [Maintaining Code][16]     |  
 |         | 03/24     | Reading Day - VCU Closed                   |                  |                            |  
-| 17      | 03/26     | reprex                                     | Lapato           | [Pre-class Assignment][17]; Project 1 Due              |  
+| 17      | 03/26     | reprex                                     | Lapato           | [Pre-class Assignment][17]; Project 1 Due |  
 | 18      | 03/31     | Machine Learning: Classification 1         | Smirnova         |                            |  
-| 19      | 04/02     | Machine Learning: Classification 2         | Smirnova         |                            |  
-| 20      | 04/07     | Machine Learning: Classification 3         | Smirnova         |                            |  
-| 21      | 04/09     | Machine Learning in the Wild               | Sargent          | [Wild1][5]; [Wild2][6]     |  
-| 22      | 04/14     | XGboost Practical                          | Sargent          |                            |  
-| 23      | 04/16     | Project 2 Consultations                    | York             | Project 2 Assigned         |  
-| 24      | 04/21     | Integrating Shiny 1                        | York             |                            |  
+| 19      | 04/02     | Functions                                  | York             | [Functions][20]            |  
+| 20      | 04/07     | Machine Learning: Classification 2         | Smirnova         |                            |  
+| 21      | 04/09     | Machine Learning: Classification 3         | Smirnova         |                            |  
+| 22      | 04/14     | Machine Learning in the Wild               | Sargent          | [Wild1][5]; [Wild2][6]     |
+| 23      | 04/16     | Special Topics: Jupyter Notebooks          | Centeno          | [Jupyter1][18]; [Jupyter1][19] |  
+| 24      | 04/21     | Integrating Shiny 1                        | York             | Project 2 Assigned         |  
 | 25      | 04/23     | Integrating Shiny 2                        | York             |                            |  
 | 26      | 04/28     | Integrating Shiny 3                        | York             |                            |  
 | 27      | 04/30     | Special Topics: Faking Data                | Lapato           |                            |  
@@ -58,3 +58,6 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 [15]: https://www.tidymodels.org/
 [16]: https://rstudio.com/resources/rstudioglobal-2021/maintaining-the-house-the-tidyverse-built/ "rstudio::conf 2021"
 [17]: https://forms.gle/tBtzGuRCu2hx722S6 "pre-class assignment"
+[18]: https://osf.io/ehgmf/ "jupyter, 10 simple rules"
+[19]: https://osf.io/4e27y/ "jupyter, extra"
+[20]: https://r4ds.had.co.nz/functions.html "functions"
