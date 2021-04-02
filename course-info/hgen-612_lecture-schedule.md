@@ -31,7 +31,7 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 | 20      | 04/07     | Machine Learning: Classification 2         | Smirnova         |                            |  
 | 21      | 04/09     | Machine Learning: Classification 3         | Smirnova         |                            |  
 | 22      | 04/14     | Machine Learning in the Wild               | Sargent          | [Wild1][5]; [Wild2][6]     |
-| 23      | 04/16     | Special Topics: Jupyter Notebooks          | Centeno          | [Jupyter1][18]; [Jupyter1][19] |  
+| 23      | 04/16     | Special Topics: Jupyter Notebooks          | Centeno          | [Jupyter1][18]; [Jupyter2][19] |  
 | 24      | 04/21     | Integrating Shiny 1                        | York             | Project 2 Assigned         |  
 | 25      | 04/23     | Integrating Shiny 2                        | York             |                            |  
 | 26      | 04/28     | Integrating Shiny 3                        | York             |                            |  
