@@ -33,7 +33,7 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 | 22      | 04/14     | Machine Learning in the Wild               | Sargent          | [Wild1][5]; [Wild2][6]     |
 | 23      | 04/16     | Special Topics: Jupyter Notebooks          | Centeno          | [Jupyter1][18]; [Jupyter2][19] |  
 | 24      | 04/21     | Integrating Shiny 1                        | York             | Project 2 Assigned         |  
-| 25      | 04/23     | Integrating Shiny 2                        | York             |                            |  
+| 25      | 04/23     | Integrating Shiny 2                        | York             | [tidymodels hotel bookings][21] |  
 | 26      | 04/28     | Integrating Shiny 3                        | York             |                            |  
 | 27      | 04/30     | Special Topics: Faking Data                | Lapato           |                            |  
 | 28      | 05/05     | Student Project Presentations 1            | York / Lapato    |                            |  
@@ -61,3 +61,4 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 [18]: https://osf.io/ehgmf/ "jupyter, 10 simple rules"
 [19]: https://osf.io/4e27y/ "jupyter, extra"
 [20]: https://r4ds.had.co.nz/functions.html "functions"
+[21]: https://www.tidymodels.org/start/case-study/ "tidymodels hotel bookings"

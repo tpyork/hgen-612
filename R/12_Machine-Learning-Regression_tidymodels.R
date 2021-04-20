@@ -161,7 +161,7 @@ pine_test <- testing(pine_split)
 
 # picking Dr. Smirnova's best lambda estimate; can estimate with tune() - see below
 ridge_mod <-
-  linear_reg(mixture = 0, penalty = 0.1629751) %>% 
+  linear_reg(mixture = 0, penalty = 0.1629751) %>%  #validation sample or resampling can estimate this
   set_engine("glmnet")
 
 # verify what we are doing

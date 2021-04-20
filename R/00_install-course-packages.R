@@ -25,7 +25,13 @@ r_pkgs <- c(
   "dotwhisker", "ranger", "randomForest",
   
   # Lecture 17_troubleshooting-code-reprex ----
-  "reprex"
+  "reprex",
+  
+  # Lecture 20_classification-2 ----
+  "class", "caret", "pRoc",
+  
+  # Lecture 24_Shiny ----
+  "themis"
     
   )
 
