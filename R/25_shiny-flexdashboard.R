@@ -269,7 +269,7 @@ lr_conf_mat %>%
 
 
 # DOWNSAMPLE ----  
-# Down-sampling is intended to be performed on the training set alone. 
+# Down-sampling is intended to be performed on the training set alone. Why?
 # For this reason, the default is skip = TRUE. It is advisable to use 
 # prep(recipe, retain = TRUE) when preparing the recipe; in this way 
 # juice() can be used to obtain the down-sampled version of the data.

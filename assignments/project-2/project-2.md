@@ -27,7 +27,7 @@ Use any single dataset that contains:
 
 ### Shiny Components
 
-- Use a at least 3 Shiny components.
+- Use a at least 2 Shiny components.
 - At least 1 Shiny component should be reactive with a model parameter.
 - At least 1 Shiny component should be reactive with the data supplied to the model.
 - Do not confuse Shiny components with HTML widgets (but you can use HTML widgets).
@@ -48,7 +48,7 @@ Use any single dataset that contains:
 Your data product should include the following [100 total points]:
 
 -   [05] The app should be a designed as a flexdashboard and rendered as a Shiny app. 
--   [15] Include at least 3 Shiny components.
+-   [15] Include at least 2 Shiny components.
 -   [05] Include 6-10 display items.
 -   [05] Apply at least one machine learning classification method.
 -   [05] Demonstrate the proper use of training / testing data.
