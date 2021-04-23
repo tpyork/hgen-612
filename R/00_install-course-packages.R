@@ -30,10 +30,13 @@ r_pkgs <- c(
   # Lecture 20_classification-2 ----
   "class", "caret", "pRoc",
   
-  # Lecture 24_Shiny ----
-  "themis"
-    
-  )
+  # Lecture 25_Shiny ----
+  "themis",
 
+  # Lecture 26_Shiny ----
+  "scales", "wesanderson"
+    
+)
 
 install.packages(r_pkgs)
+
