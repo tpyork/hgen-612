@@ -34,8 +34,8 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 | 23      | 04/16     | Special Topics: Jupyter Notebooks          | Centeno          | [Jupyter1][18]; [Jupyter2][19] |  
 | 24      | 04/21     | Integrating Shiny 1                        | York             | Project 2 Assigned         |  
 | 25      | 04/23     | Integrating Shiny 2                        | York             | [tidymodels hotel bookings][21] |  
-| 26      | 04/28     | Integrating Shiny 3                        | York             |                            |  
-| 27      | 04/30     | Special Topics: Faking Data                | Lapato           |                            |  
+| 26      | 04/28     | Integrating Shiny 3                        | York             | [Shiny Cheatsheet][22]     |  
+| 27      | 04/30     | Integrating Shiny 4                        | York             | [shinyWidgets][23]; [themis][24] |  
 | 28      | 05/05     | Student Project Presentations 1            | York / Lapato    |                            |  
 | 29      | 05/07     | Student Project Presentations 2            | York / Lapato    |                            |  
 |         | 05/12     | Exam Week                                  | York             | Project 2 Due              |           
@@ -62,3 +62,6 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 [19]: https://osf.io/4e27y/ "jupyter, extra"
 [20]: https://r4ds.had.co.nz/functions.html "functions"
 [21]: https://www.tidymodels.org/start/case-study/ "tidymodels hotel bookings"
+[22]: https://shiny.rstudio.com/images/shiny-cheatsheet.pdf "Shiny Cheatsheet"
+[23]: http://shinyapps.dreamrs.fr/shinyWidgets/ "shinyWidgets"
+[24]: https://themis.tidymodels.org/index.html "themis recipe steps for unbalanced designs"
