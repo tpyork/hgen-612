@@ -34,7 +34,10 @@ r_pkgs <- c(
   "themis",
 
   # Lecture 26_Shiny ----
-  "scales", "wesanderson"
+  "scales", "wesanderson",
+  
+  #Lecture 27_Shiny ----
+  "shinyWidgets", "shinyjs"
     
 )
 
