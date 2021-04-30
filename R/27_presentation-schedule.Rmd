@@ -1,0 +1,119 @@
+---
+title: "Presentation Schedule"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    theme: yeti
+    source_code: embed
+runtime: shiny
+
+---
+
+
+
+```{r global}
+
+library(tidyverse)
+
+
+```
+
+
+```{r}
+
+ds2 <- c('Polina'
+         ,'Alison'
+         ,'Philip'
+         ,'Alex'
+         ,'Omar'
+         ,'Noah'
+         ,'Molly'
+         ,'Joshua'
+         ,'Daniel'
+         ,'Walker'
+         ,'Sara'
+         ,'Jacob'
+         ,'Christiane'
+         ,'Chris'
+         ,'George')
+                  
+```
+
+
+
+
+Sidebar {.sidebar}
+===========================================================
+
+```{r}
+
+br()
+br()
+br()
+
+
+actionButton(inputId = "apply", label = "Randomize!", icon = icon("random"))
+
+```
+
+
+
+```{r}
+
+
+# pres_order <- sample(ds2, replace = FALSE)
+
+
+pres_order <- eventReactive(
+  eventExpr = input$apply, 
+  
+  valueExpr = {
+    sample(ds2, replace = FALSE)
+  },
+  
+  ignoreNULL = TRUE
+)
+
+
+```
+
+
+
+
+Project 2
+===========================================================
+
+
+
+## Column {data-width="500"}
+
+### Day 1, 2021-05-05
+
+```{r, eval = TRUE}
+
+reactive({
+  tibble(Order = 1:7, Name = paste0(pres_order()[1:7], c("*", rep("", 6)))) %>% 
+  knitr::kable(align = c('c', 'l'))
+})
+
+
+```
+
+
+
+## Column {data-width="500"}
+
+### Day 2, 2021-05-07
+
+```{r, eval = TRUE}
+
+reactive({
+  tibble(Order = 1:8, Name = pres_order()[8:15]) %>% 
+  knitr::kable(align = c('c', 'l'))
+})
+
+```
+
+
+
