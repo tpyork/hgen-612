@@ -84,7 +84,7 @@ ranger_workflow <- reactive({
 
 
 
-```{r create.workflow, eval= TRUE}
+```{r model.fit, eval= TRUE}
 ranger_fit <- reactive({
 ranger_workflow() %>% 
   fit(data = iris_training)
