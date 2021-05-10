@@ -12,7 +12,6 @@ runtime: shiny
 
 ```{r, message = FALSE, }
 library(tidymodels)
-library(vip)
 library(shiny)
 
 ```
@@ -21,7 +20,7 @@ library(shiny)
 Column {.sidebar}
 -----------------------------------------------------------------------
 
-```{r}
+```{r sidebar}
 
 br()
 br()
@@ -38,11 +37,7 @@ radioButtons(
 
 
 
-
-
-
-
-```{r}
+```{r data.split}
 set.seed(1234)
 iris_split <- initial_split(iris, prop = 0.6)
 
@@ -53,7 +48,7 @@ iris_testing <- testing(iris_split)
 
 
 
-```{r}
+```{r create.recipe}
 iris_recipe <- 
   training(iris_split) %>%
   recipe(Species ~ .) %>%
@@ -65,7 +60,7 @@ iris_recipe <-
 
 
 
-```{r, eval = TRUE}
+```{r create.model, eval = TRUE}
 iris_ranger <- reactive({
   rand_forest(trees = as.numeric(input$num_trees), mode = "classification") %>%
   set_engine("ranger")
@@ -89,7 +84,7 @@ ranger_workflow <- reactive({
 
 
 
-```{r, eval= TRUE}
+```{r create.workflow, eval= TRUE}
 ranger_fit <- reactive({
 ranger_workflow() %>% 
   fit(data = iris_training)
@@ -108,9 +103,7 @@ Column
 
 ### ROC Curves
 
-
-
-```{r, vip.plot, eval = TRUE}
+```{r, roc.plot, eval = TRUE}
 iris_probs <- reactive({
   ranger_fit() %>%
   predict(iris_testing, type = "prob") %>%
