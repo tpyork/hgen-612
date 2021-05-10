@@ -1,0 +1,133 @@
+---
+title: "Random Forest Explorer"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+runtime: shiny
+
+---
+
+
+
+```{r, message = FALSE, }
+library(tidymodels)
+library(vip)
+library(shiny)
+
+```
+
+
+Column {.sidebar}
+-----------------------------------------------------------------------
+
+```{r}
+
+br()
+br()
+
+radioButtons(
+  inputId  = "num_trees",
+  label    = "Select Number of Trees",
+  choices  = c(5, 10, 20, 50, 100))
+
+
+# renderPrint(as.numeric(input$num_trees))
+
+```
+
+
+
+
+
+
+
+```{r}
+set.seed(1234)
+iris_split <- initial_split(iris, prop = 0.6)
+
+iris_training <- training(iris_split)
+iris_testing <- testing(iris_split)
+
+```
+
+
+
+```{r}
+iris_recipe <- 
+  training(iris_split) %>%
+  recipe(Species ~ .) %>%
+  step_corr(all_predictors()) %>%
+  step_center(all_predictors(), -all_outcomes()) %>%
+  step_scale(all_predictors(), -all_outcomes())
+
+```
+
+
+
+```{r, eval = TRUE}
+iris_ranger <- reactive({
+  rand_forest(trees = as.numeric(input$num_trees), mode = "classification") %>%
+  set_engine("ranger")
+})
+
+# renderPrint(iris_ranger())
+
+```
+
+
+```{r create.workflow, eval = TRUE}
+ranger_workflow <- reactive({
+  workflow() %>% 
+  add_recipe(iris_recipe) %>% 
+  add_model(iris_ranger())
+})
+
+# renderPrint(ranger_workflow())
+
+```
+
+
+
+```{r, eval= TRUE}
+ranger_fit <- reactive({
+ranger_workflow() %>% 
+  fit(data = iris_training)
+})
+
+
+# renderPrint(ranger_fit())
+
+```
+
+
+
+
+Column
+-----------------------------------------------------------------------
+
+### ROC Curves
+
+
+
+```{r, vip.plot, eval = TRUE}
+iris_probs <- reactive({
+  ranger_fit() %>%
+  predict(iris_testing, type = "prob") %>%
+  bind_cols(iris_testing)
+})
+
+
+# renderPrint(iris_probs())
+
+output$roc_plot <-renderPlot({
+  iris_probs() %>%
+  roc_curve(Species, .pred_setosa:.pred_virginica) %>%
+  autoplot()
+})
+
+plotOutput(outputId = "roc_plot")
+
+```
+
+
