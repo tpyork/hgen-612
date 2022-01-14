@@ -32,7 +32,7 @@ library(wesanderson)
 hotels <- 
   read_csv('https://tidymodels.org/start/case-study/hotels.csv') %>%
   mutate_if(is.character, as.factor) %>% 
-  slice(1:10000)        #TEMPORARY FOR TESTING ------------
+  slice(1:5000)        #TEMPORARY FOR TESTING ------------
 
 
 # For figure color scheme
@@ -317,18 +317,22 @@ Classification Results
 # })
 
 
-output$lr_auc <- renderPlot({
-  lr_tune() %>%
-  collect_predictions(parameters = lr_best()) %>%
-  roc_curve(children, .pred_children) %>%
-  ggplot(aes(x = 1 - specificity, y = sensitivity)) +
-  geom_path(color = hotel.palette[4]) +
-  geom_abline(lty = 3, color = hotel.palette[4]) +
-  coord_equal() +
-  theme_classic()
-})
 
-plotOutput(outputId = "lr_auc")
+# output$lr_auc <- renderPlot({
+#   lr_tune() %>%
+#   collect_predictions(parameters = lr_best()) %>%
+#   roc_curve(children, .pred_children) %>%
+#   ggplot(aes(x = 1 - specificity, y = sensitivity)) +
+#   geom_path(color = hotel.palette[4]) +
+#   geom_abline(lty = 3, color = hotel.palette[4]) +
+#   coord_equal() +
+#   theme_classic()
+# })
+# 
+# plotOutput(outputId = "lr_auc")
+
+
+renderPrint(lr_tune() %>% collect_predictions(parameters = lr_best()) ) 
 
 
 ```

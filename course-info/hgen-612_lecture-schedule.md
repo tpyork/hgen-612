@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Lecture Schedule
 ## Data Science 2
 ## HGEN 612
@@ -8,37 +13,39 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 
 | Lecture | Date      | Topic                                      | Instructor       | Assignment                 |  
 |---------| --------- | ------------------------------------------ | ---------------- | -------------------------- |  
-| 1       | 01/27     | Intro & Tidyverse Features                 | York             | [Talk to Yourself][7]      |  
-| 2       | 01/29     | Git, Github & RStudio                      | York             | [git][1]; [happygit][2]    |  
-| 3       | 02/03     | Command Line Basics                        | Norum            | [setup][8]; [intro][9]; [resource][10]                          |  
-| 4       | 02/05     | Functional programming with purrr          | Wolen            | [purrr][11]                |  
-| 5       | 02/10     | flexdashboard 1                            | York             | [flexdashboard1][12]       |  
-| 6       | 02/12     | flexdashboard 2                            | York             | [flexdashboard2][13]       |  
-| 7       | 02/17     | Machine Learning: Regression-based 1       | Smirnova         | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  
-| 8       | 02/19     | Machine Learning: Regression-based 2       | Smirnova         |                            |  
-| 9       | 02/24     | Machine Learning: Regression-based 3       | Smirnova         |                            |  
-| 10      | 02/26     | tidymodels 1                               | York             | [tidymodels][15]           |  
-| 11      | 03/03     | tidymodels 2                               | York             |                            |  
-| 12      | 03/05     | Data Products                              | York             |                            |  
-| 13      | 03/10     | Project 1 Consultations                    | York             | Project 1 Assigned         |  
-| 14      | 03/12     | Model Estimation                           | York             | [Two Cultures][14]         |  
-| 15      | 03/17     | Special Topics: AWS Lamda                  | Dixon            |                            |  
-| 16      | 03/19     | rstudio::global                            | York / Lapato    | [Maintaining Code][16]     |  
-|         | 03/24     | Reading Day - VCU Closed                   |                  |                            |  
-| 17      | 03/26     | reprex                                     | Lapato           | [Pre-class Assignment][17]; Project 1 Due |  
-| 18      | 03/31     | Machine Learning: Classification 1         | Smirnova         |                            |  
-| 19      | 04/02     | Functions                                  | York             | [Functions][20]            |  
-| 20      | 04/07     | Machine Learning: Classification 2         | Smirnova         |                            |  
-| 21      | 04/09     | Machine Learning: Classification 3         | Smirnova         |                            |  
-| 22      | 04/14     | Machine Learning in the Wild               | Sargent          | [Wild1][5]; [Wild2][6]     |
-| 23      | 04/16     | Special Topics: Jupyter Notebooks          | Centeno          | [Jupyter1][18]; [Jupyter2][19] |  
-| 24      | 04/21     | Integrating Shiny 1                        | York             | Project 2 Assigned         |  
-| 25      | 04/23     | Integrating Shiny 2                        | York             | [tidymodels hotel bookings][21] |  
-| 26      | 04/28     | Integrating Shiny 3                        | York             | [Shiny Cheatsheet][22]     |  
-| 27      | 04/30     | Integrating Shiny 4                        | York             | [shinyWidgets][23]; [themis][24] |  
-| 28      | 05/05     | Student Project Presentations 1            | York / Lapato    |                            |  
-| 29      | 05/07     | Student Project Presentations 2            | York / Lapato    |                            |  
-|         | 05/12     | Exam Week                                  | York             | Project 2 Due              |           
+| 1       | 01/19     | Intro & Tidyverse Features                 | York             | [Talk to Yourself][7]      |  
+| 2       | 01/21     | Git, Github & RStudio                      | York             | [git][1]; [happygit][2]    |  
+| 3       | 01/26     | Command Line Basics                        | Norum            | [setup][8]; [intro][9]; [resource][10] |  
+| 4       | 01/28     | flexdashboard 1                            | York             | [flexdashboard1][12]       |  
+| 5       | 02/02     | flexdashboard 2                            | York             | [flexdashboard2][13]       |  
+| 6       | 01/04     | Functional programming with purrr          | Wolen            | [purrr][11]                |  
+| 7       | 02/09     | Machine Learning: Regression-based 1       | Smirnova         | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  
+| 8       | 02/11     | Machine Learning: Regression-based 2       | Smirnova         |                            |  
+| 9       | 02/16     | Machine Learning: Regression-based 3       | Smirnova         |                            |  
+| 10      | 02/18     | tidymodels 1                               | York             | [tidymodels][15]           |  
+| 11      | 02/23     | tidymodels 2                               | York             |                            |  
+| 12      | 02/25     | Data Products                              | York             |                            |  
+| 13      | 03/02     | Project 1 Consultations                    | York / Lapato    | Project 1 Assigned         |  
+| 14      | 03/04     | Data Products in the Wild                  | Lapato           |                            |  
+|         | 03/09     | Spring Break                               |                  |                            |
+|         | 03/11     | Spring Break                               |                  |                            |
+| 15      | 03/16     | Model Estimation                           | York             | [Two Cultures][14]         |  
+| 16      | 03/18     | reprex                                     | Lapato           | [Pre-class Assignment][17]; Project 1 Due |  
+| 17      | 03/23     | rstudio::global                            | York / Lapato    | [Maintaining Code][16]     |  
+| 18      | 03/25     | Functions *MOVE UP*                        | York             | [Functions][20]            |  
+| 19      | 03/30     | Special Topics: portfoliodown              | York             |                            |
+| 20      | 04/01     | Machine Learning: Classification 1         | Smirnova         |                            |  
+| 21      | 04/06     | Machine Learning: Classification 2         | Smirnova         |                            |  
+| 22      | 04/08     | Machine Learning: Classification 3         | Smirnova         |                            |  
+| 23      | 04/13     | Machine Learning in the Wild               | Sargent          | [Wild1][5]; [Wild2][6]     |
+| 24      | 04/15     | Project 2 Consultations                    | York             | Project 2 Assigned         |  
+| 25      | 04/20     | Integrating Shiny 1                        | York             |                            |  
+| 26      | 04/22     | Integrating Shiny 2                        | York             | [tidymodels hotel bookings][21] |  
+| 27      | 04/27     | Integrating Shiny 3                        | York             | [Shiny Cheatsheet][22]     |  
+| 28      | 04/29     | Integrating Shiny 4                        | York             | [shinyWidgets][23]; [themis][24] |  
+| 29      | 05/04     | Student Project Presentations 1            | York / Lapato    |                            |  
+| 30      | 05/06     | Student Project Presentations 2            | York / Lapato    |                            |       
+|         | 05/11     | Exam Week                                  | York             | Project 2 Due              |           
 
 
 [1]: https://osf.io/4a26g "Democratic Science"
@@ -58,8 +65,8 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 [15]: https://www.tidymodels.org/
 [16]: https://rstudio.com/resources/rstudioglobal-2021/maintaining-the-house-the-tidyverse-built/ "rstudio::conf 2021"
 [17]: https://forms.gle/tBtzGuRCu2hx722S6 "pre-class assignment"
-[18]: https://osf.io/ehgmf/ "jupyter, 10 simple rules"
-[19]: https://osf.io/4e27y/ "jupyter, extra"
+
+
 [20]: https://r4ds.had.co.nz/functions.html "functions"
 [21]: https://www.tidymodels.org/start/case-study/ "tidymodels hotel bookings"
 [22]: https://shiny.rstudio.com/images/shiny-cheatsheet.pdf "Shiny Cheatsheet"

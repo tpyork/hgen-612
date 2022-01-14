@@ -41,6 +41,8 @@ vignettes/*.pdf
 # instructor files
 *_instructor*
 /instructor
+/eval
+/temp
 
 
 

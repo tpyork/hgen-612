@@ -1,14 +1,19 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 # Syllabus
 ## HGEN 612: Methods in Data Science
-## SPRING 2021, 3 credit hours
+## SPRING 2022, 3 credit hours
 
-Time: Thursday, 10:00a-11:20a  
+Time: Wed / Fri, 10:00a-11:20a  
 Location: https://zoom.us/j/9927704427  
 
 **DIRECTOR:**  
 **Tim York**, PhD  
 Director, VCU Data Science Lab  
-Associate Professor, Human and Molecular Genetics  
+Professor, Human and Molecular Genetics  
 
 **INSTRUCTORS:**  
 **Ekaterina Smirnova**, PhD  
@@ -23,14 +28,15 @@ Instructor, Human and Molecular Genetics
 Senior Software Engineer, TileDB  
 **Steve Norum**, BA Math and Computer Science (and Physics)  
 Senior Software Development Engineer, Amazon Web Services  
-**Jerome Dixon**, MDA    
-Doctoral Student, Integrated Life Sciences  
-Precision medicine and hospital informatics.  
+
+**TEACHING ASSISTANT:**  
+**Christiane Morecock**  
+Genomic Data Science Graduate Student  
 
 - - -
 
-## Our current situation
-As of publishing this syllabus we are currently in VCU's Phase 3 restrictions. Being so, HGEN 612 will meet remotely for the entire semester by Zoom. My preference is that all students attend lectures synchronously with their cameras on. I understand this may not be feasible at all times. Lectures will be posted for asynchronous viewing between 24-48 hours after each session so plan accordingly but there will be times this does not work as expected. Please note that regardless of viewing behavior your participation and attendance grade will not be assessed in the regular fashion. I am more interested that you are engaged with the class (e.g., during class and/or on Slack) and your assignments reflect attempts to innovate past what you were taught (i.e., coding creativity requires some degree of self-study). We will discuss this more in class but the bottom line is, because we are still in an atypical situation, no one should expect business as usual. For instance, lectures will likely not extend the entire time to avoid Zoom fatigue and we will strive to use our time in a way that we find is most beneficial for learning. All I ask is that you reach out to me to discuss your circumstances if your remote learning experience is faltering.  
+## Remote Learning
+HGEN 612 will meet remotely for the entire semester by Zoom. My preference is that all students attend lectures synchronously with their cameras on. Ok, so I know this isn't going to happen but how about synchronously with you camera on for the frist 10 minutes? Lectures will be posted for asynchronous viewing between 24-48 hours after each session so plan accordingly but there will be times this does not work as expected. Please note that regardless of viewing behavior your participation and attendance grade will not be assessed in the regular fashion. I am more interested that you are engaged with the class (e.g., during class and/or on Slack) and your assignments reflect attempts to innovate past what you were taught (i.e., coding creativity requires some degree of self-study). We will discuss this more in class but the bottom line is, because we are still in an atypical situation, no one should expect business as usual. For instance, lectures will likely not extend the entire time to avoid Zoom fatigue and we will strive to use our time in a way that we find is most beneficial for learning. All I ask is that you reach out to me to discuss your circumstances if your remote learning experience is faltering.  
 
 
 ## Course Description
@@ -42,7 +48,7 @@ HGEN/OVPR 611 Data Science 1 or Instructor permission.
 
 
 ## Textbook
-All required reading/viewing material will be posted on the class OSF page. There is no required textbook. However, [*R for Data Science*][101] (Wickham & Grolemund) is an excellent general reference and [*Advanced R*][102] (Wickham) is great for a more in-depth guide to the R language.  
+All required reading/viewing material will be linked to the lecture schedule located on the Github page. There is no required textbook. However, [*R for Data Science*][101] (Wickham & Grolemund) is an excellent general reference and [*Advanced R*][102] (Wickham) is great for a more in-depth guide to the R language.  
 
 
 ## Student Responsibilities
@@ -53,6 +59,7 @@ All required reading/viewing material will be posted on the class OSF page. Ther
   - Please ask questions during class.
   - Ask for help whenever needed. Instructors will try to respond to messages within 24 hours. For best response times on, for instance, coding problems posting on the `#hgen-612` channel is recommended and allows others to benefit from your question. Students are encouraged to contribute answers.
   - Get used to finding answers to coding problems on stackoverflow.com and sharing them on `#hgen-612`.
+  - Review and practice the code presented in the previous session. This is worth repeating.
   
   
 ## Communication Guidelines
@@ -69,10 +76,7 @@ We will be using OSF (https://osf.io/24mp7/) as the hub for all course materials
   - Code and course meta-information (e.g., syllabus) will be stored on the course Github site and linked to OSF.
   - Github has a steep learning curve and not everyone will become proficient users immediately - it takes a lot of practice. I will teach the basics so that everyone should be able to automagically access course materials. Otherwise, as previously stated, all materials will be accessible via the course OSF hub.
   - I do not plan on storing any materials on Canvas.
-  - Recorded lectures will be stored at: TBD.  
-
-## ReproducibiliTea
-This is a journal club sponsored by the VCU Data Science Lab and VCU Libraries with the ambitious goal of fixing science (or at least to start a conversation about a few lingering issues). **Students are required to attend at least one meeting by 2021-04-30**. Be sure to read the journal article beforehand. And yes, tea will be provided (when we are in-person again). Official ReproducibiliTea meetings occur monthly on ~~the second Tuesday at 2pm in Biotech I (Rm 3029, Suite 300)~~ (TBD). See schedule at https://osf.io/g56qp/wiki/Schedule.  
+  - Recorded lectures will be stored [here][103].  
 
 
 ## Grading
@@ -81,10 +85,12 @@ The point distribution for grades is listed below. Details for each assignment w
   - (25 points) Project 1 
   - (25 points) Project 2
   - (15 points) Project 2 presentation
-  - (10 points) ReproducibiliTea attendance
+  - (05 points) Flexdashboard code check
+  - (05 points) Shiny code check
   - (25 points) Participation and attendance (may include other assignments TBD)  
 
 
 
 [101]: https://r4ds.had.co.nz/            "R for Data Science"
 [102]: https://adv-r.hadley.nz/index.html "Advanced R"
+[103]: https://drive.google.com/drive/u/1/folders/1MkRa0tkXwMVP1An9rCB4ijF6IZPkogWv "Course Lectures"
