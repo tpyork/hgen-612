@@ -19,9 +19,9 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 | 4       | 01/28     | flexdashboard 1                            | York             | [flexdashboard1][12]       |  
 | 5       | 02/02     | flexdashboard 2                            | York             | [flexdashboard2][13]       |  
 | 6       | 01/04     | Functional programming with purrr          | Wolen            | [purrr][11]                |  
-| 7       | 02/09     | Machine Learning: Regression-based 1       | Smirnova         | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  
-| 8       | 02/11     | Machine Learning: Regression-based 2       | Smirnova         |                            |  
-| 9       | 02/16     | Machine Learning: Regression-based 3       | Smirnova         |                            |  
+| 7       | 02/09     | Machine Learning: Regression-based 1       | Smirnova / York  | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  
+| 8       | 02/11     | Machine Learning: Regression-based 2       | Smirnova / York  |                            |  
+| 9       | 02/16     | Machine Learning: Regression-based 3       | Smirnova / York  |                            |  
 | 10      | 02/18     | tidymodels 1                               | York             | [tidymodels][15]           |  
 | 11      | 02/23     | tidymodels 2                               | York             |                            |  
 | 12      | 02/25     | Data Products                              | York             |                            |  
@@ -29,14 +29,14 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 | 14      | 03/04     | Data Products in the Wild                  | Lapato           |                            |  
 |         | 03/09     | Spring Break                               |                  |                            |
 |         | 03/11     | Spring Break                               |                  |                            |
-| 15      | 03/16     | Model Estimation                           | York             | [Two Cultures][14]         |  
+| 15      | 03/16     | Functions                                  | York             | [Two Cultures][14]         |  
 | 16      | 03/18     | reprex                                     | Lapato           | [Pre-class Assignment][17]; Project 1 Due |  
 | 17      | 03/23     | rstudio::global                            | York / Lapato    | [Maintaining Code][16]     |  
-| 18      | 03/25     | Functions *MOVE UP*                        | York             | [Functions][20]            |  
+| 18      | 03/25     | Model Estimation                           | York             | [Functions][20]            |  
 | 19      | 03/30     | Special Topics: portfoliodown              | York             |                            |
-| 20      | 04/01     | Machine Learning: Classification 1         | Smirnova         |                            |  
-| 21      | 04/06     | Machine Learning: Classification 2         | Smirnova         |                            |  
-| 22      | 04/08     | Machine Learning: Classification 3         | Smirnova         |                            |  
+| 20      | 04/01     | Machine Learning: Classification 1         | Smirnova / York  |                            |  
+| 21      | 04/06     | Machine Learning: Classification 2         | Smirnova / York  |                            |  
+| 22      | 04/08     | Machine Learning: Classification 3         | Smirnova / York  |                            |  
 | 23      | 04/13     | Machine Learning in the Wild               | Sargent          | [Wild1][5]; [Wild2][6]     |
 | 24      | 04/15     | Project 2 Consultations                    | York             | Project 2 Assigned         |  
 | 25      | 04/20     | Integrating Shiny 1                        | York             |                            |  

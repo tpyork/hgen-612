@@ -79,6 +79,10 @@ We will be using OSF (https://osf.io/24mp7/) as the hub for all course materials
   - Recorded lectures will be stored [here][103].  
 
 
+## ReproducibiliTea
+This is a journal club sponsored by the VCU Data Science Lab and VCU Libraries with the ambitious goal of fixing science (or at least to start a conversation about a few lingering issues). **Students are required to attend at least one meeting by 2022-04-30**. Be sure to read the journal article beforehand. And yes, tea will be provided (when we are in-person again). See schedule at https://osf.io/g56qp/wiki/Schedule.  
+
+
 ## Grading
 The point distribution for grades is listed below. Details for each assignment will be presented in class.    
 
@@ -87,7 +91,8 @@ The point distribution for grades is listed below. Details for each assignment w
   - (15 points) Project 2 presentation
   - (05 points) Flexdashboard code check
   - (05 points) Shiny code check
-  - (25 points) Participation and attendance (may include other assignments TBD)  
+  - (10 points) ReproducibiliTea attendence
+  - (15 points) Participation and attendance (may include other assignments TBD)  
 
 
 
