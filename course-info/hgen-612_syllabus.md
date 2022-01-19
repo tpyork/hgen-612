@@ -86,12 +86,12 @@ This is a journal club sponsored by the VCU Data Science Lab and VCU Libraries w
 ## Grading
 The point distribution for grades is listed below. Details for each assignment will be presented in class.    
 
-  - (25 points) Project 1 
-  - (25 points) Project 2
-  - (15 points) Project 2 presentation
-  - (05 points) Flexdashboard code check
-  - (05 points) Shiny code check
-  - (10 points) ReproducibiliTea attendence
+  - (05 points) Flexdashboard code check  
+  - (25 points) Project 1  
+  - (05 points) Shiny code check  
+  - (25 points) Project 2  
+  - (15 points) Project 2 presentation  
+  - (10 points) ReproducibiliTea attendence  
   - (15 points) Participation and attendance (may include other assignments TBD)  
 
 

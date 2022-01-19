@@ -18,7 +18,7 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 | 3       | 01/26     | Command Line Basics                        | Norum            | [setup][8]; [intro][9]; [resource][10] |  
 | 4       | 01/28     | flexdashboard 1                            | York             | [flexdashboard1][12]       |  
 | 5       | 02/02     | flexdashboard 2                            | York             | [flexdashboard2][13]       |  
-| 6       | 01/04     | Functional programming with purrr          | Wolen            | [purrr][11]                |  
+| 6       | 02/04     | Functional programming with purrr          | Wolen            | [purrr][11]                |  
 | 7       | 02/09     | Machine Learning: Regression-based 1       | Smirnova / York  | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  
 | 8       | 02/11     | Machine Learning: Regression-based 2       | Smirnova / York  |                            |  
 | 9       | 02/16     | Machine Learning: Regression-based 3       | Smirnova / York  |                            |  
@@ -38,7 +38,7 @@ ReproducibiliTea Schedule:  https://osf.io/g56qp/wiki/Schedule/
 | 21      | 04/06     | Machine Learning: Classification 2         | Smirnova / York  |                            |  
 | 22      | 04/08     | Machine Learning: Classification 3         | Smirnova / York  |                            |  
 | 23      | 04/13     | Machine Learning in the Wild               | Sargent          | [Wild1][5]; [Wild2][6]     |
-| 24      | 04/15     | Project 2 Consultations                    | York             | Project 2 Assigned         |  
+| 24      | 04/15     | Project 2 Consultations                    | York / Lapato    | Project 2 Assigned         |  
 | 25      | 04/20     | Integrating Shiny 1                        | York             |                            |  
 | 26      | 04/22     | Integrating Shiny 2                        | York             | [tidymodels hotel bookings][21] |  
 | 27      | 04/27     | Integrating Shiny 3                        | York             | [Shiny Cheatsheet][22]     |  
