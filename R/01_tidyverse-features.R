@@ -49,9 +49,6 @@ mpg %>%
 # YOUR TURN <><><><><><><><><><><><><>
 # Move `manufacturer` before `cyl`
 
-mpg %>% 
-  relocate(manufacturer, .before = cyl)
-
 
 
 
@@ -71,16 +68,8 @@ mpg %>%
 # YOUR TURN <><><><><><><><><><><><><>
 # Move all variables that start with "m" before year
 
-mpg %>% 
-  relocate(any_of(c("manufacturer", "model")), .after = displ)
 
 
-mpg %>% 
-  relocate(starts_with("m"), .before = year)
-
-
-
-##### ---- ENDED HERE ----
 
 
 
