@@ -16,7 +16,7 @@ output:
 | :-----: | :------: | :------------------------------- | :-------------: | :-----------------------                       | :----------: | :--------: |
 | 1       | 01/19 | Intro & Tidyverse Features           | York            | [Talk to Yourself][7]                         |  [1][26], [2][27] | [1][28]|
 | 2       | 01/21 | Git, Github & RStudio                | York            | [git][1]; [happygit][2]                       |  [1][29]     |            |  
-| 3       | 01/26 | Command Line Basics                  | Norum           | [setup][8]; [intro][9]; [resource][10]        |              |            |  
+| 3       | 01/26 | Command Line Basics                  | Norum / Lapato  | [setup][8]; [intro][9]; [resource][10]        |              |            |  
 | 4       | 01/28 | flexdashboard 1                      | York            | [flexdashboard1][12]                          |              |            |  
 | 5       | 02/02 | flexdashboard 2                      | York            | [flexdashboard2][13]                          |              |            |  
 | 6       | 02/04 | Functional programming with purrr    | Wolen           | [purrr][11]                                   |              |            |  
