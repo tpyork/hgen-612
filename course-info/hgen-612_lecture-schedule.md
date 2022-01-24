@@ -1,8 +1,9 @@
 ---
 output:
-  html_document: default
-  pdf_document: default
+  github_document:
+    keep_html: true
 ---
+
 # Lecture Schedule
 ## Data Science 2
 ## HGEN 612
