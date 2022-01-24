@@ -4,6 +4,7 @@
 
 install.packages("devtools")
 devtools::install_github("rstudio/fontawesome")
+devtools::install_github("hadley/emo")
 
 
 r_pkgs <- c(
@@ -12,7 +13,7 @@ r_pkgs <- c(
   "tidyverse", "tidyquant", "broom", "gt", "htmltools",
   
   # Lecture 05_flexdashboard ----
-  "flexdashboard", "DT", "plotly", "corrr", "emo",
+  "flexdashboard", "DT", "plotly", "corrr",
 
   # Lecuture 06_flexdashboard ----
   "tidymodels", "vip",
