@@ -1,0 +1,23 @@
+# Task: Create folders
+
+mkdir hgen612-terminal-practice
+cd hgen612-terminal-practice
+pwd
+
+# Task: Download data from the internet
+
+curl https://dr-lapato-datascience-demo.s3.amazonaws.com/stuff.zip > stuff-for-terminal.zip
+
+# Task: Working with .zip files
+
+unzip stuff-for-terminal.zip
+cd stuff-for-terminal
+
+# Task: Moving files with certain names
+
+mkdir {animal_csv,experiment_csv,experiment_txt}
+
+# Task: Moving files with certain names
+
+mv */*/Animal\ data/*.csv animal_csv/
+

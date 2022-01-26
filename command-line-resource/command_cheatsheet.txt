@@ -1,0 +1,42 @@
+Read-only commands (won't delete existing files)
+
+pwd # print the current ("working") directory
+ls # list the files/directories in the current directory
+ls -a # list everything, including "hidden" files/directories starting with "."
+mkdir <new_directory> # make a directory
+mkdir {<new_directory_1>,<new_directory_2>} # make multiple directories at once
+cd # change directory
+wc <filename> # counts the words (separated by spaces) in <filename>
+wc -l <filename> # counts the lines in <filename>
+ls | wc -l # counts the lines in the output of ls (also works with any other command that prints stuff)
+man ls # shows the manual page for ls (also works for most other commands); pressing 'q' will close the manual
+find * # lists all the files/directories in your current directory, including their contents, and so on
+find * -type f # same as 'find *', but it only lists files, not directories
+find * -type d # same as 'find *', but it only lists directories, not files
+find * -type f | wc -l # counts the files in your current directory (recursively)
+cat <filename.txt> # prints <filename.txt> to the screen. Works with all text files (.txt, .r, .json, .csv, etc.) but does weird stuff with binary files (.jpg, .png, .class, etc.)
+more <filename.txt> # lets you scroll through <filename.txt>, navigating with up/down arrows
+less <filename.txt> # less is more (they're literally the same file on MacOS; on other computers they do the same thing)
+head -n 50 <filename.txt> # prints the first 50 lines of <filename.txt>
+tail -n 50 <filename.txt> # prints the last 50 lines of <filename.txt>
+head -n 50 <filename.txt> | tail -n 25 # head and tail can be combined to print blocks in the middle of files, in this case lines 26-50 of <filename.txt>
+grep "<regex>" <filename> # search <filename> for the specified <regex> ("regular expression")
+grep "abcde" <filename> # search for any lines in <filename> containing the string "abcde"
+grep "\d\d\d-\d\d\d-\d\d\d\d" directory/* # searched for any line containing a string in the format "###-###-####" (that is, a likely phone number)
+# grep can be super complicated but StackOverflow almost always has the regex you'll need
+
+Potentially dangerous commands (can potentially delete existing files)
+
+curl [url] > [filename] # download the file from [url] to local file [filename]
+zip -r <filename.zip> <directory/> # makes a new file <filename.zip> containing <directory/> and all its contents
+unzip <filename.zip> # creates everything that was put into the zip file in the previous command, in the location where this is run
+mv <filename> <existing_directory> # move <filename> to <existing_directory>/<filename>
+mv <filename> <new_filename> # if <new_filename> doesn't exist, or is a file, moves <filename> to <new_filename>, possibly erasing the old file with that name
+cp <filename> <new_filename> # basically does the same thing as mv, but it leaves <filename> in its current spot and makes a second copy, instead of removing it from the original location
+
+Dangerous commands (explicitly delete existing files)
+
+rm # remove a file
+rmdir # remove a directory (it must be empty)
+rm -r # remove a directory and all its contents - SUPER DANGEROUS
+
