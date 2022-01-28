@@ -72,14 +72,14 @@ output:
 [23]: http://shinyapps.dreamrs.fr/shinyWidgets/ "shinyWidgets"
 [24]: https://themis.tidymodels.org/index.html "themis recipe steps for unbalanced designs"
 [25]: https://github.com/tpyork/hgen-612/blob/main/R/00_install-course-packages.R "install course packages"  
-[26]: https://docs.google.com/presentation/d/1h6HI7IDcXwz72CnF2zgF0vgpOtD6Qo5wgLMCDSM5gzU/edit#slide=id.g78a3b52e70_0_50 "course setup" 
-[27]: https://docs.google.com/presentation/d/1NllUQ0VlejPgAvL1KcEUhLxsCBrryri3muLRVpp5NDE/edit#slide=id.gaeb6925645_0_0 "tidyverse review"
+[26]: https://osf.io/q26ut/ "course setup" 
+[27]: https://osf.io/ch8ur/ "tidyverse review"
 [28]: https://github.com/tpyork/hgen-612/blob/main/R/01_tidyverse-features.R "tidyverse features"
-[29]: https://docs.google.com/presentation/d/15lJN30EqhfxFbEY90aLcs2MEcM_rHMHNKlLtjEBlpVE/edit#slide=id.p "git, Github, RStudio"
+[29]: https://osf.io/3cke6/ "git, Github, RStudio"
 [30]: https://osf.io/cfx3n/ "command line survival guide"
 [31]: https://github.com/tpyork/hgen-612/blob/main/command-line-resource/command_cheatsheet.txt "command line cheatsheet"
 [32]: https://github.com/tpyork/hgen-612/blob/main/command-line-resource/important_commands.txt "important commands"
-[33]: https://docs.google.com/presentation/d/1kOWKIh5Fvo8bLTULTc8CiM9RKHR3LEGzq6rnVd1HIf4/edit#slide=id.gb01fb0595a_0_108 "flexdashboard primer"
+[33]: https://osf.io/q4s3z/ "flexdashboard primer"
 [36]: https://github.com/tpyork/hgen-612/blob/main/R/05_flexdashboard_student.Rmd "flexdashboard 1"
 
 
