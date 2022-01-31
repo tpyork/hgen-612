@@ -25,9 +25,9 @@ output:
 | 9       | 02/16 | Functional programming with purrr    | Wolen           | [purrr][11]                                   |              |            | 
 | 10      | 02/18 | tidymodels 1                         | York            | [tidymodels][15]                              |              |            |  
 | 11      | 02/23 | tidymodels 2                         | York            |                                               |              |            |  
-| 12      | 02/25 | Data Products                        | York            |                                               |              |            |  
-| 13      | 03/02 | Project 1 Consultations              | York / Lapato   | **Project 1 Assigned**                        |              |            |  
-| 14      | 03/04 | Data Products in the Wild            | Lapato          |                                               |              |            |  
+| 12      | 02/25 | Project 1 Consultations              | York / Lapato   | **Project 1 Assigned**                        |              |            |  
+| 13      | 03/02 | Data Products                        | York            |                                               |              |            |  
+| 14      | 03/04 | Data Products in the Wild            | Lapato          | **Code Check 1 Due**                          |              |            |  
 |         | 03/09 | *Spring Break*                       |                 |                                               |              |            |
 |         | 03/11 | *Spring Break*                       |                 |                                               |              |            |
 | 15      | 03/16 | Functions                            | York            | [Two Cultures][14]                            |              |            |  
