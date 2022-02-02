@@ -82,5 +82,3 @@ output:
 [33]: https://osf.io/q4s3z/ "flexdashboard primer"
 [36]: https://github.com/tpyork/hgen-612/blob/main/R/05_flexdashboard_student.Rmd "flexdashboard 1"
 [37]: https://github.com/tpyork/hgen-612/blob/main/R/06_flexdashboard_2_student.Rmd "flexdashboard 2"
-
-
