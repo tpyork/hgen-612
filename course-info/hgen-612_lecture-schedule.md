@@ -20,7 +20,7 @@ output:
 | 4       | 01/28 | flexdashboard 1                      | York            | [flexdashboard1][12]                          |  [1][33]     | [1][36]    |  
 | 5       | 02/02 | flexdashboard 2                      | York            | [flexdashboard2][13]                          |              | [1][37]    |  
 | 6       | 02/04 | Machine Learning: Regression-based 1 | Smirnova / York | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  [1][38]     |            |  
-| 7       | 02/09 | Machine Learning: Regression-based 2 | Smirnova / York |                                               |              |            |  
+| 7       | 02/09 | Machine Learning: Regression-based 2 | Smirnova / York |                                               |  [1][39]     |            |  
 | 8       | 02/11 | Machine Learning: Regression-based 3 | Smirnova / York |                                               |              |            |  
 | 9       | 02/16 | Functional programming with purrr    | Wolen           | [purrr][11]                                   |              |            | 
 | 10      | 02/18 | tidymodels 1                         | York            | [tidymodels][15]                              |              |            |  
@@ -83,3 +83,4 @@ output:
 [36]: https://github.com/tpyork/hgen-612/blob/main/R/05_flexdashboard_student.Rmd "flexdashboard 1"
 [37]: https://github.com/tpyork/hgen-612/blob/main/R/06_flexdashboard_2_student.Rmd "flexdashboard 2"
 [38]: https://osf.io/r2gta/ "machine learning regression 1"
+[39]: https://osf.io/ds9y6/ "machine learning regression 2"
