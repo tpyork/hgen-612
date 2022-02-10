@@ -20,8 +20,8 @@ output:
 | 4       | 01/28 | flexdashboard 1                      | York            | [flexdashboard1][12]                          |  [1][33]     | [1][36]    |  
 | 5       | 02/02 | flexdashboard 2                      | York            | [flexdashboard2][13]                          |              | [1][37]    |  
 | 6       | 02/04 | Machine Learning: Regression-based 1 | Smirnova / York | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  [1][38]     |            |  
-| 7       | 02/09 | Machine Learning: Regression-based 2 | Smirnova / York |                                               |  [1][39]     |            |  
-| 8       | 02/11 | Machine Learning: Regression-based 3 | Smirnova / York |                                               |              |            |  
+| 7       | 02/09 | Machine Learning: Regression-based 2 | Smirnova / York | [video1][40]; [video2][41]                    |  [1][39]     |            |  
+| 8       | 02/11 | Machine Learning: Regression-based 3 | Smirnova / York | [video3][42]                                  |              |            |  
 | 9       | 02/16 | Functional programming with purrr    | Wolen           | [purrr][11]                                   |              |            | 
 | 10      | 02/18 | tidymodels 1                         | York            | [tidymodels][15]                              |              |            |  
 | 11      | 02/23 | tidymodels 2                         | York            |                                               |              |            |  
@@ -30,10 +30,10 @@ output:
 | 14      | 03/04 | Data Products in the Wild            | Lapato          | **Code Check 1 Due**                          |              |            |  
 |         | 03/09 | *Spring Break*                       |                 |                                               |              |            |
 |         | 03/11 | *Spring Break*                       |                 |                                               |              |            |
-| 15      | 03/16 | Functions                            | York            | [Two Cultures][14]                            |              |            |  
+| 15      | 03/16 | Functions                            | York            | [Functions][20]                               |              |            |  
 | 16      | 03/18 | reprex                               | Lapato          | [Pre-class Assignment][17]; **Project 1 Due** |              |            |  
 | 17      | 03/23 | rstudio::global                      | York / Lapato   | [Maintaining Code][16]                        |              |            |  
-| 18      | 03/25 | Model Estimation                     | York            | [Functions][20]                               |              |            |  
+| 18      | 03/25 | Model Estimation                     | York            | [Two Cultures][14]                            |              |            |  
 | 19      | 03/30 | Special Topics: portfoliodown        | York            |                                               |              |            |
 | 20      | 04/01 | Machine Learning: Classification 1   | Smirnova / York |                                               |              |            |  
 | 21      | 04/06 | Machine Learning: Classification 2   | Smirnova / York |                                               |              |            |  
@@ -84,3 +84,9 @@ output:
 [37]: https://github.com/tpyork/hgen-612/blob/main/R/06_flexdashboard_2_student.Rmd "flexdashboard 2"
 [38]: https://osf.io/r2gta/ "machine learning regression 1"
 [39]: https://osf.io/ds9y6/ "machine learning regression 2"
+[40]: https://drive.google.com/file/d/1xtiuk06eTNQzmiMrCIYqTssP5vWirTEB/view?usp=sharing "ML video 1"
+[41]: https://drive.google.com/file/d/1rzkMrntGKYK427OPrX-jPIoMMJHbd_Hg/view?usp=sharing "ML video 2"
+[42]: https://drive.google.com/file/d/1iOEbj4wELx9eESs-IsAS18iHfsNG4YYj/view?usp=sharing "ML video 3"
+
+
+
