@@ -32,8 +32,8 @@ output:
 |         | 03/11 | *Spring Break*                       |                 |                                               |              |            |
 | 15      | 03/16 | Functions                            | York            | [Functions][20]                               |              |            |  
 | 16      | 03/18 | reprex                               | Lapato          | [Pre-class Assignment][17]; **Project 1 Due** |              |            |  
-| 17      | 03/23 | rstudio::global                      | York / Lapato   | [Maintaining Code][16]                        |              |            |  
-| 18      | 03/25 | Model Estimation                     | York            | [Two Cultures][14]                            |              |            |  
+| 17      | 03/23 | Model Estimation                     | York            | [Two Cultures][14]                            |              |            |  
+| 18      | 03/25 | Shiny on AWS                         | Dixon           |                                               |              |            |  
 | 19      | 03/30 | Special Topics: portfoliodown        | York            |                                               |              |            |
 | 20      | 04/01 | Machine Learning: Classification 1   | Smirnova / York |                                               |              |            |  
 | 21      | 04/06 | Machine Learning: Classification 2   | Smirnova / York |                                               |              |            |  
