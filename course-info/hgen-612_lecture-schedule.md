@@ -12,8 +12,8 @@ output:
 [Install Course Packages][25]
 
 
-| Lecture | Date     | Topic                            | Instructor      | Review                                         | Slides       | Scripts    |  
-| :-----: | :------: | :------------------------------- | :-------------: | :-----------------------                       | :----------: | :--------: |
+| Lecture | Date  | Topic                                | Instructor      | Review                                        | Slides       | Scripts    |  
+| :-----: | :---: | :----------------------------------- | :-------------: | :-------------------------------------------- | :----------: | :--------: |
 | 1       | 01/19 | Intro & Tidyverse Features           | York            | [Talk to Yourself][7]                         |  [1][26], [2][27] | [1][28]|
 | 2       | 01/21 | Git, Github & RStudio                | York            | [git][1]; [happygit][2]                       |  [1][29]     |            |  
 | 3       | 01/26 | Command Line Basics                  | Norum / Lapato  | [setup][8]; [intro][9]; [resource][10]        |  [1][30]     | [1][31], [2][32] |  
@@ -23,7 +23,7 @@ output:
 | 7       | 02/09 | Machine Learning: Regression-based 2 | Smirnova / York | [video1][40]; [video2][41]                    |  [1][39]     |            |  
 | 8       | 02/11 | Machine Learning: Regression-based 3 | Smirnova / York | [video3][42]                                  |              |            |  
 | 9       | 02/16 | Functional programming with purrr    | Wolen           | [purrr][11]                                   |              |            | 
-| 10      | 02/18 | tidymodels 1                         | York            | [tidymodels][15]                              |              |            |  
+| 10      | 02/18 | tidymodels 1                         | York            | [tidymodels][15]                              | [1][43]      | [1][44]    |  
 | 11      | 02/23 | tidymodels 2                         | York            |                                               |              |            |  
 | 12      | 02/25 | Project 1 Consultations              | York / Lapato   | **Project 1 Assigned**                        |              |            |  
 | 13      | 03/02 | Data Products                        | York            |                                               |              |            |  
@@ -63,7 +63,7 @@ output:
 [12]: https://blog.rstudio.com/2016/05/17/flexdashboard-easy-interactive-dashboards-for-r/ "Introducing flexdashboard"
 [13]: https://rmarkdown.rstudio.com/flexdashboard/ "flexdashboard: Easy interactive dashboards for R"
 [14]: https://osf.io/r3pyb/ "Statistical Modeling: The Two Cultures"
-[15]: https://www.tidymodels.org/
+[15]: https://www.tidymodels.org/ "tidymodels"
 [16]: https://rstudio.com/resources/rstudioglobal-2021/maintaining-the-house-the-tidyverse-built/ "rstudio::conf 2021"
 [17]: https://forms.gle/tBtzGuRCu2hx722S6 "pre-class assignment"
 [20]: https://r4ds.had.co.nz/functions.html "functions"
@@ -87,6 +87,7 @@ output:
 [40]: https://drive.google.com/file/d/1xtiuk06eTNQzmiMrCIYqTssP5vWirTEB/view?usp=sharing "ML video 1"
 [41]: https://drive.google.com/file/d/1rzkMrntGKYK427OPrX-jPIoMMJHbd_Hg/view?usp=sharing "ML video 2"
 [42]: https://drive.google.com/file/d/1iOEbj4wELx9eESs-IsAS18iHfsNG4YYj/view?usp=sharing "ML video 3"
-
+[43]: https://osf.io/2dy38/ "tidymodels primer"
+[44]: https://github.com/tpyork/hgen-612/blob/main/R/10_tidymodels_starter-pack.Rmd "tidymodels starter pack.Rmd"
 
 
