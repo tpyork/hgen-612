@@ -1,0 +1,212 @@
+---
+title: "tidymodels - Starter-Pack"
+output: 
+  rmdformats::robobook:
+    toc_depth: 3
+---
+
+
+```{r, echo = FALSE}
+# Reference: https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/
+
+```
+
+
+
+
+## Load Libraries
+
+```{r, message = FALSE, }
+library(tidymodels)
+library(GGally)
+library(corrr)
+
+```
+  - loads `dplyr` and `ggplot2`  
+
+
+<br>
+  
+
+## Data
+```{r}
+iris %>% 
+  as_tibble()
+
+```
+
+
+
+```{r, message = FALSE}
+#pairwise plots
+ggpairs(iris)
+
+
+#pairwise corr
+iris_cor <- iris %>% 
+  as_tibble() %>% 
+  select(where(is.numeric)) %>% 
+  correlate() 
+
+iris_cor %>% 
+  rearrange() %>% 
+  fashion() %>% 
+  knitr::kable()
+
+```
+
+
+
+  
+## Pre-Process
+
+### Data Sampling
+```{r}
+set.seed(1234)
+
+iris_split <- initial_split(iris, prop = 0.6)
+iris_split
+
+
+iris_split %>%
+  training() %>%
+  glimpse()
+
+```
+
+
+
+
+### Pre-Process Interface
+```{r}
+iris_recipe <- training(iris_split) %>%
+  recipe(Species ~ .) %>%
+  step_corr(all_predictors()) %>%
+  step_center(all_predictors(), -all_outcomes()) %>%
+  step_scale(all_predictors(), -all_outcomes()) %>%
+  prep()
+
+iris_training <- juice(iris_recipe)
+glimpse(iris_training)
+
+```
+
+```{r}
+# View recipe and operations
+iris_recipe
+
+```
+
+
+
+### Execute the Pre-Processing
+```{r}
+iris_testing <- iris_recipe %>%
+  bake(testing(iris_split)) 
+
+glimpse(iris_testing)
+
+```
+
+
+
+## Model Training
+```{r}
+
+# ranger
+iris_ranger <- rand_forest(trees = 100, mode = "classification") %>%
+  set_engine("ranger") %>%
+  fit(Species ~ ., data = iris_training)
+
+```
+
+```{r}
+# randomForest
+iris_rf <-  rand_forest(trees = 100, mode = "classification") %>%
+  set_engine("randomForest") %>%
+  fit(Species ~ ., data = iris_training)
+
+```
+
+
+
+
+
+## Predictions
+```{r}
+predict(iris_ranger, iris_testing)
+
+
+iris_ranger %>%
+  predict(iris_testing) %>%
+  bind_cols(iris_testing)
+
+```
+
+
+
+## Model Validation
+```{r}
+iris_ranger %>%
+  predict(iris_testing) %>%
+  bind_cols(iris_testing) %>%
+  metrics(truth = Species, estimate = .pred_class)
+
+
+iris_rf %>%
+  predict(iris_testing) %>%
+  bind_cols(iris_testing) %>%
+  metrics(truth = Species, estimate = .pred_class)
+
+```
+
+
+### Per Classifier Metrics
+```{r}
+iris_ranger %>%
+  predict(iris_testing, type = "prob")
+
+
+iris_probs <- iris_ranger %>%
+  predict(iris_testing, type = "prob") %>%
+  bind_cols(iris_testing)
+
+
+iris_probs%>%
+  roc_curve(Species, .pred_setosa:.pred_virginica) %>%
+  autoplot()
+
+
+```
+
+
+
+
+```{r}
+predict(iris_ranger, iris_testing, type = "prob") %>%
+  bind_cols(predict(iris_ranger, iris_testing)) %>%
+  bind_cols(select(iris_testing, Species)) %>%
+  metrics(truth = Species, .pred_setosa:.pred_virginica, estimate = .pred_class)
+
+
+predict(iris_rf, iris_testing, type = "prob") %>%
+  bind_cols(predict(iris_rf, iris_testing)) %>%
+  bind_cols(select(iris_testing, Species)) %>%
+  metrics(truth = Species, .pred_setosa:.pred_virginica, estimate = .pred_class)
+
+```
+
+
+## Your Turn
+
+How does model performance change when omitting some/all of the `step_x` recipe specifications?  
+
+<br>
+
+How does model performance change with different training/testing data splits?  
+
+
+
+
+
+
