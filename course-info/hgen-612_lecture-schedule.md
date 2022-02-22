@@ -24,7 +24,7 @@ output:
 | 8       | 02/11 | Machine Learning: Regression-based 3 | Smirnova / York | [video3][42]                                  |              |            |  
 | 9       | 02/16 | Functional programming with purrr    | Wolen           | [purrr][11]                                   |              |            | 
 | 10      | 02/18 | tidymodels 1                         | York            | [tidymodels][15]                              | [1][43]      | [1][44]    |  
-| 11      | 02/23 | tidymodels 2                         | York            |                                               |              |            |  
+| 11      | 02/23 | tidymodels 2                         | York            |                                               |              | [1][45]    |  
 | 12      | 02/25 | Project 1 Consultations              | York / Lapato   | **Project 1 Assigned**                        |              |            |  
 | 13      | 03/02 | Data Products                        | York            |                                               |              |            |  
 | 14      | 03/04 | Data Products in the Wild            | Lapato          | **Code Check 1 Due**                          |              |            |  
@@ -89,5 +89,6 @@ output:
 [42]: https://drive.google.com/file/d/1iOEbj4wELx9eESs-IsAS18iHfsNG4YYj/view?usp=sharing "ML video 3"
 [43]: https://osf.io/2dy38/ "tidymodels primer"
 [44]: https://github.com/tpyork/hgen-612/blob/main/R/10_tidymodels_starter-pack.Rmd "tidymodels starter pack.Rmd"
+[45]: https://github.com/tpyork/hgen-612/blob/main/R/10_tidymodels_1.R "tidymodels 2"
 
 
