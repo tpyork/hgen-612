@@ -26,7 +26,7 @@ output:
 | 10      | 02/18 | tidymodels 1                         | York            | [tidymodels][15]                              | [1][43]      | [1][44]    |  
 | 11      | 02/23 | tidymodels 2                         | York            |                                               |              | [1][45]    |  
 | 12      | 02/25 | Project 1 Consultations              | York / Lapato   | [**Project 1 Assigned**][46]                  |              |            |  
-| 13      | 03/02 | Data Products                        | York            |                                               |              | [1][46]    |  
+| 13      | 03/02 | Data Products                        | York            |                                               |              | [1][47]    |  
 | 14      | 03/04 | Data Products in the Wild            | Lapato          | **Code Check 1 Due**                          |              |            |  
 |         | 03/09 | *Spring Break*                       |                 |                                               |              |            |
 |         | 03/11 | *Spring Break*                       |                 |                                               |              |            |
