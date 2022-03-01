@@ -14,6 +14,7 @@ library(car)
 library(ggfortify)
 library(tidymodels)
 library(vip)
+library(performance)
 
 
 
@@ -51,8 +52,10 @@ vif(lm_fit.nc)
 
 
 # * Checking assumptions ----
-ggfortify:::autoplot.lm(lm_fit.nc, which = 1:2, label.size = 2) +
-  theme_bw()
+check_model(lm_fit.nc)
+
+# ggfortify:::autoplot.lm(lm_fit.nc, which = 1:2, label.size = 2) +
+#   theme_bw()
 
 
 # * Feature Engineering ----
@@ -66,14 +69,16 @@ pine_tbl <- pine_tbl %>%
 
 # * Model assumptions: log-transform ----
 lm_fit.nc.log <- lm(DeadDist_log  ~ TreeDiam + Infest_Serv1 + SDI_20th, data = pine_tbl)
-autoplot(lm_fit.nc.log, which = 1:2, label.size = 1)+
-  theme_bw()
+# autoplot(lm_fit.nc.log, which = 1:2, label.size = 1)+
+#   theme_bw()
+check_model(lm_fit.nc.log)
 
 
 # * Model assumptions: square-root transform ----
 lm_fit.nc.sqrt <- lm(DeadDist_sqrt  ~ TreeDiam + Infest_Serv1 + SDI_20th, data = pine_tbl)
-autoplot(lm_fit.nc.sqrt, which = 1:2, label.size = 1) +
-  theme_bw()
+# autoplot(lm_fit.nc.sqrt, which = 1:2, label.size = 1) +
+#   theme_bw()
+check_model(lm_fit.nc.sqrt)
 
 
 lm_fit.nc.sqrt %>%
@@ -83,7 +88,8 @@ lm_fit.nc.sqrt %>%
   glance()
 
 
-# Tidymodels Version ----
+
+# Tidymodels Version of lm() ----
 #  Specify, fit and evaluate same models with tidymodels
 
 # * Create Recipe ----
@@ -132,9 +138,13 @@ pine_fit %>%
   extract_fit_parsnip() %>% 
   glance()
 
+pine_fit %>% 
+  extract_fit_parsnip() %>% 
+  check_model()
 
 pine_fit %>% 
   extract_preprocessor()
+
 
 pine_fit %>% 
   extract_spec_parsnip()
@@ -195,7 +205,6 @@ pine_ridge_fit <-
 pine_ridge_fit %>% 
   extract_fit_parsnip() %>% 
   tidy()
-
 
 pine_ridge_fit %>% 
   extract_preprocessor()
@@ -311,6 +320,12 @@ final_lasso %>%
   scale_x_continuous(expand = c(0, 0)) +
   labs(y = NULL)
 
+# or
+
+final_lasso %>% 
+  fit(pine_train) %>% 
+  extract_fit_parsnip() %>% 
+  vip::vip()
 
 
 last_fit(
