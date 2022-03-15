@@ -23,8 +23,6 @@ library(performance)
 pine_tbl <- read_excel("instructor/katia/Data/Data_1993.xlsx", sheet = 1)
 
 
-
-
 # LINEAR REGRESSION ----
 
 # Base R Version ----
