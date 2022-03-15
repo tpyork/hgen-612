@@ -86,9 +86,6 @@ myfunction(.x = c(1,2,3,NA))
 
 
 
-
-
-
 # EXAMPLE USING 2 ARGUMENTS -----------------------------------------------
 
 myfunction2 <- function(.x, .na) {
@@ -109,6 +106,11 @@ myfunction2(.x = c(1,2,NA,4), .na = TRUE)
 
 
 
+# YOUR TURN:  CREATE A 2-ARGUMENT FUNCTION --------------------------------
+# create a function to test whether 2 vectors are of the same size
+# report as a logical scalar
+
+
 
 
 # WHERE TO STORE YOUR FUNCTIONS -------------------------------------------
@@ -127,31 +129,6 @@ myfunction2(.x = c(1,2,NA,4), .na = TRUE)
 dump(c("myfunction", "myfunction2"), file = "R/function-storage.R")
 
 source(file = "R/function-storage.R")
-
-
-
-
-
-# YOUR TURN:  CREATE A BMI CALCULATOR -------------------------------------
-
-# INPUT= height, weight, formula (English/Metric)
-# OUTPUT= "BMI is ___ for a weight of ___ (lbs/kg) and height of ___ (in/m)"
-
-
-# English= (weight in pounds / (height in inches^2)) * 703
-# Metric= (weight in kilograms / (height in meters^2)
-
-
-
-bmi_calc <- function(h, w, type) {
-  
-  .
-  .
-  .
-  
-}
-
-
 
 
 
@@ -269,9 +246,6 @@ data_tbl %>%
 
   
   
-    
-  
-
 # SUMMARY -----------------------------------------------------------------
 
 # You should consider writing a function whenever you’ve copied and pasted a block of
@@ -298,5 +272,30 @@ data_tbl %>%
 
 # The value returned by the function is usually the last statement it evaluates, but you can 
 # choose to return early by using return().
+
+
+
+
+# YOUR TURN:  CREATE A BMI CALCULATOR -------------------------------------
+
+# INPUT= height, weight, formula (English/Metric)
+# OUTPUT= "BMI is ___ for a weight of ___ (lbs/kg) and height of ___ (in/m)"
+
+
+# Conditional evaluation
+# English= (weight in pounds / (height in inches^2)) * 703
+# Metric= (weight in kilograms / (height in meters^2)
+
+# Make your function throw an error if h and w are not the same length
+
+
+bmi_calc <- function(h, w, type) {
+  
+  .
+  .
+  .
+  
+}
+
 
 
