@@ -227,11 +227,13 @@ lm(height ~ weight, data = data_tbl)
 #
 # Don't get bogged down in details unless you want to take a
 #  deep dive into `rlang` : https://rlang.r-lib.org/
+#  or better yet: https://tidyeval.tidyverse.org/dplyr.html#patterns-for-single-arguments
 #  Take-home: 'rlang` facilitates working with the R language and tidyverse
+
 
 add_bmi_2 <- function(.data, .h, .w) {
   
-  h_expr <- enquo(.h)   #freeze the expression/call here
+  h_expr <- enquo(.h)   #freeze/defuse the expression/call here
   w_expr <- enquo(.w)
   
   .data %>% 
