@@ -1,0 +1,80 @@
+
+
+timothypyork@gmail.com,Timothypyork@gmail.com2022,https://535362115856.signin.aws.amazon.com/console
+
+
+
+
+# AWS Linux 2 AMI ~ Redhat CENTOS 7
+# amzn2-ami-hvm-2.0.20210318.0-x86_64-gp2
+# Need to open ports 3838 (RShiny) and 8787 (RStudio) AWS Security Groups
+# Desired R Studio package
+rstpkg=rstudio-server-rhel-2022.02.0-443-x86_64.rpm
+# Desired R Shiny package
+rshpkg=shiny-server-1.5.17.973-x86_64.rpm
+# Password for R Studio user "user1". {Modify this how you like}
+useradd vcuUser1
+rspasswd=#VCU_dAtAx_7438_
+  # Set password for user 'user1' for R Studio
+  sudo sh -c "echo '$rspasswd' | passwd vcuUser1 --stdin"
+sudo usermod -aG wheel vcuUser1
+# update everything
+sudo yum update -y
+# install some additional R and R package dependencies
+sudo yum install -y bzip2-devel cairo-devel \
+gcc gcc-c++ gcc-gfortran libXt-devel \
+libcurl-devel libjpeg-devel libpng-devel \
+pango-devel pango xz-devel \
+libtiff-devel pcre2-devel readline-devel jq \
+java-1.8.0-openjdk-devel java-1.8.0-openjdk \
+texinfo texlive-collection-fontsrecommended \
+openssl-devel libxml2-devel unixODBC-devel
+# Compile R from source; install to /usr/local/*
+mkdir /tmp/R-build
+# Desired R release version
+cd /tmp/R-build
+# Desired R release version
+rver=4.1.2
+curl -OL https://cran.r-project.org/src/base/R-4/R-$rver.tar.gz
+tar -xzf R-$rver.tar.gz
+cd R-$rver
+./configure --with-readline=yes --enable-R-profiling=no --enable-memory-profiling=no --enable-R-shlib --with-pic --prefix=/usr/local --with-x --with-libpng --with-jpeglib --with-cairo --enable-R-shlib --with-recommended-packages=yes
+make -j 8
+sudo make install
+# Reconfigure R Java support before installing packages
+sudo /usr/local/bin/R CMD javareconf
+# Download, verify checksum, and install RStudio Server
+# Desired R Studio package
+rstpkg=rstudio-server-rhel-2022.02.0-443-x86_64.rpm
+curl -OL https://download2.rstudio.org/server/centos7/x86_64/$rstpkg
+sudo yum install -y $rstpkg
+sudo rstudio-server start
+# Install R packages
+sudo /usr/local/bin/R --no-save <<R_SCRIPT
+Sys.setenv(TZ='America/New_York')
+install.packages(c('shiny','dplyr','ggplot2','rmarkdown'),
+                 repos="http://cran.rstudio.com")
+install.packages(c('readxl','tidyverse','aws.s3','aws.signature','here','stringr','magrittr'),
+                 repos="http://cran.rstudio.com")
+install.packages(c('ggmosaic','forcats','factoMineR','reticulate','jsonlite','httr','rvest', 'scales'), 
+                 repos="http://cran.rstudio.com")
+install.packages(c('tm','wordcloud','networkD3','qpcR'),
+                 repos="http://cran.rstudio.com")
+R_SCRIPT
+# Install Shiny Server
+# Desired R Shiny package
+rshpkg=shiny-server-1.5.17.973-x86_64.rpm
+curl -OL https://download3.rstudio.org/centos7/x86_64/$rshpkg
+sudo yum install --nogpgcheck $rshpkg
+sudo systemctl start shiny-server
+# Need to open ports 3838 (RShiny) and 8787 (RStudio) AWS Security Groups
+# AWS CLI Version 2
+sudo yum remove awscli
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+# Copy Code Startup Files to Shiny Server Directory
+mkdir ~/code
+aws s3 sync s3://vcu-data-science-lab/code/ ~/code
+## Updatee .Renviron file
+## PATH="/usr/local/bin/aws:$PATH

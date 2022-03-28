@@ -34,7 +34,7 @@ output:
 | 16      | 03/18 | reprex                               | Lapato          | [Pre-class Assignment][17]; **Project 1 Due** |              |            |  
 | 17      | 03/23 | Model Estimation                     | York            | [Two Cultures][14]                            |              |            |  
 | 18      | 03/25 | Shiny on AWS                         | Dixon           |                                               |              |            |  
-| 19      | 03/30 | Special Topics: portfoliodown        | York            |                                               |              |            |
+| 19      | 03/30 | Special Topics: portfoliodown        | York            | [R-bloggers][48]                              |              |            |
 | 20      | 04/01 | Machine Learning: Classification 1   | Smirnova / York |                                               |              |            |  
 | 21      | 04/06 | Machine Learning: Classification 2   | Smirnova / York |                                               |              |            |  
 | 22      | 04/08 | Machine Learning: Classification 3   | Smirnova / York |                                               |              |            |  
@@ -92,4 +92,5 @@ output:
 [45]: https://github.com/tpyork/hgen-612/blob/main/R/10_tidymodels_1.R "tidymodels 2"
 [46]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-1/project-1.md "project 1"
 [47]: https://github.com/tpyork/hgen-612/blob/main/R/12_Machine-Learning-Regression_tidymodels.R "pine beetles recode"
+[48]: https://www.r-bloggers.com/2021/12/introducing-portfoliodown-the-data-science-portfolio-website-builder/ "portfoliodown"
 
