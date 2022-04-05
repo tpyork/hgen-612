@@ -35,9 +35,9 @@ output:
 | 17      | 03/23 | Model Estimation                     | York            | [Two Cultures][14]                            |              |            |  
 | 18      | 03/25 | Shiny on AWS                         | Dixon           |                                               |              |            |  
 | 19      | 03/30 | Special Topics: portfoliodown        | York            | [R-bloggers][48]                              |              | [1][49]    |
-| 20      | 04/01 | Machine Learning: Classification 1   | Smirnova / York |                                               |              |            |  
-| 21      | 04/06 | Machine Learning: Classification 2   | Smirnova / York |                                               |              |            |  
-| 22      | 04/08 | Machine Learning: Classification 3   | Smirnova / York |                                               |              |            |  
+| 20      | 04/01 | Machine Learning: Classification 1   | Smirnova / York |                                               |  [1][50]     |            |  
+| 21      | 04/06 | Machine Learning: Classification 2   | Smirnova / York | [video1][53]; [video2][54]                    |  [1][51]     |            |  
+| 22      | 04/08 | Machine Learning: Classification 3   | Smirnova / York |                                               |  [1][52]     |            |  
 | 23      | 04/13 | Machine Learning in the Wild         | Sargent         | [Wild1][5]; [Wild2][6]                        |              |            |
 | 24      | 04/15 | Project 2 Consultations              | York / Lapato   | **Project 2 Assigned**                        |              |            |  
 | 25      | 04/20 | Integrating Shiny 1                  | York            |                                               |              |            |  
@@ -94,4 +94,9 @@ output:
 [47]: https://github.com/tpyork/hgen-612/blob/main/R/12_Machine-Learning-Regression_tidymodels.R "pine beetles recode"
 [48]: https://www.r-bloggers.com/2021/12/introducing-portfoliodown-the-data-science-portfolio-website-builder/ "portfoliodown blog"
 [49]: https://github.com/tpyork/hgen-612/blob/main/R/19_portfoliodown.R "portfoliodown script"
+[50]: https://osf.io/jd4nq/ "ML classification 1"
+[51]: https://osf.io/hswq9/ "ML classification 2"
+[52]: https://osf.io/9tm4h/ "ML classification 3"
+[53]: https://drive.google.com/drive/folders/1qmX6B5mBt93Id0rKjF6YX2h3iyiZMOqh?usp=sharing "ML classification video 1"
+[54]: https://drive.google.com/drive/u/1/folders/1Gt3V4hoHG8ytNUHj0Z7zFLo3kH5gNRgV "ML classification video 2"
 
