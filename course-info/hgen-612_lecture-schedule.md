@@ -37,7 +37,7 @@ output:
 | 19      | 03/30 | Special Topics: portfoliodown        | York            | [R-bloggers][48]                              |              | [1][49]    |
 | 20      | 04/01 | Machine Learning: Classification 1   | Smirnova / York |                                               |  [1][50]     |            |  
 | 21      | 04/06 | Machine Learning: Classification 2   | Smirnova / York | [video1][53]; [video2][54]                    |  [1][51]     |            |  
-| 22      | 04/08 | Machine Learning: Classification 3   | Smirnova / York |                                               |  [1][52]     |            |  
+| 22      | 04/08 | Machine Learning: Classification 3   | Smirnova / York | [video3][55]                                  |  [1][52]     |            |  
 | 23      | 04/13 | Machine Learning in the Wild         | Sargent         | [Wild1][5]; [Wild2][6]                        |              |            |
 | 24      | 04/15 | Project 2 Consultations              | York / Lapato   | **Project 2 Assigned**                        |              |            |  
 | 25      | 04/20 | Integrating Shiny 1                  | York            |                                               |              |            |  
@@ -99,4 +99,4 @@ output:
 [52]: https://osf.io/9tm4h/ "ML classification 3"
 [53]: https://drive.google.com/drive/folders/1qmX6B5mBt93Id0rKjF6YX2h3iyiZMOqh?usp=sharing "ML classification video 1"
 [54]: https://drive.google.com/drive/u/1/folders/1Gt3V4hoHG8ytNUHj0Z7zFLo3kH5gNRgV "ML classification video 2"
-
+[55]: https://drive.google.com/drive/u/1/folders/1zC4us0GSc-_PaJvb4wAdEDr0xKDhq1hC "ML classification video 3"
