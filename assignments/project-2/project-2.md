@@ -41,6 +41,7 @@ Use any single dataset that contains:
 - Be thoughtful about where you need feedback.
 - Practice your 5 minute presentation. Dr. York will cut you off exactly at 5 minutes for class feedback :)
 - You are allowed to incorporate any suggestions provided by the class.
+- Incorporate at least one reactive element (even if not successful).
 
 
 ### Grading
@@ -70,11 +71,12 @@ Your data product should include the following [100 total points]:
 
 Your presentation should observe the following [15 points]:
 
--   [03] Efficient use of allotted time.
--   [03] Explain the modeling objective/problem. 
+-   [01] Efficient use of allotted time.
+-   [02] Explain the modeling objective/problem. 
 -   [03] Showcase the outcome and predictors.
 -   [03] Describe how you plan to utilize Shiny.
--   [03] Solicit feedback, be evocative.
+-   [01] Solicit feedback, be evocative.
+-   [05] Test drive your reactive element.
 
 
 ### Notes
