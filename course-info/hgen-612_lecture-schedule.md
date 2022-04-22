@@ -40,7 +40,7 @@ output:
 | 22      | 04/08 | Machine Learning: Classification 3   | Smirnova / York | [video3][55]                                  |  [1][52]     |            |  
 | 23      | 04/13 | Machine Learning in the Wild         | Sargent         | [Wild1][5]; [Wild2][6]                        |  [1][56]     |            |
 | 24      | 04/15 | Project 2 Consultations              | York / Lapato   | [**Project 2 Assigned**][58]                  |              | [1][57]    |  
-| 25      | 04/20 | Integrating Shiny 1                  | York            |                                               |              |            |  
+| 25      | 04/20 | Integrating Shiny 1                  | York            |                                               |              | [1][59], [2][60] |  
 | 26      | 04/22 | Integrating Shiny 2                  | York            | [tidymodels hotel bookings][21]               |              |            |  
 | 27      | 04/27 | Integrating Shiny 3                  | York            | [Shiny Cheatsheet][22]                        |              |            |  
 | 28      | 04/29 | Integrating Shiny 4                  | York            | [shinyWidgets][23]; [themis][24]              |              |            |  
@@ -103,3 +103,5 @@ output:
 [56]: https://osf.io/8umgk/ "ML in the Wild"
 [57]: https://github.com/tpyork/hgen-612/blob/main/R/25_shiny-flexdashboard.R "hotels model code"
 [58]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-2/project-2.md "project-2"
+[59]: https://github.com/tpyork/hgen-612/blob/main/R/26_shiny_checkpoint-1.Rmd "shiny script 1"
+[60]: https://github.com/tpyork/hgen-612/blob/main/R/26_shiny_checkpoint-2.Rmd "shiny script 2"
