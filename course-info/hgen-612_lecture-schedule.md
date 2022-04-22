@@ -39,9 +39,9 @@ output:
 | 21      | 04/06 | Machine Learning: Classification 2   | Smirnova / York | [video1][53]; [video2][54]                    |  [1][51]     |            |  
 | 22      | 04/08 | Machine Learning: Classification 3   | Smirnova / York | [video3][55]                                  |  [1][52]     |            |  
 | 23      | 04/13 | Machine Learning in the Wild         | Sargent         | [Wild1][5]; [Wild2][6]                        |  [1][56]     |            |
-| 24      | 04/15 | Project 2 Consultations              | York / Lapato   | [**Project 2 Assigned**][58]                  |              | [1][57]    |  
-| 25      | 04/20 | Integrating Shiny 1                  | York            |                                               |              | [1][59], [2][60] |  
-| 26      | 04/22 | Integrating Shiny 2                  | York            | [tidymodels hotel bookings][21]               |              |            |  
+| 24      | 04/15 | Project 2 Consultations              | York / Lapato   | [**Project 2 Assigned**][58]                  |              |            |  
+| 25      | 04/20 | Integrating Shiny 1                  | York            |                                               |              | [1][57]    |  
+| 26      | 04/22 | Integrating Shiny 2                  | York            | [tidymodels hotel bookings][21]               |              | [1][59], [2][60] |  
 | 27      | 04/27 | Integrating Shiny 3                  | York            | [Shiny Cheatsheet][22]                        |              |            |  
 | 28      | 04/29 | Integrating Shiny 4                  | York            | [shinyWidgets][23]; [themis][24]              |              |            |  
 | 29      | 05/04 | Student Project Presentations 1      | York / Lapato   |                                               |              |            |  
