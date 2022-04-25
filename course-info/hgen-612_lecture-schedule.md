@@ -42,7 +42,7 @@ output:
 | 24      | 04/15 | Project 2 Consultations              | York / Lapato   | [**Project 2 Assigned**][58]                  |              |            |  
 | 25      | 04/20 | Integrating Shiny 1                  | York            |                                               |              | [1][57]    |  
 | 26      | 04/22 | Integrating Shiny 2                  | York            | [tidymodels hotel bookings][21]               |              | [1][59], [2][60] |  
-| 27      | 04/27 | Integrating Shiny 3                  | York            | [Shiny Cheatsheet][22]                        |              |            |  
+| 27      | 04/27 | Integrating Shiny 3                  | York            | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] |  
 | 28      | 04/29 | Integrating Shiny 4                  | York            | [shinyWidgets][23]; [themis][24]              |              |            |  
 | 29      | 05/04 | Student Project Presentations 1      | York / Lapato   |                                               |              |            |  
 | 30      | 05/06 | Student Project Presentations 2      | York / Lapato   |                                               |              |            |       
@@ -105,3 +105,5 @@ output:
 [58]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-2/project-2.md "project-2"
 [59]: https://github.com/tpyork/hgen-612/blob/main/R/26_shiny_checkpoint-1.Rmd "shiny script 1"
 [60]: https://github.com/tpyork/hgen-612/blob/main/R/26_shiny_checkpoint-2.Rmd "shiny script 2"
+[61]: https://github.com/tpyork/hgen-612/blob/main/R/26_shiny_checkpoint-3.Rmd "shiny script 3"
+[62]: https://github.com/tpyork/hgen-612/blob/main/R/26_shiny_checkpoint-4.Rmd "shiny script 4"
