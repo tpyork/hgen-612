@@ -32,7 +32,12 @@ library(wesanderson)
 hotels <- 
   # read_csv('https://tidymodels.org/start/case-study/hotels.csv') %>%
   read_csv(here::here('data/hotels.csv')) %>%
-  mutate_if(is.character, as.factor) 
+  mutate_if(is.character, as.factor) %>% 
+  slice(1:5000)        #TEMPORARY FOR TESTING ------------
+
+
+# For figure color scheme
+hotel.palette <- wes_palette("GrandBudapest2")
 
 ```
 
@@ -144,7 +149,7 @@ lr_recipe <- reactive({
 ```
 
 
-```{r create.workflow, eval = FALSE}
+```{r create.workflow}
 lr_workflow <- reactive({
   workflow() %>% 
   add_model(lr_mod) %>% 
@@ -152,6 +157,73 @@ lr_workflow <- reactive({
 })
 
 ```
+
+
+```{r tuning.grid}
+# `length.out` will deterrmine how many penalty values are tested in `tune_grid()`
+lr_reg_grid <- tibble(penalty = 10^seq(-4, -1, length.out = 10))  ##30
+
+
+# Train and tune the model
+lr_tune <- reactive({
+  lr_workflow() %>% 
+  tune_grid(resamples = val_set(), #rset object
+            grid      = lr_reg_grid,
+            control   = control_grid(save_pred = TRUE), #needed to get data for ROC curve
+            metrics   = metric_set(roc_auc))
+})
+
+
+lr_best <- reactive({
+  lr_tune() %>% 
+  select_best("roc_auc")
+})
+
+```
+
+
+```{r best.workflow}
+# Add best validation model to workflow
+lr_workflow_best <- reactive({
+  finalize_workflow(
+  lr_workflow(),
+  lr_best())       #needs to have the same column name as tune()
+})
+
+```
+
+
+```{r fit.training}
+# Inspect fit on entire training data
+lr_fit <- reactive({
+  lr_workflow_best() %>% 
+  fit(hotel_other())
+})
+
+```
+
+
+```{r last.fit}
+lr_last_fit <- reactive({
+  last_fit(
+    lr_workflow_best(),
+    splits())
+})
+
+```
+
+
+```{r confusion.matrix}
+lr_conf_mat <- reactive({
+  lr_last_fit() %>%
+  collect_predictions() %>% 
+  conf_mat(truth = children, estimate = .pred_class) 
+})
+
+
+```
+
+
 
 
 
@@ -182,18 +254,14 @@ Validation Summary
 ### Data Viewer
 
 ```{r}
-output$data_viewer <- DT::renderDataTable({
-hotels_filtered() %>% 
-  # slice(1:100) %>% 
+hotels %>% 
+  slice(1:100) %>% 
   datatable(options = list(searching = FALSE,
                            pageLength = 50,
                            lengthMenu = c(50, 100),
                            scrollY = '250px',
                            scrollX = '300px'),
             style = "default")
-})
-
-DT::dataTableOutput(outputId = "data_viewer")
 
 ```
 
@@ -204,13 +272,13 @@ DT::dataTableOutput(outputId = "data_viewer")
 
 ### Case Imbalance Check
 
-```{r, eval = TRUE}
+```{r}
 output$case_plot <- renderPlot({
   lr_recipe() %>%
   prep() %>%
   juice() %>% 
   ggplot(aes(children)) +
-    geom_bar(fill = wes_palette("GrandBudapest2")[4])
+    geom_bar(fill = hotel.palette[2])
 })
 
 plotOutput(outputId = "case_plot")
@@ -220,15 +288,11 @@ plotOutput(outputId = "case_plot")
 
 
 
-
-
-
-
-
-
-### Penalty Validation
+### Workflow
 
 ```{r}
+# Report workflow with optimized `penalty`
+renderPrint(lr_workflow_best())
 
 ```
 
@@ -242,6 +306,31 @@ Classification Results
 ### ROC
 
 ```{r}
+# output$lr_auc <- renderPlot({
+#   lr_tune() %>%
+#   collect_predictions(parameters = lr_best()) %>%
+#   roc_curve(children, .pred_children) %>%
+#   autoplot()
+# })
+
+
+
+# output$lr_auc <- renderPlot({
+#   lr_tune() %>%
+#   collect_predictions(parameters = lr_best()) %>%
+#   roc_curve(children, .pred_children) %>%
+#   ggplot(aes(x = 1 - specificity, y = sensitivity)) +
+#   geom_path(color = hotel.palette[4]) +
+#   geom_abline(lty = 3, color = hotel.palette[4]) +
+#   coord_equal() +
+#   theme_classic()
+# })
+#
+# plotOutput(outputId = "lr_auc")
+
+
+renderPrint(lr_tune() %>% collect_predictions(parameters = lr_best()) )
+
 
 ```
 
@@ -249,6 +338,15 @@ Classification Results
 ### Confusion Matrix
 
 ```{r}
+# renderPrint(lr_conf_mat() %>% tidy())
+
+output$conf_mat_plot <- renderPlot({
+  lr_conf_mat() %>%
+    autoplot(type = "heatmap")
+
+})
+
+plotOutput(outputId = "conf_mat_plot")
 
 ```
 
@@ -257,13 +355,28 @@ Classification Results
 
 ### Variable Importance Plot
 
-```{r}
+```{r, vip.plot}
+output$vip_plot <- renderPlot({
+  lr_fit() %>%
+    extract_fit_parsnip() %>%
+    vip(num_features = 20,
+        aesthetics = list(color = hotel.palette[1], fill = hotel.palette[1], size = 0.3))
+})
+
+plotOutput(outputId = "vip_plot")
 
 ```
 
 ### Prediction Metrics
 
 ```{r}
+output$metrics <- renderTable({
+  lr_conf_mat() %>%
+    summary() %>%
+    select(-.estimator) 
+})
+
+tableOutput(outputId = "metrics")
 
 ```
 
