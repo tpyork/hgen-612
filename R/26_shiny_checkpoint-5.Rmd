@@ -18,6 +18,7 @@ runtime: shiny
 # Libraries
 library(tidymodels)  
 library(shiny)
+library(shinyWidgets)
 
 # Helper packages
 library(readr)          # for importing data
@@ -59,6 +60,7 @@ Sidebar {.sidebar}
 <br>
 
 ```{r shiny.inputs}
+
 dateRangeInput(
   inputId   = "date_range", 
   label     = h4("Date Range"),
@@ -91,17 +93,31 @@ shinyWidgets::switchInput(
    value      = FALSE,
    labelWidth = "80px"
 )
+
+
+br()
+hr()
+br()
+
+
+actionButton(inputId = "apply", label = "Apply", icon = icon("play"))
+# renderPrint(input$apply)
   
 ```
 
 
 
 ```{r data.filtered}
-hotels_filtered <- reactive({
+hotels_filtered <- eventReactive(eventExpr = input$apply, 
+                                             
+  valueExpr = {
+  
   hotels %>%
   filter(arrival_date %>% between(left  = input$date_range[1], 
                                   right = input$date_range[2]))
-})
+  },
+  ignoreNULL = FALSE
+)
 
 # renderPrint(dim(hotels_filtered()))
 
@@ -113,11 +129,17 @@ hotels_filtered <- reactive({
 # Data splitting and resampling
 set.seed(123)
 
-splits <- reactive({
-  initial_split(hotels_filtered(), 
-                strata = children, 
+
+splits <- eventReactive(eventExpr = input$apply,
+
+  valueExpr = {
+
+  initial_split(hotels_filtered(),
+                strata = children,
                 prop   = input$training_slider)
-})
+  }, 
+  ignoreNULL = FALSE
+)
 
 
 hotel_other <- reactive({
@@ -161,30 +183,35 @@ holidays <- c("AllSouls", "AshWednesday", "ChristmasEve", "Easter",
               "ChristmasDay", "GoodFriday", "NewYearsDay", "PalmSunday")
 
 
-lr_recipe <- reactive({
+lr_recipe <- eventReactive(
+  eventExpr = input$apply, 
   
-  if (!input$downsample) {
+  valueExpr = {
   
-    recipe(children ~ ., data = hotel_other()) %>%   #remember that `hotel_other` is just a template here
-    step_date(arrival_date) %>% 
-    step_holiday(arrival_date, holidays = holidays) %>% 
-    step_rm(arrival_date) %>% 
-    step_dummy(all_nominal(), -all_outcomes()) %>% 
-    step_zv(all_predictors()) %>% 
-    step_normalize(all_predictors())
-
-  } else {
-
-    recipe(children ~ ., data = hotel_other()) %>%
-    step_date(arrival_date) %>%
-    step_holiday(arrival_date, holidays = holidays) %>%
-    step_rm(arrival_date) %>%
-    step_dummy(all_nominal(), -all_outcomes()) %>%
-    step_zv(all_predictors()) %>%
-    step_normalize(all_predictors()) %>%
-    themis::step_downsample(children, under_ratio = 1)
-  }
-})
+    if (!input$downsample) {
+    
+      recipe(children ~ ., data = hotel_other()) %>%   #remember that `hotel_other` is just a template here
+      step_date(arrival_date) %>% 
+      step_holiday(arrival_date, holidays = holidays) %>% 
+      step_rm(arrival_date) %>% 
+      step_dummy(all_nominal(), -all_outcomes()) %>% 
+      step_zv(all_predictors()) %>% 
+      step_normalize(all_predictors())
+  
+    } else {
+  
+      recipe(children ~ ., data = hotel_other()) %>%
+      step_date(arrival_date) %>%
+      step_holiday(arrival_date, holidays = holidays) %>%
+      step_rm(arrival_date) %>%
+      step_dummy(all_nominal(), -all_outcomes()) %>%
+      step_zv(all_predictors()) %>%
+      step_normalize(all_predictors()) %>%
+      themis::step_downsample(children, under_ratio = 1)
+    }
+  }, 
+  ignoreNULL = FALSE
+)
 
 ```
 
@@ -327,13 +354,6 @@ plotOutput(outputId = "case_plot")
 
 
 
-
-
-
-
-
-
-
 ### Workflow
 
 ```{r}
@@ -372,7 +392,6 @@ output$lr_auc <- renderPlot({
 })
 
 plotOutput(outputId = "lr_auc")
-
 
 ```
 

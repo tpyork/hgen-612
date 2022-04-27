@@ -315,21 +315,21 @@ Classification Results
 
 
 
-# output$lr_auc <- renderPlot({
-#   lr_tune() %>%
-#   collect_predictions(parameters = lr_best()) %>%
-#   roc_curve(children, .pred_children) %>%
-#   ggplot(aes(x = 1 - specificity, y = sensitivity)) +
-#   geom_path(color = hotel.palette[4]) +
-#   geom_abline(lty = 3, color = hotel.palette[4]) +
-#   coord_equal() +
-#   theme_classic()
-# })
-#
-# plotOutput(outputId = "lr_auc")
+output$lr_auc <- renderPlot({
+  lr_tune() %>%
+  collect_predictions(parameters = lr_best()) %>%
+  roc_curve(children, .pred_children) %>%
+  ggplot(aes(x = 1 - specificity, y = sensitivity)) +
+  geom_path(color = hotel.palette[4]) +
+  geom_abline(lty = 3, color = hotel.palette[4]) +
+  coord_equal() +
+  theme_classic()
+})
+
+plotOutput(outputId = "lr_auc")
 
 
-renderPrint(lr_tune() %>% collect_predictions(parameters = lr_best()) )
+# renderPrint(lr_tune() %>% collect_predictions(parameters = lr_best()) )
 
 
 ```
