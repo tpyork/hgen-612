@@ -1,7 +1,7 @@
 ---
 output:
-  github_document:
-    keep_html: true
+  html_document: default
+  pdf_document: default
 ---
 
 # Lecture Schedule

@@ -134,10 +134,10 @@ observeEvent(eventExpr = input$reset, handlerExpr = {
     value    = FALSE)
  
   
-  # Have shinyjs click apply after a reset click
-  shinyjs::delay(ms = 300, expr = {
-    shinyjs::click(id = "apply")
-  })
+  # # Have shinyjs click apply after a reset click
+  # shinyjs::delay(ms = 300, expr = {
+  #   shinyjs::click(id = "apply")
+  # })
  
 })  
   
