@@ -8,7 +8,7 @@ output:
 ## SPRING 2023, 3 credit hours
 
 Time: Wed / Fri, 10:00a-11:20a  
-ClassRoom: VIPBG Conference Room (1-149), Biotech 1, 800 East Leigh Street
+ClassRoom: VIPBG Conference Room (1-149), Biotech 1, 800 East Leigh Street. 
 ClassZoom: https://zoom.us/j/9927704427  
 
 **DIRECTOR:**  
@@ -30,7 +30,7 @@ Assistant Professor, Human and Molecular Genetics
 HGEN 612 will primarily meet in-person. Please check the course schedule for meeting location (physical/remote). When remote lectures are indicated there should be no expectation that content will be recorded. The course modality is "hybrid synchronous" and there is an attendence requirement (see below).
 
 ### In-person
-There are limited outlets in the VIPBG Conference Room so be sure to bring a fully charged laptop to each class. I am working on moving the course to the 3^rd^ floor of the same building which will accommodate everyones' power needs (water damage has been reported in this room so we are kicked out for now).
+There are limited outlets in the VIPBG Conference Room so be sure to bring a fully charged laptop to each class. I am working on moving the course to the 3<sup>rd</sup> floor of the same building which will accommodate everyones' power needs (water damage has been reported in this room so we are kicked out for now).
 
 ### Remote
 My preference is that students attend remote lectures with their cameras on. Ok, so I know this isn't going to happen but how about with your camera on for the frist 10 minutes?  

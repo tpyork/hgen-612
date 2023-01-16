@@ -8,47 +8,47 @@ output:
 ## Data Science 2
 ## HGEN 612
 *Subject to change*  
-[ReproducibiliTea Schedule](https://osf.io/g56qp/wiki/Schedule/)  
-[Install Course Packages][25]
+ReproducibiliTea Schedule - *will be posted here*. 
+[Install Course Packages][25]  
 
 
 ### ADD LOCATION
 
-| Lecture | Date  | Topic                                | Instructor      | Review                                        | Slides       | Scripts    |  
-| :-----: | :---: | :----------------------------------- | :-------------: | :-------------------------------------------- | :----------: | :--------: |
-| 1       | 01/18 | Intro & Tidyverse Features           | York            | [Talk to Yourself][7]                         |  [1][26], [2][27] | [1][28]|
-| 2       | 01/20 | Git, Github & RStudio 1              | York            | [git][1]; [happygit][2]                       |  [1][29]     |            |  
-| 3       | 01/25 | Git, Github & RStudio 2              | York            |                                               |              |            |  
-| 4       | 01/27 | flexdashboard 1                      | York            | [flexdashboard1][12]                          |  [1][33]     | [1][36]    |  
-| 5       | 02/01 | flexdashboard 2                      | York            | [flexdashboard2][13]; **Github Assignment Due** |              | [1][37]    |  
-| 6       | 02/03 | portfoliodown                        | York            | [R-bloggers][48]                              |              | [1][49]    |
-| 7       | 02/08 | Machine Learning: Regression-based 1 | Smirnova        | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  [1][38]     |            |  
-| 8       | 02/10 | Machine Learning: Regression-based 2 | Smirnova        |                                               |  [1][39]     |            |  
-| 9       | 02/15 | Machine Learning: Regression-based 3 | Smirnova        |                                               |              |            |  
-| 10      | 02/17 | tidymodels 1                         | York            | [tidymodels][15]                              | [1][43]      | [1][44]    | 
-| 11      | 02/22 | tidymodels 2                         | York            |                                               |              | [1][45]    |
-| 12      | 02/24 | tidymodels 3                         | York            |                                               |              |            |  
-| 13      | 03/01 | Project 1 Consultations              | York / Lapato   | **Project 1 Assigned**                        |              |            |  
-| 14      | 03/03 | Data Products                        | York            | **Code Check 1 Due**                          |              | [1][47]    |  
-|         | 03/08 | *Spring Break*                       |                 |                                               |              |            |
-|         | 03/10 | *Spring Break*                       |                 |                                               |              |            |
-| 15      | 03/15 | reprex 1                             | Lapato          | [Pre-class Assignment][17]; **Project 1 Due** |              |            |  
-| 16      | 03/17 | reprex 2                             | Lapato          |                                               |              |            |  
-| 17      | 03/22 | Functions                            | York            | [Functions][20]                               |              |            |  
-| 18      | 03/24 | Model Estimation                     | York            | [Two Cultures][14]                            |              |            |  
-| 19      | 03/29 | Shiny on AWS                         | York            |                                               |              |            |  
-| 20      | 03/31 | Machine Learning: Classification 1   | Smirnova        |                                               |  [1][50]     |            |  
-| 21      | 04/05 | Machine Learning: Classification 2   | Smirnova        |                                               |  [1][51]     |            |  
-| 22      | 04/07 | Machine Learning: Classification 3   | Smirnova        |                                               |  [1][52]     |            |  
-| 23      | 04/12 | Machine Learning in the Wild         | Sargent         | [Wild1][5]; [Wild2][6]                        |  [1][56]     |            |
-| 24      | 04/14 | Project 2 Consultations              | York / Lapato   | **Project 2 Assigned**                        |              |            |  
-| 25      | 04/19 | Integrating Shiny 1                  | York            |                                               |              | [1][57]    |  
-| 26      | 04/21 | Integrating Shiny 2                  | York            | [tidymodels hotel bookings][21]               |              | [1][59], [2][60] |  
-| 27      | 04/26 | Integrating Shiny 3                  | York            | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] |  
-| 28      | 04/28 | Integrating Shiny 4                  | York            | [shinyWidgets][23]; [themis][24]              |              | [1][63], [2][64] |  
-| 29      | 05/03 | Student Project Presentations 1      | York / Lapato   |                                               |              |            |  
-| 30      | 05/05 | Student Project Presentations 2      | York / Lapato   |                                               |              |            |       
-|         | 05/08 | Exam Week                            | York            | **Project 2 Due**                             |              |            |        
+| Lecture | Date  | Topic                                | Instructor      | Location | Review                                        | Slides       | Scripts    |  
+| :-----: | :---: | :----------------------------------- | :-------------: | :------- | :-------------------------------------------- | :----------: | :--------: |
+| 1       | 01/18 | Intro & Tidyverse Features           | York            | Biotech  | [Talk to Yourself][7]                         |  [1][26], [2][27] | [1][28]|
+| 2       | 01/20 | Git, Github & RStudio 1              | York            | Biotech  | [git][1]; [happygit][2]                       |  [1][29]     |            |  
+| 3       | 01/25 | Git, Github & RStudio 2              | York            | Biotech  |                                               |              |            |  
+| 4       | 01/27 | flexdashboard 1                      | York            | Biotech  | [flexdashboard1][12]                          |  [1][33]     | [1][36]    |  
+| 5       | 02/01 | flexdashboard 2                      | York            | Biotech  | [flexdashboard2][13]; **Github Assignment Due** |              | [1][37]    |  
+| 6       | 02/03 | portfoliodown                        | York            | Zoom     | [R-bloggers][48]                              |              | [1][49]    |
+| 7       | 02/08 | Machine Learning: Regression-based 1 | Smirnova        | Zoom     | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  [1][38]     |            |  
+| 8       | 02/10 | Machine Learning: Regression-based 2 | Smirnova        | Zoom     |                                               |  [1][39]     |            |  
+| 9       | 02/15 | Machine Learning: Regression-based 3 | Smirnova        | Zoom     |                                               |              |            |  
+| 10      | 02/17 | tidymodels 1                         | York            | Biotech  | [tidymodels][15]                              | [1][43]      | [1][44]    | 
+| 11      | 02/22 | tidymodels 2                         | York            | Biotech  |                                               |              | [1][45]    |
+| 12      | 02/24 | tidymodels 3                         | York            | Biotech  |                                               |              |            |  
+| 13      | 03/01 | Project 1 Consultations              | York / Lapato   | Zoom     | **Project 1 Assigned**                        |              |            |  
+| 14      | 03/03 | Data Products                        | York            | Biotech  | **Code Check 1 Due**                          |              | [1][47]    |  
+|         | 03/08 | *Spring Break*                       |                 |          |                                               |              |            |
+|         | 03/10 | *Spring Break*                       |                 |          |                                               |              |            |
+| 15      | 03/15 | reprex 1                             | Lapato          | Biotech  | [Pre-class Assignment][17]; **Project 1 Due** |              |            |  
+| 16      | 03/17 | reprex 2                             | Lapato          | Biotech  |                                               |              |            |  
+| 17      | 03/22 | Functions                            | York            | Biotech  | [Functions][20]                               |              |            |  
+| 18      | 03/24 | Model Estimation                     | York            | Biotech  | [Two Cultures][14]                            |              |            |  
+| 19      | 03/29 | Shiny on AWS                         | York            | Zoom     |                                               |              |            |  
+| 20      | 03/31 | Machine Learning: Classification 1   | Smirnova        | Zoom     |                                               |  [1][50]     |            |  
+| 21      | 04/05 | Machine Learning: Classification 2   | Smirnova        | Zoom     |                                               |  [1][51]     |            |  
+| 22      | 04/07 | Machine Learning: Classification 3   | Smirnova        | Zoom     |                                               |  [1][52]     |            |  
+| 23      | 04/12 | Machine Learning in the Wild         | Sargent         | Zoom     | [Wild1][5]; [Wild2][6]                        |  [1][56]     |            |
+| 24      | 04/14 | Project 2 Consultations              | York / Lapato   | Zoom     | **Project 2 Assigned**                        |              |            |  
+| 25      | 04/19 | Integrating Shiny 1                  | York            | Biotech  |                                               |              | [1][57]    |  
+| 26      | 04/21 | Integrating Shiny 2                  | York            | Biotech  | [tidymodels hotel bookings][21]               |              | [1][59], [2][60] |  
+| 27      | 04/26 | Integrating Shiny 3                  | York            | Biotech  | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] |  
+| 28      | 04/28 | Integrating Shiny 4                  | York            | Biotech  | [shinyWidgets][23]; [themis][24]              |              | [1][63], [2][64] |  
+| 29      | 05/03 | Student Project Presentations 1      | York / Lapato   | Biotech  |                                               |              |            |  
+| 30      | 05/05 | Student Project Presentations 2      | York / Lapato   | Biotech  |                                               |              |            |       
+|         | 05/08 | Exam Week                            | York            |          | **Project 2 Due**                             |              |            |        
 
 
 [1]: https://osf.io/4a26g "Democratic Science"
