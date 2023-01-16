@@ -8,7 +8,7 @@ output:
 ## SPRING 2023, 3 credit hours
 
 Time: Wed / Fri, 10:00a-11:20a  
-ClassRoom: VIPBG Conference Room (1-149), Biotech 1, 800 East Leigh Street. 
+ClassRoom: VIPBG Conference Room (1-149), Biotech 1, 800 East Leigh Street  
 ClassZoom: https://zoom.us/j/9927704427  
 
 **DIRECTOR:**  
