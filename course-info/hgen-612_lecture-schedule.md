@@ -7,8 +7,9 @@ output:
 # Lecture Schedule
 ## Data Science 2
 ## HGEN 612
-*Subject to change*  
-ReproducibiliTea Schedule - *will be posted here*. 
+*Schedule subject to change*  
+*Course location (classroom vs zoom) subject to change*  
+ReproducibiliTea Schedule - *will be posted here*  
 [Install Course Packages][25]  
 
 
