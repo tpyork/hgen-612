@@ -5,10 +5,11 @@ output:
 ---
 # Syllabus
 ## HGEN 612: Methods in Data Science
-## SPRING 2022, 3 credit hours
+## SPRING 2023, 3 credit hours
 
 Time: Wed / Fri, 10:00a-11:20a  
-Location: https://zoom.us/j/9927704427  
+ClassRoom: VIPBG Conference Room (1-149), Biotech 1, 800 East Leigh Street
+ClassZoom: https://zoom.us/j/9927704427  
 
 **DIRECTOR:**  
 **Tim York**, PhD  
@@ -21,22 +22,22 @@ Assistant Professor, Biostatistics
 **Lana Sargent**, PhD, RN, FNP-C, GNP-BC  
 Assistant Professor, Adult Health and Nursing Systems  
 **Dana Lapato**, PhD  
-Instructor, Human and Molecular Genetics  
-
-**INVITED LECTURERS:**  
-**Aaron Wolen**, PhD  
-Senior Software Engineer, TileDB  
-**Steve Norum**, BA Math and Computer Science (and Physics)  
-Senior Software Development Engineer, Amazon Web Services  
-
-**TEACHING ASSISTANT:**  
-**Christiane Morecock**  
-Genomic Data Science Graduate Student  
+Assistant Professor, Human and Molecular Genetics  
 
 - - -
 
-## Remote Learning
-HGEN 612 will meet remotely for the entire semester by Zoom. My preference is that all students attend lectures synchronously with their cameras on. Ok, so I know this isn't going to happen but how about synchronously with you camera on for the frist 10 minutes? Lectures will be posted for asynchronous viewing between 24-48 hours after each session so plan accordingly but there will be times this does not work as expected. Please note that regardless of viewing behavior your participation and attendance grade will not be assessed in the regular fashion. I am more interested that you are engaged with the class (e.g., during class and/or on Slack) and your assignments reflect attempts to innovate past what you were taught (i.e., coding creativity requires some degree of self-study). We will discuss this more in class but the bottom line is, because we are still in an atypical situation, no one should expect business as usual. For instance, lectures will likely not extend the entire time to avoid Zoom fatigue and we will strive to use our time in a way that we find is most beneficial for learning. All I ask is that you reach out to me to discuss your circumstances if your remote learning experience is faltering.  
+## Hybrid Synochronous Instruction
+HGEN 612 will primarily meet in-person. Please check the course schedule for meeting location (physical/remote). When remote lectures are indicated there should be no expectation that content will be recorded. The course modality is "hybrid synchronous" and there is an attendence requirement (see below).
+
+### In-person
+There are limited outlets in the VIPBG Conference Room so be sure to bring a fully charged laptop to each class. I am working on moving the course to the 3^rd^ floor of the same building which will accommodate everyones' power needs (water damage has been reported in this room so we are kicked out for now).
+
+### Remote
+My preference is that students attend remote lectures with their cameras on. Ok, so I know this isn't going to happen but how about with your camera on for the frist 10 minutes?  
+
+
+## A Note on Participation
+Please note that regardless of lecture location your participation and attendance grade will not be assessed in the regular fashion. I am more interested that you are engaged with the class (e.g., during class and/or on Slack) and your assignments reflect attempts to innovate past what you were taught (i.e., coding creativity requires some degree of self-study). Lectures will likely not extend the entire time to avoid Zoom fatigue and we will strive to use our time in a way that we find is most beneficial for learning. All I ask is that you reach out to me to discuss your circumstances if your in-person or remote learning experience is faltering.  
 
 
 ## Course Description
@@ -76,22 +77,23 @@ We will be using OSF (https://osf.io/24mp7/) as the hub for all course materials
   - Code and course meta-information (e.g., syllabus) will be stored on the course Github site and linked to OSF.
   - Github has a steep learning curve and not everyone will become proficient users immediately - it takes a lot of practice. I will teach the basics so that everyone should be able to automagically access course materials. Otherwise, as previously stated, all materials will be accessible via the course OSF hub.
   - I do not plan on storing any materials on Canvas.
-  - Recorded lectures will be stored [here][103].  
+  - If a lecture is recorded it will be stored [here][103].  
 
 
 ## ReproducibiliTea
-This is a journal club sponsored by the VCU Data Science Lab and VCU Libraries with the ambitious goal of fixing science (or at least to start a conversation about a few lingering issues). **Students are required to attend at least one meeting by 2022-04-30**. Be sure to read the journal article beforehand. And yes, tea will be provided (when we are in-person again). See schedule at https://osf.io/g56qp/wiki/Schedule.  
+This is a journal club sponsored by the VCU Data Science Lab and VCU Libraries with the ambitious goal of fixing science (or at least to start a conversation about a few lingering issues). **Students are required to attend at least one meeting by 2023-04-30**. Be sure to read the journal article beforehand. And yes, tea will be provided (when we are in-person again). See schedule at https://osf.io/g56qp/wiki/Schedule.  
 
 
 ## Grading
 The point distribution for grades is listed below. Details for each assignment will be presented in class.    
 
-  - (05 points) Flexdashboard code check  
+  - (05 points) Github assignment
+  - (05 points) Flexdashboard code check (with portfoliodown) 
   - (25 points) Project 1  
   - (05 points) Shiny code check  
   - (25 points) Project 2  
   - (15 points) Project 2 presentation  
-  - (10 points) ReproducibiliTea attendence  
+  - (05 points) ReproducibiliTea attendence  
   - (15 points) Participation and attendance (may include other assignments TBD)  
 
 

@@ -12,34 +12,36 @@ output:
 [Install Course Packages][25]
 
 
+### ADD LOCATION
+
 | Lecture | Date  | Topic                                | Instructor      | Review                                        | Slides       | Scripts    |  
 | :-----: | :---: | :----------------------------------- | :-------------: | :-------------------------------------------- | :----------: | :--------: |
 | 1       | 01/18 | Intro & Tidyverse Features           | York            | [Talk to Yourself][7]                         |  [1][26], [2][27] | [1][28]|
 | 2       | 01/20 | Git, Github & RStudio 1              | York            | [git][1]; [happygit][2]                       |  [1][29]     |            |  
-| 3       | 01/25 | Git, Github & RStudio 2              | York            | [setup][8]; [intro][9]; [resource][10]        |  [1][30]     | [1][31], [2][32] |  
+| 3       | 01/25 | Git, Github & RStudio 2              | York            |                                               |              |            |  
 | 4       | 01/27 | flexdashboard 1                      | York            | [flexdashboard1][12]                          |  [1][33]     | [1][36]    |  
-| 5       | 02/01 | flexdashboard 2                      | York            | [flexdashboard2][13]                          |              | [1][37]    |  
+| 5       | 02/01 | flexdashboard 2                      | York            | [flexdashboard2][13]; **Github Assignment Due** |              | [1][37]    |  
 | 6       | 02/03 | portfoliodown                        | York            | [R-bloggers][48]                              |              | [1][49]    |
 | 7       | 02/08 | Machine Learning: Regression-based 1 | Smirnova        | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  [1][38]     |            |  
-| 8       | 02/10 | Machine Learning: Regression-based 2 | Smirnova        | [video1][40]; [video2][41]                    |  [1][39]     |            |  
-| 9       | 02/15 | Machine Learning: Regression-based 3 | Smirnova        | [video3][42]                                  |              |            |  
-| 10      | 02/17 | tidymodels 1                         | York            | [purrr][11]                                   |              |            | 
-| 11      | 02/22 | tidymodels 2                         | York            | [tidymodels][15]                              | [1][43]      | [1][44]    |  
-| 12      | 02/24 | tidymodels 3                         | York            |                                               |              | [1][45]    |  
-| 13      | 03/01 | Project 1 Consultations              | York / Lapato   | [**Project 1 Assigned**][46]                  |              |            |  
-| 14      | 03/03 | Data Products                        | York            |                                               |              | [1][47]    |  
+| 8       | 02/10 | Machine Learning: Regression-based 2 | Smirnova        |                                               |  [1][39]     |            |  
+| 9       | 02/15 | Machine Learning: Regression-based 3 | Smirnova        |                                               |              |            |  
+| 10      | 02/17 | tidymodels 1                         | York            | [tidymodels][15]                              | [1][43]      | [1][44]    | 
+| 11      | 02/22 | tidymodels 2                         | York            |                                               |              | [1][45]    |
+| 12      | 02/24 | tidymodels 3                         | York            |                                               |              |            |  
+| 13      | 03/01 | Project 1 Consultations              | York / Lapato   | **Project 1 Assigned**                        |              |            |  
+| 14      | 03/03 | Data Products                        | York            | **Code Check 1 Due**                          |              | [1][47]    |  
 |         | 03/08 | *Spring Break*                       |                 |                                               |              |            |
 |         | 03/10 | *Spring Break*                       |                 |                                               |              |            |
-| 15      | 03/15 | Data Products in the Wild            | Lapato          | **Code Check 1 Due**                          |              |            |  
-| 16      | 03/17 | reprex                               | Lapato          | [Pre-class Assignment][17]; **Project 1 Due** |              |            |  
+| 15      | 03/15 | reprex 1                             | Lapato          | [Pre-class Assignment][17]; **Project 1 Due** |              |            |  
+| 16      | 03/17 | reprex 2                             | Lapato          |                                               |              |            |  
 | 17      | 03/22 | Functions                            | York            | [Functions][20]                               |              |            |  
 | 18      | 03/24 | Model Estimation                     | York            | [Two Cultures][14]                            |              |            |  
 | 19      | 03/29 | Shiny on AWS                         | York            |                                               |              |            |  
 | 20      | 03/31 | Machine Learning: Classification 1   | Smirnova        |                                               |  [1][50]     |            |  
-| 21      | 04/05 | Machine Learning: Classification 2   | Smirnova        | [video1][53]; [video2][54]                    |  [1][51]     |            |  
-| 22      | 04/07 | Machine Learning: Classification 3   | Smirnova        | [video3][55]                                  |  [1][52]     |            |  
+| 21      | 04/05 | Machine Learning: Classification 2   | Smirnova        |                                               |  [1][51]     |            |  
+| 22      | 04/07 | Machine Learning: Classification 3   | Smirnova        |                                               |  [1][52]     |            |  
 | 23      | 04/12 | Machine Learning in the Wild         | Sargent         | [Wild1][5]; [Wild2][6]                        |  [1][56]     |            |
-| 24      | 04/14 | Project 2 Consultations              | York / Lapato   | [**Project 2 Assigned**][58]                  |              |            |  
+| 24      | 04/14 | Project 2 Consultations              | York / Lapato   | **Project 2 Assigned**                        |              |            |  
 | 25      | 04/19 | Integrating Shiny 1                  | York            |                                               |              | [1][57]    |  
 | 26      | 04/21 | Integrating Shiny 2                  | York            | [tidymodels hotel bookings][21]               |              | [1][59], [2][60] |  
 | 27      | 04/26 | Integrating Shiny 3                  | York            | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] |  
