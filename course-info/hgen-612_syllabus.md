@@ -8,7 +8,7 @@ output:
 ## SPRING 2023, 3 credit hours
 
 Time: Wed / Fri, 10:00a-11:20a  
-ClassRoom: VIPBG Conference Room (1-149), Biotech 1, 800 East Leigh Street  
+ClassRoom: VIPBG Conference Room (1-160), Biotech 1, 800 East Leigh Street  
 ClassZoom: https://zoom.us/j/9927704427  
 
 **DIRECTOR:**  
@@ -77,7 +77,6 @@ We will be using OSF (https://osf.io/24mp7/) as the hub for all course materials
   - Code and course meta-information (e.g., syllabus) will be stored on the course Github site and linked to OSF.
   - Github has a steep learning curve and not everyone will become proficient users immediately - it takes a lot of practice. I will teach the basics so that everyone should be able to automagically access course materials. Otherwise, as previously stated, all materials will be accessible via the course OSF hub.
   - I do not plan on storing any materials on Canvas.
-  - If a lecture is recorded it will be stored [here][103].  
 
 
 ## ReproducibiliTea
@@ -96,6 +95,8 @@ The point distribution for grades is listed below. Details for each assignment w
   - (05 points) ReproducibiliTea attendence  
   - (15 points) Participation and attendance (may include other assignments TBD)  
 
+## Attendence
+You are allowed one *unexcused* attendence, otherwise 4 points will be deducted from your particpation grade for any additional absences. Excused absences will be considered if I am contacted by direct messaging via Slack at least 24 hours in advance. I'm fairly lenient.  
 
 
 [101]: https://r4ds.had.co.nz/            "R for Data Science"

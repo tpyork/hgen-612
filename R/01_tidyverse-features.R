@@ -72,7 +72,6 @@ mpg %>%
 
 
 
-
 # 2.0 dplyr::across() -----------------------------------------------------
 library('tidyverse')
 
@@ -106,7 +105,7 @@ mpg %>%
   )
 
 
-# OR purrr STYLE TILDAS (YOU'LL LEARN THIS NEXT WEEK)
+# OR purrr STYLE TILDAS
 # mpg %>%
 #   group_by(class) %>%
 #   summarise(
@@ -247,7 +246,7 @@ hwy_vs_city_tbl <- mpg %>%
 # Inspiration from https://github.com/gkaramanis/tidytuesday/tree/master/2020-week39
 mpg2 <- mpg %>%
   group_by(manufacturer) %>% 
-  mutate(hist = inline_hist(hwy, n_bins = 7)) %>% 
+  mutate(hist = skimr::inline_hist(hwy, n_bins = 7)) %>% 
   ungroup() %>% 
   distinct(manufacturer, hist)
 

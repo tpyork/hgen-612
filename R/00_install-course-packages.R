@@ -9,35 +9,35 @@ devtools::install_github("hadley/emo")
 
 r_pkgs <- c(
 
-  # Lecture 01_tidyverse-features ----
+  # tidyverse-features ----
   "tidyverse", "tidyquant", "broom", "gt", "htmltools",
   
-  # Lecture 05_flexdashboard ----
+  # flexdashboard ----
   "flexdashboard", "DT", "plotly", "corrr",
 
-  # Lecuture 06_flexdashboard ----
+  # flexdashboard ----
   "tidymodels", "vip",
   
-  # Lecture 07_Machine-Learning-Regression ----
+  # Machine-Learning-Regression ----
   "ISLR", "MASS", "GGally", "ggfortify", "knitr", "kableExtra", "readxl", "car", "glmnet",
   
-  # Lecture 10_tidymodels-1 ----
+  # tidymodels-1 ----
   "tidymodels", "patchwork", "nycflights13", "broom.mixed", "skimr", "timeDate", "rmdformats", 
   "dotwhisker", "ranger", "randomForest",
   
-  # Lecture 17_troubleshooting-code-reprex ----
+  # troubleshooting-code-reprex ----
   "reprex",
   
-  # Lecture 20_classification-2 ----
+  # classification-2 ----
   "class", "caret", "pRoc",
   
-  # Lecture 25_Shiny ----
+  # Shiny ----
   "themis",
 
-  # Lecture 26_Shiny ----
+  # Shiny ----
   "scales", "wesanderson",
   
-  #Lecture 27_Shiny ----
+  # Shiny ----
   "shinyWidgets", "shinyjs"
     
 )
