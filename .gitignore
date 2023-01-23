@@ -47,6 +47,10 @@ vignettes/*.pdf
 
 /css
 
+data/.DS_Store
+.DS_Store
+
+
 
 
 
