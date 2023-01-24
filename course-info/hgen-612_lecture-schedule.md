@@ -21,7 +21,7 @@ ReproducibiliTea Schedule - *will be posted here*
 | :-----: | :---: | :----------------------------------- | :-------------: | :------- | :-------------------------------------------- | :----------: | :--------: |
 | 1       | 01/18 | Intro & Tidyverse Features           | York            | Biotech  | [Talk to Yourself][7]                         |  [1][26], [2][27] | [1][28]|
 | 2       | 01/20 | Git, Github & RStudio 1              | York            | Biotech  | [git][1]; [happygit][2]                       |  [1][29]     |            |  
-| 3       | 01/25 | Git, Github & RStudio 2              | York            | Biotech  |                                               |              |            |  
+| 3       | 01/25 | Git, Github & RStudio 2              | York            | Biotech  | **Github assignment**                         |              |            |  
 | 4       | 01/27 | flexdashboard 1                      | York            | Biotech  | [flexdashboard1][12]                          |  [1][33]     | [1][36]    |  
 | 5       | 02/01 | flexdashboard 2                      | York            | Biotech  | [flexdashboard2][13]; **Github Assignment Due** |              | [1][37]    |  
 | 6       | 02/03 | portfoliodown                        | York            | Zoom     | [R-bloggers][48]                              |              | [1][49]    |
