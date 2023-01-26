@@ -15,8 +15,6 @@ ReproducibiliTea Schedule - *will be posted here*
 [Install Course Packages][25]  
 
 
-### ADD LOCATION
-
 | Lecture | Date  | Topic                                | Instructor      | Location | Review                                        | Slides       | Scripts    |  
 | :-----: | :---: | :----------------------------------- | :-------------: | :------- | :-------------------------------------------- | :----------: | :--------: |
 | 1       | 01/18 | Intro & Tidyverse Features           | York            | Biotech  | [Talk to Yourself][7]                         |  [1][26], [2][27] | [1][28]|
