@@ -28,8 +28,8 @@ ReproducibiliTea Schedule - *will be posted here*
 | 9       | 02/15 | Machine Learning: Regression-based 3 | Smirnova        | Zoom     |                                               |              |            |  
 | 10      | 02/17 | tidymodels 1                         | York            | Biotech  | [tidymodels][15]                              | [1][43]      | [1][44]    | 
 | 11      | 02/22 | tidymodels 2                         | York            | Biotech  |                                               |              | [1][45]    |
-| 12      | 02/24 | tidymodels 3                         | York            | Biotech  |                                               |              |            |  
-| 13      | 03/01 | Project 1 Consultations              | York / Lapato   | Zoom     | **Project 1 Assigned**                        |              |            |  
+| 12      | 02/24 | Project 1 Consultations              | York / Lapato   | Zoom     | **Project 1 Assigned**                        |              |            |  
+| 13      | 03/01 | tidymodels 3                         | York            | Biotech  |                                               |              |            |  
 | 14      | 03/03 | Data Products                        | York            | Biotech  | **Code Check 1 Due**                          |              | [1][47]    |  
 |         | 03/08 | *Spring Break*                       |                 |          |                                               |              |            |
 |         | 03/10 | *Spring Break*                       |                 |          |                                               |              |            |
