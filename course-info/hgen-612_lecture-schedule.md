@@ -38,10 +38,10 @@ ReproducibiliTea Schedule - *will be posted here*
 | 17      | 03/22 | Functions                            | York            | Biotech  | [Functions][20]                               |              |            |  
 | 18      | 03/24 | Model Estimation                     | York            | Biotech  | [Two Cultures][14]                            |              |            |  
 | 19      | 03/29 | Shiny on AWS                         | York            | Zoom     |                                               |              |            |  
-| 20      | 03/31 | Machine Learning: Classification 1   | Smirnova        | Zoom     |                                               |  [1][50]     |            |  
+| 20      | 03/31 | Machine Learning: Classification 1   | Smirnova        | No class |                                               |  [1][50]     |            |  
 | 21      | 04/05 | Machine Learning: Classification 2   | Smirnova        | Zoom     |                                               |  [1][51]     |            |  
 | 22      | 04/07 | Machine Learning: Classification 3   | Smirnova        | Zoom     |                                               |  [1][52]     |            |  
-| 23      | 04/12 | Machine Learning in the Wild         | Sargent         | Zoom     | [Wild1][5]; [Wild2][6]                        |  [1][56]     |            |
+| 23      | 04/12 | Machine Learning in the Wild         | Sargent         | No class | [Wild1][5]; [Wild2][6]                        |  [1][56]     |            |
 | 24      | 04/14 | Project 2 Consultations              | York / Lapato   | Zoom     | **Project 2 Assigned**                        |              |            |  
 | 25      | 04/19 | Integrating Shiny 1                  | York            | Biotech  |                                               |              | [1][57]    |  
 | 26      | 04/21 | Integrating Shiny 2                  | York            | Biotech  | [tidymodels hotel bookings][21]               |              | [1][59], [2][60] |  
