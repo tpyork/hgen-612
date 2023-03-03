@@ -50,7 +50,7 @@ vif(lm_fit.nc)
 
 
 # * Checking assumptions ----
-check_model(lm_fit.nc)
+check_model(lm_fit)
 
 # ggfortify:::autoplot.lm(lm_fit.nc, which = 1:2, label.size = 2) +
 #   theme_bw()
@@ -99,7 +99,7 @@ pine_rec <- pine_tbl %>%
   recipe(DeadDist ~ TreeDiam + Infest_Serv1 +  SDI_20th + BA_20th) %>% 
   step_sqrt(all_outcomes()) %>% 
   step_corr(all_predictors()) #%>% 
-  # prep()
+  # prep()    ## we will save the `prep()` for the workflow; recommended
 
 
 # View feature engineered data
@@ -142,7 +142,6 @@ pine_fit %>%
 
 pine_fit %>% 
   extract_preprocessor()
-
 
 pine_fit %>% 
   extract_spec_parsnip()
@@ -299,7 +298,7 @@ final_lasso <- finalize_workflow(
 
 final_lasso %>% 
   fit(pine_train) %>%
-  pull_workflow_fit() %>% 
+  extract_fit_parsnip() %>% 
   tidy()
 # note that penalty (lambda) is close to zero; hence near equivalent to lm() solution  
 

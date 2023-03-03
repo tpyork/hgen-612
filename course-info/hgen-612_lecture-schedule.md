@@ -33,8 +33,8 @@ ReproducibiliTea Schedule - *will be posted here*
 | 14      | 03/03 | Data Products                        | York            | Biotech  | **Code Check 1 Due**                          |              | [1][47]    |  
 |         | 03/08 | *Spring Break*                       |                 |          |                                               |              |            |
 |         | 03/10 | *Spring Break*                       |                 |          |                                               |              |            |
-| 15      | 03/15 | reprex 1                             | Lapato          | Biotech  | [Pre-class Assignment][17]; **Project 1 Due** |              |            |  
-| 16      | 03/17 | reprex 2                             | Lapato          | Biotech  |                                               |              |            |  
+| 15      | 03/15 | reprex 1                             | Lapato          | Biotech  | [Pre-class Assignment][17];                   |              |            |  
+| 16      | 03/17 | reprex 2                             | Lapato          | Biotech  | **Project 1 Due**                             |              |            |  
 | 17      | 03/22 | Functions                            | York            | Biotech  | [Functions][20]                               |              |            |  
 | 18      | 03/24 | Model Estimation                     | York            | Biotech  | [Two Cultures][14]                            |              |            |  
 | 19      | 03/29 | Shiny on AWS                         | York            | Zoom     |                                               |              |            |  
