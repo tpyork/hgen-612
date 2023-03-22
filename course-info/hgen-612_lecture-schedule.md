@@ -28,15 +28,15 @@ ReproducibiliTea Schedule - *will be posted here*
 | 9       | 02/15 | Machine Learning: Regression-based 3 | Smirnova        | Zoom     |                                               |              |            |  
 | 10      | 02/17 | tidymodels 1                         | York            | Biotech  | [tidymodels][15]                              | [1][43]      | [1][44]    | 
 | 11      | 02/22 | tidymodels 2                         | York            | Biotech  |                                               |              | [1][45]    |
-| 12      | 02/24 | Project 1 Consultations              | York / Lapato   | Zoom     | [**Project 1 Assigned**][46]                      |              |            |  
+| 12      | 02/24 | Project 1 Consultations              | York / Lapato   | Zoom     | [**Project 1 Assigned**][46]                  |              |            |  
 | 13      | 03/01 | tidymodels 3                         | York            | Biotech  |                                               |              |            |  
 | 14      | 03/03 | Data Products                        | York            | Biotech  | **Code Check 1 Due**                          |              | [1][47]    |  
 |         | 03/08 | *Spring Break*                       |                 |          |                                               |              |            |
 |         | 03/10 | *Spring Break*                       |                 |          |                                               |              |            |
 | 15      | 03/15 | reprex 1                             | Lapato          | Biotech  | [Pre-class Assignment][17];                   |              |            |  
 | 16      | 03/17 | reprex 2                             | Lapato          | Biotech  | **Project 1 Due**                             |              |            |  
-| 17      | 03/22 | Functions                            | York            | Biotech  | [Functions][20]                               |              |            |  
-| 18      | 03/24 | Model Estimation                     | York            | Biotech  | [Two Cultures][14]                            |              |            |  
+| 17      | 03/22 | Functions                            | York            | Biotech  | [Functions][20]                               |              | [1][65]    |  
+| 18      | 03/24 | Model Estimation                     | York            | Biotech  | [Two Cultures][14]                            |              | [1][66]    |  
 | 19      | 03/29 | Shiny on AWS                         | York            | Zoom     |                                               |              |            |  
 | 20      | 03/31 | Machine Learning: Classification 1   | Smirnova        | No class |                                               |  [1][50]     |            |  
 | 21      | 04/05 | Machine Learning: Classification 2   | Smirnova        | Zoom     |                                               |  [1][51]     |            |  
@@ -112,3 +112,5 @@ ReproducibiliTea Schedule - *will be posted here*
 [62]: https://github.com/tpyork/hgen-612/blob/main/R/26_shiny_checkpoint-4.Rmd "shiny script 4"
 [63]: https://github.com/tpyork/hgen-612/blob/main/R/26_shiny_checkpoint-5.Rmd "shiny script 5"
 [64]: https://github.com/tpyork/hgen-612/blob/main/R/26_shiny_checkpoint-6.Rmd "shiny script 6"
+[65]: https://github.com/tpyork/hgen-612/blob/main/R/19_functions.R "functions script"
+[66]: https://github.com/tpyork/hgen-612/blob/main/R/14_model-estimation.R "model estimation"
