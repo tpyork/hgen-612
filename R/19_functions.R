@@ -113,6 +113,8 @@ myfunction2(.x = c(1,2,NA,4), .na = TRUE)
 
 
 
+
+
 # WHERE TO STORE YOUR FUNCTIONS -------------------------------------------
 
 # 1. Inline code
