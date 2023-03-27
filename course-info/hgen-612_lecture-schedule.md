@@ -114,9 +114,9 @@ ReproducibiliTea Schedule - *will be posted here*
 [64]: https://github.com/tpyork/hgen-612/blob/main/R/26_shiny_checkpoint-6.Rmd "shiny script 6"
 [65]: https://github.com/tpyork/hgen-612/blob/main/R/19_functions.R "functions script"
 [66]: https://github.com/tpyork/hgen-612/blob/main/R/14_model-estimation.R "model estimation"
-[67]: https://drive.google.com/drive/u/1/folders/1qmX6B5mBt93Id0rKjF6YX2h3iyiZMOqh "logistic regression"
-[68]: https://drive.google.com/drive/u/1/folders/1Gt3V4hoHG8ytNUHj0Z7zFLo3kH5gNRgV "model validation"
-[69]: https://drive.google.com/drive/u/1/folders/1zC4us0GSc-_PaJvb4wAdEDr0xKDhq1hC "clustering"
+[67]: https://drive.google.com/file/d/1D2XrgIj9buX0tT8YzTkBYxY6r4jrQJJw/view?usp=share_link "logistic regression"
+[68]: https://drive.google.com/file/d/1d6zyaNgHFiaVSy1r2nsUSljcqPo6bLzC/view?usp=share_link "model validation"
+[69]: https://drive.google.com/file/d/1oySqBxt99G17jbTDFhbCRgLWPLvOCyBb/view?usp=share_link "clustering"
 
 
 
