@@ -41,7 +41,7 @@ ReproducibiliTea Schedule - *will be posted here*
 | 20      | 03/31 | Machine Learning: Classification 1   | Smirnova        | No class | [Video-1][67]                                 |  [1][50]     |            |  
 | 21      | 04/05 | Machine Learning: Classification 2   | Smirnova        | Zoom     | [Video-2][68]                                 |  [1][51]     |            |  
 | 22      | 04/07 | Machine Learning: Classification 3   | Smirnova        | Zoom     | [Video-3][69]                                 |  [1][52]     |            |  
-| 23      | 04/12 | Machine Learning in the Wild         | Sargent         | No class | [Wild1][5]; [Wild2][6]                        |  [1][56]     |            |
+| 23      | 04/12 | Machine Learning in the Wild         | Sargent         | No class | [Wild1][5]; [Wild2][6]; [Video][70]           |  [1][56]     |            |
 | 24      | 04/14 | Project 2 Consultations              | York / Lapato   | Zoom     | **Project 2 Assigned**                        |              |            |  
 | 25      | 04/19 | Integrating Shiny 1                  | York            | Biotech  |                                               |              | [1][57]    |  
 | 26      | 04/21 | Integrating Shiny 2                  | York            | Biotech  | [tidymodels hotel bookings][21]               |              | [1][59], [2][60] |  
@@ -117,6 +117,7 @@ ReproducibiliTea Schedule - *will be posted here*
 [67]: https://drive.google.com/file/d/1D2XrgIj9buX0tT8YzTkBYxY6r4jrQJJw/view?usp=share_link "logistic regression"
 [68]: https://drive.google.com/file/d/1d6zyaNgHFiaVSy1r2nsUSljcqPo6bLzC/view?usp=share_link "model validation"
 [69]: https://drive.google.com/file/d/1oySqBxt99G17jbTDFhbCRgLWPLvOCyBb/view?usp=share_link "clustering"
+[70]: https://drive.google.com/drive/u/1/folders/1pOZi0G-LxuTy18yli5xtsbEpeb4TPkAc "Lana Sargent ML Wild lecture"
 
 
 
