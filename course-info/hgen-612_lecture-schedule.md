@@ -117,7 +117,8 @@ ReproducibiliTea Schedule - *will be posted here*
 [67]: https://drive.google.com/file/d/1D2XrgIj9buX0tT8YzTkBYxY6r4jrQJJw/view?usp=share_link "logistic regression"
 [68]: https://drive.google.com/file/d/1d6zyaNgHFiaVSy1r2nsUSljcqPo6bLzC/view?usp=share_link "model validation"
 [69]: https://drive.google.com/file/d/1oySqBxt99G17jbTDFhbCRgLWPLvOCyBb/view?usp=share_link "clustering"
-[70]: https://drive.google.com/drive/u/1/folders/1pOZi0G-LxuTy18yli5xtsbEpeb4TPkAc "Lana Sargent ML Wild lecture"
+[70]: https://drive.google.com/file/d/1ypnJgXwjKvPUMX0lt9WRdI1Ia86-m_yD/view?usp=share_link "Lana Sargent ML Wild lecture"
+
 
 
 
