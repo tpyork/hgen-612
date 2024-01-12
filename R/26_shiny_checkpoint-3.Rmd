@@ -68,7 +68,7 @@ dateRangeInput(
   max     = max(hotels$arrival_date), 
   startview = "month")
 
-# renderPrint(input$date_range)
+renderPrint(input$date_range)
 
 ```
 
@@ -254,14 +254,22 @@ Validation Summary
 ### Data Viewer
 
 ```{r}
-hotels %>% 
-  slice(1:100) %>% 
+
+# YOUR TURN: MAKE THIS REACTIVE
+
+output$data_table <- DT::renderDataTable({
+  hotels_filtered() %>%
+  slice(1:100) %>%
   datatable(options = list(searching = FALSE,
                            pageLength = 50,
                            lengthMenu = c(50, 100),
                            scrollY = '250px',
                            scrollX = '300px'),
             style = "default")
+  })
+
+dataTableOutput(outputId = "data_table")
+
 
 ```
 

@@ -91,6 +91,8 @@ shinyWidgets::switchInput(
    value      = FALSE,
    labelWidth = "80px"
 )
+
+renderPrint(input$downsample)
   
 ```
 

@@ -136,7 +136,7 @@ lr_workflow <-
 
 
 # * Create tuning grid ----
-# `length.out` will deterrmine how many penalty values are tested in `tune_grid()`
+# `length.out` will determine how many penalty values are tested in `tune_grid()`
 lr_reg_grid <- tibble(penalty = 10^seq(-4, -1, length.out = 10))  ##30
 
 
@@ -303,6 +303,9 @@ lr_tune_down <-
             grid      = lr_reg_grid,
             control   = control_grid(save_pred = TRUE), #needed to get data for ROC curve
             metrics   = metric_set(roc_auc))
+
+lr_tune_down %>% 
+  collect_metrics() 
 
 
 lr_best_down <-

@@ -63,7 +63,7 @@ dateRangeInput(
   max     = max(hotels$arrival_date), 
   startview = "month")
 
-# renderPrint(input$date_range)
+ renderPrint(input$date_range)
 
 ```
 
@@ -76,7 +76,7 @@ hotels_filtered <- reactive({
                                   right = input$date_range[2]))
 })
 
-# renderPrint(dim(hotels_filtered()))
+renderPrint(dim(hotels_filtered()))
 
 ```
 
