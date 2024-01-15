@@ -1,11 +1,6 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
 # Syllabus
 ## HGEN 612: Methods in Data Science
-## SPRING 2023, 3 credit hours
+## SPRING 2024, 3 credit hours
 
 Time: Wed / Fri, 10:00a-11:20a  
 ClassRoom: VIPBG Conference Room (1-160), Biotech 1, 800 East Leigh Street  
@@ -22,15 +17,17 @@ Assistant Professor, Biostatistics
 **Lana Sargent**, PhD, RN, FNP-C, GNP-BC  
 Assistant Professor, Adult Health and Nursing Systems  
 **Dana Lapato**, PhD  
-Assistant Professor, Human and Molecular Genetics  
+Assistant Professor, Psychiatry  
 
 - - -
 
 ## Hybrid Synochronous Instruction
 HGEN 612 will primarily meet in-person. Please check the course schedule for meeting location (physical/remote). When remote lectures are indicated there should be no expectation that content will be recorded. The course modality is "hybrid synchronous" and there is an attendence requirement (see below).
 
+
 ### In-person
-There are limited outlets in the VIPBG Conference Room so be sure to bring a fully charged laptop to each class. I am working on moving the course to the 3<sup>rd</sup> floor of the same building which will accommodate everyones' power needs (water damage has been reported in this room so we are kicked out for now).
+There are limited outlets in the VIPBG Conference Room so be sure to bring a fully charged laptop to each class.
+
 
 ### Remote
 My preference is that students attend remote lectures with their cameras on. Ok, so I know this isn't going to happen but how about with your camera on for the frist 10 minutes?  
@@ -79,8 +76,8 @@ We will be using OSF (https://osf.io/24mp7/) as the hub for all course materials
   - I do not plan on storing any materials on Canvas.
 
 
-## ReproducibiliTea
-This is a journal club sponsored by the VCU Data Science Lab and VCU Libraries with the ambitious goal of fixing science (or at least to start a conversation about a few lingering issues). **Students are required to attend at least one meeting by 2023-04-30**. Be sure to read the journal article beforehand. And yes, tea will be provided (when we are in-person again). See schedule at https://osf.io/g56qp/wiki/Schedule.  
+## "I Love Data" Week
+The VCU Data Science Lab will participate in this VCU Library sponsored event in mid-February. Final details have not been set but students will be encouraged to attend relevant sessions. This will be a great opportunity to learn about NIH data policies, network, and see how skills learned in HGEN 611/612 fit into the overall picture of project data management.  
 
 
 ## Grading
@@ -92,7 +89,7 @@ The point distribution for grades is listed below. Details for each assignment w
   - (05 points) Shiny code check  
   - (25 points) Project 2  
   - (15 points) Project 2 presentation  
-  - (05 points) ReproducibiliTea attendence  
+  - (05 points) I Love Data week attendence  
   - (15 points) Participation and attendance (may include other assignments TBD)  
 
 ## Attendence

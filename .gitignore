@@ -49,6 +49,11 @@ vignettes/*.pdf
 data/.DS_Store
 .DS_Store
 
+R/data-hotel/
+R/rsconnect
+/data
+
+
 
 
 
