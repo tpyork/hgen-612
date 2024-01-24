@@ -24,26 +24,26 @@ I Love Data Week Schedule - *will be posted here*
 | 11      | 02/23 | tidymodels 1                         | York            | Biotech  | [tidymodels][15]                              | [1][43]      | [1][44]    | 
 | 12      | 02/28 | tidymodels 2                         | York            | Biotech  |                                               |              | [1][45]    |
 | 13      | 03/13 | tidymodels 3                         | York            | Biotech  |                                               |              |            |  
-| 14      | 03/01 | Project 1 Consultations              | York / Lapato   | Zoom     | [**Project 1 Assigned**][46]                  |              |            | 
+| 14      | 03/01 | Project 1 Consultations              | York / Lapato   | Zoom     | **Project 2 Assigned**                        |              |            | 
 |         | 03/06 | *Spring Break*                       |                 |          |                                               |              |            |
 |         | 03/08 | *Spring Break*                       |                 |          |                                               |              |            |
 | 15      | 03/13 | Data Products                        | York            | Biotech  | **Code Check 1 Due**                          |              | [1][47]    |  
 | 16      | 03/15 | reprex 1                             | Lapato          | Biotech  | [Pre-class Assignment][17];                   |              |            |  
-| 17      | 03/20 | reprex 2                             | Lapato          | Biotech  | **Project 1 Due**                             |              |            |
+| 17      | 03/20 | reprex 2                             | Lapato          | Biotech  | **Project 2 Due**                             |              |            |
 | 18      | 03/22 | portfoliodown                        | York            | Biotech  | [R-bloggers][48]                              |              | [1][49]    |
 | 19      | 03/27 | Functions                            | York            | Biotech  | [Functions][20]                               |              | [1][65]    |
 | 20      | 03/29 | Machine Learning: Classification 1   | Smirnova        | No class | [Video-1][67]                                 |  [1][50]     |            |  
 | 21      | 04/03 | Machine Learning: Classification 2   | Smirnova        | Zoom     | [Video-2][68]                                 |  [1][51]     |            |  
 | 22      | 04/05 | Machine Learning: Classification 3   | Smirnova        | Zoom     | [Video-3][69]                                 |  [1][52]     |            |  
 | 23      | 04/10 | Machine Learning in the Wild         | Sargent         | Zoom     | [Wild1][5]; [Wild2][6]; [Video][70]           |  [1][56]     |            |
-| 24      | 04/12 | Project 2 Consultations              | York / Lapato   | Zoom     | [**Project 2 Assigned**][71]                  |              |            |  
+| 24      | 04/12 | Project 2 Consultations              | York / Lapato   | Zoom     | **Project 3 Assigned**                        |              |            |  
 | 25      | 04/17 | Integrating Shiny 1                  | York            | Biotech  |                                               |              | [1][57]    |  
 | 26      | 04/19 | Integrating Shiny 2                  | York            | Biotech  | [tidymodels hotel bookings][21]               |              | [1][59], [2][60] |
 | 27      | 04/24 | Integrating Shiny 3                  | York            | Biotech  | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] | 
 | 28      | 04/26 | Integrating Shiny 4                  | York            | Biotech  | [shinyWidgets][23]; [themis][24]              |              | [1][63], [2][64] | 
 | 29      | 05/01 | Student Project Presentations 1      | York / Lapato   | Biotech  |                                               |              |            |  
 | 30      | 05/03 | Student Project Presentations 2      | York / Lapato   | Biotech  |                                               |              |            |       
-|         | 05/06 | Exam Week                            | York            |          | **Project 2 Due**                             |              |            |        
+|         | 05/06 | Exam Week                            | York            |          | **Project 3 Due**                             |              |            |        
 
 [1]: https://osf.io/4a26g "Democratic Science"
 [2]: https://happygitwithr.com "happygitwithR"
