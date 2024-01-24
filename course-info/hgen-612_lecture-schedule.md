@@ -14,7 +14,7 @@ I Love Data Week Schedule - *will be posted here*
 | 1       | 01/17 | Intro & Tidyverse Features           | York            | Biotech  | [Talk to Yourself][7]                         |  [1][26], [2][27] | [1][28]|
 | 2       | 01/19 | Git, Github & RStudio 1              | York            | Biotech  | [git][1]; [happygit][2]                       |  [1][29]     |            |  
 | 3       | 01/24 | Git, Github & RStudio 2              | York            | Biotech  |                                               |              |            |  
-| 4       | 01/26 | flexdashboard 1                      | York            | Biotech  | [flexdashboard1][12]; [**Github assignment**][]   |  [1][33]     | [1][36]    |  
+| 4       | 01/26 | flexdashboard 1                      | York            | Biotech  | [flexdashboard1][12]; [**Github assignment**][111]   |  [1][33]     | [1][36]    |  
 | 5       | 01/31 | flexdashboard 2                      | York            | Biotech  | [flexdashboard2][13]           |              | [1][37]    |  
 | 6       | 02/07 | Machine Learning: Regression-based 1 | Smirnova        | No class | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3); **Github Assignment Due** |  [1][38]     |            |  
 | 7       | 02/09 | Machine Learning: Regression-based 2 | Smirnova        | Zoom     |                                               |  [1][39]     |            |  
@@ -112,7 +112,7 @@ I Love Data Week Schedule - *will be posted here*
 
 
 # Assignments
-[111]: "project 1"
+[111]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-01.md "project 1"
 [222]: "project 2"
 [333]: "project 3"
 
