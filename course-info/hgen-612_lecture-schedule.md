@@ -13,10 +13,10 @@ I Love Data Week Schedule - *will be posted here*
 | :-----: | :---: | :----------------------------------- | :-------------: | :------- | :-------------------------------------------- | :----------: | :--------: |
 | 1       | 01/17 | Intro & Tidyverse Features           | York            | Biotech  | [Talk to Yourself][7]                         |  [1][26], [2][27] | [1][28]|
 | 2       | 01/19 | Git, Github & RStudio 1              | York            | Biotech  | [git][1]; [happygit][2]                       |  [1][29]     |            |  
-| 3       | 01/24 | Git, Github & RStudio 2              | York            | Biotech  | **Github assignment**                         |              |            |  
-| 4       | 01/26 | flexdashboard 1                      | York            | Biotech  | [flexdashboard1][12]                          |  [1][33]     | [1][36]    |  
-| 5       | 01/31 | flexdashboard 2                      | York            | Biotech  | [flexdashboard2][13]; **Github Assignment Due** |              | [1][37]    |  
-| 6       | 02/07 | Machine Learning: Regression-based 1 | Smirnova        | No class | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  [1][38]     |            |  
+| 3       | 01/24 | Git, Github & RStudio 2              | York            | Biotech  |                                               |              |            |  
+| 4       | 01/26 | flexdashboard 1                      | York            | Biotech  | [flexdashboard1][12]; [**Github assignment**][]   |  [1][33]     | [1][36]    |  
+| 5       | 01/31 | flexdashboard 2                      | York            | Biotech  | [flexdashboard2][13]           |              | [1][37]    |  
+| 6       | 02/07 | Machine Learning: Regression-based 1 | Smirnova        | No class | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3); **Github Assignment Due** |  [1][38]     |            |  
 | 7       | 02/09 | Machine Learning: Regression-based 2 | Smirnova        | Zoom     |                                               |  [1][39]     |            |  
 | 8       | 02/21 | Machine Learning: Regression-based 3 | Smirnova        | Zoom     |                                               |              |            |  
 | 9       | 02/14 | I Love Data Week                     | York / DSL      | TBD      |                                               |              |            |  
@@ -86,7 +86,6 @@ I Love Data Week Schedule - *will be posted here*
 [43]: https://osf.io/2dy38/ "tidymodels primer"
 [44]: https://github.com/tpyork/hgen-612/blob/main/R/10_tidymodels_starter-pack.Rmd "tidymodels starter pack.Rmd"
 [45]: https://github.com/tpyork/hgen-612/blob/main/R/10_tidymodels_1.R "tidymodels 2"
-[46]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-1/project-1.md "project 1"
 [47]: https://github.com/tpyork/hgen-612/blob/main/R/12_Machine-Learning-Regression_tidymodels.R "pine beetles recode"
 [48]: https://www.r-bloggers.com/2021/12/introducing-portfoliodown-the-data-science-portfolio-website-builder/ "portfoliodown blog"
 [49]: https://github.com/tpyork/hgen-612/blob/main/R/19_portfoliodown.R "portfoliodown script"
@@ -98,7 +97,6 @@ I Love Data Week Schedule - *will be posted here*
 [55]: https://drive.google.com/drive/u/1/folders/1zC4us0GSc-_PaJvb4wAdEDr0xKDhq1hC "ML classification video 3"
 [56]: https://osf.io/8umgk/ "ML in the Wild"
 [57]: https://github.com/tpyork/hgen-612/blob/main/R/25_shiny-flexdashboard.R "hotels model code"
-[58]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-2/project-2.md "project-2"
 [59]: https://github.com/tpyork/hgen-612/blob/main/R/26_shiny_checkpoint-1.Rmd "shiny script 1"
 [60]: https://github.com/tpyork/hgen-612/blob/main/R/26_shiny_checkpoint-2.Rmd "shiny script 2"
 [61]: https://github.com/tpyork/hgen-612/blob/main/R/26_shiny_checkpoint-3.Rmd "shiny script 3"
@@ -111,7 +109,14 @@ I Love Data Week Schedule - *will be posted here*
 [68]: https://drive.google.com/file/d/1d6zyaNgHFiaVSy1r2nsUSljcqPo6bLzC/view?usp=share_link "model validation"
 [69]: https://drive.google.com/file/d/1oySqBxt99G17jbTDFhbCRgLWPLvOCyBb/view?usp=share_link "clustering"
 [70]: https://drive.google.com/file/d/1ypnJgXwjKvPUMX0lt9WRdI1Ia86-m_yD/view?usp=share_link "Lana Sargent ML Wild lecture"
-[71]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-2/project-2.md "project 2"
+
+
+# Assignments
+[111]: "project 1"
+[222]: "project 2"
+[333]: "project 3"
+
+
 
 
 
