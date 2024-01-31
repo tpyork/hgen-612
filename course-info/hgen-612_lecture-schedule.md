@@ -17,8 +17,8 @@ I Love Data Week Schedule - *will be posted here*
 | 4       | 01/26 | flexdashboard 1                      | York            | Biotech  | [flexdashboard1][12]; [**Github assignment**][111]   |  [1][33]     | [1][36]    |  
 | 5       | 01/31 | flexdashboard 2                      | York            | Biotech  | [flexdashboard2][13]           |              | [1][37]    |  
 | 6       | 02/07 | Machine Learning: Regression-based 1 | Smirnova        | No class | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3); **Github Assignment Due** |  [1][38]     |            |  
-| 7       | 02/09 | Machine Learning: Regression-based 2 | Smirnova        | Zoom     |                                               |  [1][39]     |            |  
-| 8       | 02/21 | Machine Learning: Regression-based 3 | Smirnova        | Zoom     |                                               |              |            |  
+| 7       | 02/09 | Machine Learning: Regression-based 2 | Smirnova        | Zoom     | [Video-1][40], [Video-2][41]                  |  [1][39]     |            |  
+| 8       | 02/21 | Machine Learning: Regression-based 3 | Smirnova        | Zoom     | [Video-3][43]                                 |              |            |  
 | 9       | 02/14 | I Love Data Week                     | York / DSL      | TBD      |                                               |              |            |  
 | 10      | 02/16 | I Love Data Week                     | York / DSL      | TBD      |                                               |              |            |  
 | 11      | 02/23 | tidymodels 1                         | York            | Biotech  | [tidymodels][15]                              | [1][43]      | [1][44]    | 
@@ -111,10 +111,10 @@ I Love Data Week Schedule - *will be posted here*
 [70]: https://drive.google.com/file/d/1ypnJgXwjKvPUMX0lt9WRdI1Ia86-m_yD/view?usp=share_link "Lana Sargent ML Wild lecture"
 
 
-# Assignments
+
 [111]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-01.md "project 1"
-[222]: "project 2"
-[333]: "project 3"
+[222]: https://www.temp.edu  "project 2"
+[333]: https://www.temp.edu  "project 3"
 
 
 
