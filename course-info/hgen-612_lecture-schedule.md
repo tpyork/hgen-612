@@ -5,7 +5,7 @@
 *Course location (classroom vs zoom) subject to change*  
 Biotech Location:  800 East Leigh Street, VIPBG Suite, Room 1-160  
 Zoom: https://zoom.us/j/9927704427  
-Love Data Week 2024 [Schedule][71] 
+Love Data Week 2024 [Schedule][71]  
 [Install Course Packages][25]  
 
 
