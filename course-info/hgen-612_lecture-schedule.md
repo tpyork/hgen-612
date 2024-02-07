@@ -5,7 +5,7 @@
 *Course location (classroom vs zoom) subject to change*  
 Biotech Location:  800 East Leigh Street, VIPBG Suite, Room 1-160  
 Zoom: https://zoom.us/j/9927704427  
-I Love Data Week Schedule - *will be posted here*  
+Love Data Week 2024 [Schedule][71] 
 [Install Course Packages][25]  
 
 
@@ -19,12 +19,12 @@ I Love Data Week Schedule - *will be posted here*
 | 6       | 02/02 | Machine Learning: Regression-based 1 | York / Smirnova        | No class | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3); **Github Assignment Due** |  [1][38] |  |  
 | 7       | 02/07 | Machine Learning: Regression-based 2 | York / Smirnova        | Biotech     | [Video-1][40], [Video-2][41]                  |  [1][39]     |            |  
 | 8       | 02/09 | Machine Learning: Regression-based 3 | York / Smirnova        | Biotech     | [Video-3][42]                                 |              |            |  
-| 9       | 02/14 | Love Data Week                       | York / DSL      | TBD      |                                               |              |            |  
-| 10      | 02/16 | Love Data Week                       | York / DSL      | TBD      |                                               |              |            |  
+| 9       | 02/14 | [Love Data Week][71]                 | York / DSL      | TBD      |                                               |              |            |  
+| 10      | 02/16 | [Love Data Week][71]                 | York / DSL      | TBD      |                                               |              |            |  
 | 11      | 02/21 | tidymodels 1                         | York            | Biotech  | [tidymodels][15]                              | [1][43]      | [1][44]    | 
 | 12      | 02/23 | tidymodels 2                         | York            | Biotech  |                                               |              | [1][45]    |
 | 13      | 02/28 | tidymodels 3                         | York            | Biotech  |                                               |              | [1][47]           |  
-| 14      | 03/01 | Project 1 Consultations              | York / Lapato   | Biotech  | **Project 2 Assigned**                        |              |            | 
+| 14      | 03/01 | Project 2 Consultations              | York / Lapato   | Biotech  | **Project 2 Assigned**                        |              |            | 
 |         | 03/06 | *Spring Break*                       |                 |          |                                               |              |            |
 |         | 03/08 | *Spring Break*                       |                 |          |                                               |              |            |
 | 15      | 03/13 | reprex 1                             | Lapato          | Biotech  | [Pre-class Assignment][17];                   |              |            |  
@@ -110,7 +110,7 @@ I Love Data Week Schedule - *will be posted here*
 [69]: https://drive.google.com/file/d/1oySqBxt99G17jbTDFhbCRgLWPLvOCyBb/view?usp=share_link "clustering"
 [70]: https://drive.google.com/file/d/1ypnJgXwjKvPUMX0lt9WRdI1Ia86-m_yD/view?usp=share_link "Lana Sargent ML Wild lecture"
 
-
+[71]: https://www.library.vcu.edu/about/events/2023-2024/love-data-week-2024.html "love data week"
 
 [111]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-01.md "project 1"
 [222]: https://www.temp.edu  "project 2"
