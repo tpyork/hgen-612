@@ -86,7 +86,7 @@ iris_recipe <- training(iris_split) %>%
   step_scale(all_predictors(), -all_outcomes()) %>%
   prep()
 
-iris_training <- juice(iris_recipe)
+iris_training <- bake(iris_recipe, new_data = NULL)   #no longer juice()
 glimpse(iris_training)
 
 ```
@@ -112,13 +112,13 @@ glimpse(iris_testing)
 
 ## Model Training
 ```{r}
-
 # ranger
 iris_ranger <- rand_forest(trees = 100, mode = "classification") %>%
   set_engine("ranger") %>%
   fit(Species ~ ., data = iris_training)
 
 ```
+
 
 ```{r}
 # randomForest
@@ -135,7 +135,6 @@ iris_rf <-  rand_forest(trees = 100, mode = "classification") %>%
 ## Predictions
 ```{r}
 predict(iris_ranger, iris_testing)
-
 
 iris_ranger %>%
   predict(iris_testing) %>%
@@ -173,7 +172,7 @@ iris_probs <- iris_ranger %>%
 
 
 iris_probs%>%
-  roc_curve(Species, .pred_setosa:.pred_virginica) %>%
+  roc_curve(Species, .pred_setosa:.pred_virginica) %>% print(n = 138)
   autoplot()
 
 
