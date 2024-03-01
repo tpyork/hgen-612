@@ -39,7 +39,7 @@ By the date indicated on the Lecture Schedule you will be required to [5 total p
 - [1] Publish the app to Rpubs and send Dr. York your link as a direct message in Slack.
 
 
-### Bonus
+### Bonus (can be added later in semester)
 
 An additional 5 points will be added to your final project grade if you integrate your dashboard into your `portfoliodown` portfolio. Turn in your assignment by sending Dr. York a link to your portfolio as a direct message in Slack. Publishing to Rpubs not necessary in this case.  
 
