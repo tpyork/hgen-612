@@ -24,7 +24,7 @@ Love Data Week 2024 [Schedule][71]
 | 11      | 02/21 | tidymodels 1                         | York            | Biotech  | [tidymodels][15]                              | [1][43]      | [1][44]    | 
 | 12      | 02/23 | tidymodels 2                         | York            | Biotech  |                                               |              | [1][45]    |
 | 13      | 02/28 | tidymodels 3                         | York            | Biotech  |                                               |              | [1][47]           |  
-| 14      | 03/01 | Project 2 Consultations              | York / Lapato   | Biotech  | **Project 2 Assigned**                        |              |            | 
+| 14      | 03/01 | Project 2 Consultations              | York / Lapato   | Biotech  | [**Project 2 Assigned**][222]                 |              |            | 
 |         | 03/06 | *Spring Break*                       |                 |          |                                               |              |            |
 |         | 03/08 | *Spring Break*                       |                 |          |                                               |              |            |
 | 15      | 03/13 | reprex 1                             | Lapato          | Biotech  | [Pre-class Assignment][17];                   |              |            |  
@@ -113,7 +113,7 @@ Love Data Week 2024 [Schedule][71]
 [71]: https://www.library.vcu.edu/about/events/2023-2024/love-data-week-2024.html "love data week"
 
 [111]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-01.md "project 1"
-[222]: https://www.temp.edu  "project 2"
+[222]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-02.md "project 2"
 [333]: https://www.temp.edu  "project 3"
 
 
