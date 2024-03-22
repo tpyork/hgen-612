@@ -32,9 +32,9 @@ Love Data Week 2024 [Schedule][71]
 | 17      | 03/20 | Data Products                        | York            | Biotech  | **Code Check Project 2 Due**                  |              |            |
 | 18      | 03/22 | portfoliodown                        | York            | Biotech  | [R-bloggers][48]        |              | [1][49]    |
 | 19      | 03/27 | Functions                            | York            | Biotech  | [Functions][20] **Project 2 Due**             |              | [1][65]    |
-| 20      | 03/29 | Machine Learning: Classification 1   | Smirnova        | Biotech  | [Video-1][67]                                 |  [1][50]     |            |  
-| 21      | 04/03 | Machine Learning: Classification 2   | Smirnova        | No class | [Video-2][68]                                 |  [1][51]     |            |  
-| 22      | 04/05 | Machine Learning: Classification 3   | Smirnova        | No class | [Video-3][69]                                 |  [1][52]     |            |  
+| 20      | 03/29 | Machine Learning: Classification 1   | York / Smirnova        | Biotech  | [Video-1][67]                                 |  [1][50]     |            |  
+| 21      | 04/03 | Machine Learning: Classification 2   | York / Smirnova        | No class | [Video-2][68]                                 |  [1][51]     |            |  
+| 22      | 04/05 | Machine Learning: Classification 3   | York / Smirnova        | No class | [Video-3][69]                                 |  [1][52]     |            |  
 | 23      | 04/10 | Machine Learning in the Wild         | Sargent / York  | Biotech  | [Wild1][5]; [Wild2][6]; [Video][70]           |  [1][56]     |            |
 | 24      | 04/12 | Project 3 Consultations              | York / Lapato   | Biotech  | **Project 3 Assigned**                        |              |            |  
 | 25      | 04/17 | Integrating Shiny 1                  | York            | Biotech  |                                               |              | [1][57]    |  
