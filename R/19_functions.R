@@ -115,6 +115,8 @@ myfunction2(.x = c(1,2,NA,4), .na = TRUE)
 
 
 
+
+
 # WHERE TO STORE YOUR FUNCTIONS -------------------------------------------
 
 # 1. Inline code
@@ -127,10 +129,9 @@ myfunction2(.x = c(1,2,NA,4), .na = TRUE)
 # 4. --> Create your own package
 
 
-# Example
-dump(c("myfunction", "myfunction2"), file = "R/function-storage.R")
 
-source(file = "R/function-storage.R")
+
+
 
 
 
@@ -248,7 +249,9 @@ add_bmi_2 <- function(.data, .h, .w) {
 data_tbl %>% 
   add_bmi_2(height, weight)
 
-  
+
+
+
   
 # SUMMARY -----------------------------------------------------------------
 
