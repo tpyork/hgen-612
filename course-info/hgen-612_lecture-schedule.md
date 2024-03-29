@@ -105,13 +105,13 @@ Love Data Week 2024 [Schedule][71]
 [64]: https://github.com/tpyork/hgen-612/blob/main/R/26_shiny_checkpoint-6.Rmd "shiny script 6"
 [65]: https://github.com/tpyork/hgen-612/blob/main/R/19_functions.R "functions script"
 [66]: https://github.com/tpyork/hgen-612/blob/main/R/14_model-estimation.R "model estimation"
-[67]: https://drive.google.com/file/d/1D2XrgIj9buX0tT8YzTkBYxY6r4jrQJJw/view?usp=share_link "logistic regression"
-[68]: https://drive.google.com/file/d/1d6zyaNgHFiaVSy1r2nsUSljcqPo6bLzC/view?usp=share_link "model validation"
-[69]: https://drive.google.com/file/d/1oySqBxt99G17jbTDFhbCRgLWPLvOCyBb/view?usp=share_link "clustering"
+
+[67]: https://drive.google.com/file/d/12rmOfPDUbgWeITg8RgIHMhsCUyWcaV6m/view?usp=drive_link "logistic regression"
+[68]: https://drive.google.com/file/d/1cN9NNYxKySlPAc7-FLTtOUHGxnp9sRcv/view?usp=drive_link "model validation"
+[69]: https://drive.google.com/file/d/1tkUa5UqsMQkEPwoU0zAN4b71X9AG5klx/view?usp=drive_link "clustering"
+
 [70]: https://drive.google.com/file/d/1ypnJgXwjKvPUMX0lt9WRdI1Ia86-m_yD/view?usp=share_link "Lana Sargent ML Wild lecture"
-
 [71]: https://www.library.vcu.edu/about/events/2023-2024/love-data-week-2024.html "love data week"
-
 [111]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-01.md "project 1"
 [222]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-02.md "project 2"
 [333]: https://www.temp.edu  "project 3"
