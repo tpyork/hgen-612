@@ -36,7 +36,7 @@ Love Data Week 2024 [Schedule][71]
 | 21      | 04/03 | Machine Learning: Classification 2   | York / Smirnova        | No class | [Video-2][68]                                 |  [1][51]     |            |  
 | 22      | 04/05 | Machine Learning: Classification 3   | York / Smirnova        | No class | [Video-3][69]                                 |  [1][52]     |            |  
 | 23      | 04/10 | Machine Learning in the Wild         | Sargent / York  | Biotech  | [Wild1][5]; [Wild2][6]; [Video][70]           |  [1][56]     |            |
-| 24      | 04/12 | Project 3 Consultations              | York / Lapato   | Biotech  | **Project 3 Assigned**                        |              |            |  
+| 24      | 04/12 | Project 3 Consultations              | York / Lapato   | Biotech  | [**Project 3 Assigned**][333]                 |              |            |  
 | 25      | 04/17 | Integrating Shiny 1                  | York            | Biotech  |                                               |              | [1][57]    |  
 | 26      | 04/19 | Integrating Shiny 2                  | York            | Biotech  | [tidymodels hotel bookings][21]               |              | [1][59], [2][60] |
 | 27      | 04/24 | Integrating Shiny 3                  | York            | Biotech  | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] | 
@@ -114,7 +114,7 @@ Love Data Week 2024 [Schedule][71]
 [71]: https://www.library.vcu.edu/about/events/2023-2024/love-data-week-2024.html "love data week"
 [111]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-01.md "project 1"
 [222]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-02.md "project 2"
-[333]: https://www.temp.edu  "project 3"
+[333]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-03.md "project 3"
 
 
 
