@@ -42,7 +42,7 @@ Love Data Week 2024 [Schedule][71]
 | 27      | 04/24 | Integrating Shiny 3                  | York            | Biotech  | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] | 
 | 28      | 04/26 | Integrating Shiny 4                  | York            | Biotech  | [shinyWidgets][23]; [themis][24]              |              | [1][63], [2][64] | 
 | 29      | 05/01 | Student Project Presentations 1      | York / Lapato   | Biotech  |                                               |              |            |  
-| 30      | 05/03 | Student Project Presentations 2      | York / Lapato   | Biotech  |                                               |              |            |       
+| 30      | 05/03 | Possible presentation on TriNetX     | York / Lapato   | Biotech  |                                               |              |            |       
 |         | 05/06 | Exam Week                            | York            |          | **Project 3 Due**                             |              |            |        
 
 [1]: https://osf.io/4a26g "Democratic Science"

@@ -5,6 +5,7 @@
 install.packages("devtools")
 devtools::install_github("rstudio/fontawesome")
 devtools::install_github("hadley/emo")
+devtools::install_github("business-science/portfoliodown")
 
 
 r_pkgs <- c(
