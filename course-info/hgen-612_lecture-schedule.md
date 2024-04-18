@@ -64,7 +64,7 @@ Love Data Week 2024 [Schedule][71]
 [17]: https://forms.gle/tBtzGuRCu2hx722S6 "pre-class assignment"
 [20]: https://r4ds.had.co.nz/functions.html "functions"
 [21]: https://www.tidymodels.org/start/case-study/ "tidymodels hotel bookings"
-[22]: https://shiny.rstudio.com/images/shiny-cheatsheet.pdf "Shiny Cheatsheet"
+[22]: https://osf.io/5tj3n "Shiny Cheatsheet"
 [23]: http://shinyapps.dreamrs.fr/shinyWidgets/ "shinyWidgets"
 [24]: https://themis.tidymodels.org/index.html "themis recipe steps for unbalanced designs"
 [25]: https://github.com/tpyork/hgen-612/blob/main/R/00_install-course-packages.R "install course packages"  
