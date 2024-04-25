@@ -3,7 +3,7 @@ title: "My 'trees' Dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
-    vertical_layout: scroll
+    vertical_layout: fill
 
 ---
 

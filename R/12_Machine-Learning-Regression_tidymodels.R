@@ -20,6 +20,7 @@ library(performance)
 
 
 # DATA ----
+#### 2025:  MAKE SURE THIS FILE IS ON OSF AND GITHUB !!!!!
 pine_tbl <- read_excel("instructor/katia/Data/Data_1993.xlsx", sheet = 1)
 
 
@@ -50,7 +51,7 @@ vif(lm_fit.nc)
 
 
 # * Checking assumptions ----
-check_model(lm_fit)
+check_model(lm_fit.nc)
 
 # ggfortify:::autoplot.lm(lm_fit.nc, which = 1:2, label.size = 2) +
 #   theme_bw()
@@ -61,6 +62,11 @@ check_model(lm_fit)
 pine_tbl <- pine_tbl %>% 
   mutate(DeadDist_log = log(pine_tbl$DeadDist)) %>% 
   mutate(DeadDist_sqrt = sqrt(pine_tbl$DeadDist))
+
+
+hist(pine_tbl$DeadDist)
+hist(pine_tbl$DeadDist_log)
+hist(pine_tbl$DeadDist_sqrt)
 
 
 
@@ -86,6 +92,10 @@ lm_fit.nc.sqrt %>%
   glance()
 
 
+cor(pine_tbl$SDI_20th, pine_tbl$BA_20th)
+
+
+
 
 # Tidymodels Version of lm() ----
 #  Specify, fit and evaluate same models with tidymodels
@@ -99,13 +109,13 @@ pine_rec <- pine_tbl %>%
   recipe(DeadDist ~ TreeDiam + Infest_Serv1 +  SDI_20th + BA_20th) %>% 
   step_sqrt(all_outcomes()) %>% 
   step_corr(all_predictors()) #%>% 
-  # prep()    ## we will save the `prep()` for the workflow; recommended
+   # prep()    ## we will save the `prep()` for the workflow; recommended
 
 
 # View feature engineered data
 pine_rec %>% 
   prep() %>% 
-  juice()
+  bake(new_data = NULL)    #supercedes juice()
 
 
 # * Create Model ----

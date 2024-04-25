@@ -72,6 +72,11 @@ results_tbl <- bind_cols(
 results_tbl %>%
   roc_auc(year, .pred_1999)
 
+temp <- results_tbl %>%
+  roc_auc(year, .pred_1999)
+names(temp)
+temp$.estimate
+
 results_tbl %>%
   roc_curve(year, .pred_1999) %>%
   autoplot(
@@ -107,7 +112,7 @@ data_prepared_tbl %>%
   geom_jitter(alpha = 0.25) +
   theme_minimal(base_size = 18) +
   scale_color_viridis_d(end = 0.4, option = "viridis") +
-  labs(title = "Older Vehicles have Lower Fuel Economy")
+  labs(title = "Older Vehicles have Lower Fuel Economy") 
 
 # How would you make this a plotly graph ?
 
