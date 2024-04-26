@@ -139,7 +139,7 @@ observeEvent(eventExpr = input$reset, handlerExpr = {
   # shinyjs::delay(ms = 300, expr = {
   #   shinyjs::click(id = "apply")
   # })
- 
+
 })  
   
 ```

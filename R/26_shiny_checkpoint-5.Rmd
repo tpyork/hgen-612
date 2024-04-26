@@ -169,7 +169,6 @@ val_set <- reactive({
 
 
 
-
 ```{r create.model}
 lr_mod <- 
   logistic_reg(mixture = 1, penalty = tune()) %>% 
