@@ -42,7 +42,7 @@ Love Data Week 2024 [Schedule][71]
 | 27      | 04/24 | Integrating Shiny 3                  | York            | Biotech  | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] | 
 | 28      | 04/26 | Integrating Shiny 4                  | York            | Biotech  | [shinyWidgets][23]; [themis][24]              |              | [1][63], [2][64] | 
 | 29      | 05/01 | Student Project Presentations 1      | York / Lapato   | Biotech  |                                               |              |            |  
-| 30      | 05/03 | TriNetX Tutorial                     | Cassel          | Biotech  |                                               | [Read][72]   |            |       
+| 30      | 05/03 | TriNetX Tutorial                     | Cassel          | Biotech  |                                               | [Read][72]   | [1][73]    |       
 |         | 05/06 | Exam Week                            | York            |          | **Project 3 Due**                             |              |            |        
 
 [1]: https://osf.io/4a26g "Democratic Science"
@@ -113,6 +113,7 @@ Love Data Week 2024 [Schedule][71]
 [70]: https://drive.google.com/file/d/1ypnJgXwjKvPUMX0lt9WRdI1Ia86-m_yD/view?usp=share_link "Lana Sargent ML Wild lecture"
 [71]: https://www.library.vcu.edu/about/events/2023-2024/love-data-week-2024.html "love data week"
 [72]: https://osf.io/ry56k "TriNetX Tutorial"
+[73]: https://osf.io/ej5r6 "TriNetX Slides"
 
 [111]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-01.md "project 1"
 [222]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-02.md "project 2"
