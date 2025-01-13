@@ -1,6 +1,6 @@
 # Syllabus
 ## HGEN 612: Methods in Data Science
-## SPRING 2024, 3 credit hours
+## SPRING 2025, 3 credit hours
 
 Time: Wed / Fri, 10:00a-11:20a  
 ClassRoom: VIPBG Conference Room (1-160), Biotech 1, 800 East Leigh Street  
@@ -16,8 +16,6 @@ Professor, Human and Molecular Genetics
 Assistant Professor, Biostatistics  
 **Lana Sargent**, PhD, RN, FNP-C, GNP-BC  
 Assistant Professor, Adult Health and Nursing Systems  
-**Dana Lapato**, PhD  
-Assistant Professor, Psychiatry  
 
 - - -
 
@@ -34,7 +32,7 @@ My preference is that students attend remote lectures with their cameras on. Ok,
 
 
 ## A Note on Participation
-Please note that regardless of lecture location your participation and attendance grade will not be assessed in the regular fashion. I am more interested that you are engaged with the class (e.g., during class and/or on Slack) and your assignments reflect attempts to innovate past what you were taught (i.e., coding creativity requires some degree of self-study). Lectures will likely not extend the entire time to avoid Zoom fatigue and we will strive to use our time in a way that we find is most beneficial for learning. All I ask is that you reach out to me to discuss your circumstances if your in-person or remote learning experience is faltering.  
+Please note that regardless of lecture location your participation and attendance grade will not be assessed in the regular fashion. I am more interested that you are engaged with the class (e.g., during class and/or on Slack) and your assignments reflect attempts to innovate past what you were taught (i.e., coding creativity requires some degree of self-study). Lectures will likely not extend the entire time and we will strive to use our time in a way that we find is most beneficial for learning. All I ask is that you reach out to me to discuss your circumstances if your in-person or remote learning experience is faltering.  
 
 
 ## Course Description
@@ -70,7 +68,7 @@ All required reading/viewing material will be linked to the lecture schedule loc
 ## Course Materials
 We will be using OSF (https://osf.io/24mp7/) as the hub for all course materials in combination with Github. Both of these file management tools work nicely together and allow for users of different skill levels to access and interact with materials. This approach is commonly used in the wild and so we will adopt it in this course, in lieu of Canvas, to promote familiarity with this system. Details where each group of files live are as follows:  
 
-  - Presentations and reading materials will be stored directly on OSF.
+  - Presentations and reading materials will be stored directly on OSF.  
   - Code and course meta-information (e.g., syllabus) will be stored on the course Github site and linked to OSF.
   - Github has a steep learning curve and not everyone will become proficient users immediately - it takes a lot of practice. I will teach the basics so that everyone should be able to automagically access course materials. Otherwise, as previously stated, all materials will be accessible via the course OSF hub.
   - I do not plan on storing any materials on Canvas.
@@ -79,23 +77,27 @@ We will be using OSF (https://osf.io/24mp7/) as the hub for all course materials
 ## "I Love Data" Week
 The VCU Data Science Lab will participate in this VCU Library sponsored event in mid-February. Final details have not been set but students will be encouraged to attend relevant sessions. This will be a great opportunity to learn about NIH data policies, network, and see how skills learned in HGEN 611/612 fit into the overall picture of project data management.  
 
+## ReproducibiliTea
+Our class will participate in the informal [*ReproducibiliTea*][104] journal club. Teams of 2 students will select an article relevant to data science/open materials/reproducibility and lead a discussion open to the VCU community.  A sign-up sheet will be made available. Yes, tea will be provided.  
 
 ## Grading
 The point distribution for grades is listed below. Details for each assignment will be presented in class.    
 
   - (05 points) Github assignment
-  - (05 points) Flexdashboard code check (with portfoliodown) 
+  - (05 points) Flexdashboard code check
   - (25 points) Project 1  
   - (05 points) Shiny code check  
   - (25 points) Project 2  
-  - (15 points) Project 2 presentation  
+  - (10 points) Project 2 presentation  
   - (05 points) I Love Data week attendence  
-  - (15 points) Participation and attendance (may include other assignments TBD)  
+  - (10 points) ReproducibiliTea
+  - (10 points) Participation and attendance (may include other assignments TBD)  
 
 ## Attendence
 You are allowed one *unexcused* attendence, otherwise 4 points will be deducted from your particpation grade for any additional absences. Excused absences will be considered if I am contacted by direct messaging via Slack at least 24 hours in advance. I'm fairly lenient.  
 
 
-[101]: https://r4ds.had.co.nz/            "R for Data Science"
-[102]: https://adv-r.hadley.nz/index.html "Advanced R"
+[101]: https://r4ds.had.co.nz/                                                      "R for Data Science"
+[102]: https://adv-r.hadley.nz/index.html                                           "Advanced R"
 [103]: https://drive.google.com/drive/u/1/folders/1MkRa0tkXwMVP1An9rCB4ijF6IZPkogWv "Course Lectures"
+[104]: https://reproducibilitea.org/                                                "ReproducibiliTea"
