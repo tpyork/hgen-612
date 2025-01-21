@@ -115,7 +115,7 @@ Love Data Week 2025 [Schedule][71]
 [72]: https://osf.io/ry56k "TriNetX Tutorial"
 [73]: https://osf.io/ej5r6 "TriNetX Slides"
 
-[111]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-01.md "project 1"
+[111]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-1.md "project 1"
 [222]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-02.md "project 2"
 [333]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-03.md "project 3"
 
