@@ -4,6 +4,9 @@ output:
   flexdashboard::flex_dashboard:
     orientation: rows
     vertical_layout: fill
+    theme: sandstone
+    logo: "../img/tree-logo-resized.png"
+    favicon: "../img/tree-logo-resized.png"
 
 ---
 
@@ -27,6 +30,9 @@ library(emo)
 
 ```
 
+
+Page 1
+================================
 
 Row {data-height=600}
 -----------------------------------------------------------------------
@@ -65,9 +71,33 @@ trees_cor %>%
 *Put something interesting here.*  
 `r ji("bar_chart")`  
 ```{r}
+hist(trees$Volume)
+
+```
+
+Page 2
+================================
+
+Column
+-----------------------------------------------------------------------
+
+### Data Explorer
+
+```{r}
+datatable(trees,
+          style = "bootstrap4",
+          caption = "Diameter, Height and Volume for Black Cherry Trees",
+          # options = list(
+          #   scrollY = '450px'
+          # )
+)
 
 
 ```
+
+
+
+
 
 
 
