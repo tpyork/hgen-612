@@ -29,8 +29,8 @@ Love Data Week 2025 [Schedule][71]
 | 16      | 03/07 | Project 2 Consultations              | York            | Biotech  | [**Project 2 Assigned**][222]                 |              |            | 
 |         | 03/12 | *Spring Break*                       |                 |          |                                               |              |            |
 |         | 03/14 | *Spring Break*                       |                 |          |                                               |              |            |
-| 17      | 03/19 | AI for Data Science                  | York            | Biotech  |                                               |              |            |  
-| 18      | 03/21 | AI for Data Science                  | York            | Biotech  | **Code Check Project 2 Due**                  |              |            |
+| 17      | 04/23 | portfoliodown                        | York            | Biotech  | [R-bloggers][48]                              |              | [1][49]    |
+| 18      | 04/25 | Functions                            | York            | Biotech  | [Functions][20]                               |              | [1][65]    |
 | 19      | 03/26 | ReproducibiliTea prep                | York / DSL      | Biotech  |                                               |              |            |
 | 20      | 03/28 | ReproducibiliTea prep                | York / DSL      | TBD      | **Project 2 Due**                             |              |            |  
 | 21      | 04/02 | Machine Learning in the Wild         | Sargent / York  | Biotech  | [Wild1][5]; [Wild2][6]; [Video][70]           |  [1][56]     |            |
@@ -39,8 +39,8 @@ Love Data Week 2025 [Schedule][71]
 | 25      | 04/11 | Integrating Shiny 3                  | York            | Biotech  | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] | 
 | 22      | 04/16 | Project 3 Consultations              | York            | Biotech  | [**Project 3 Assigned**][333]                 |              |            |  
 | 26      | 04/18 | Integrating Shiny 4                  | York            | Biotech  | [shinyWidgets][23]; [themis][24]              |              | [1][63], [2][64] | 
-| 27      | 04/23 | portfoliodown                        | York            | Biotech  | [R-bloggers][48]                              |              | [1][49]    |
-| 28      | 04/25 | Functions                            | York            | Biotech  | [Functions][20]                               |              | [1][65]    |
+| 27      | 03/19 | AI for Data Science                  | York            | Biotech  |                                               |              |            |  
+| 28      | 03/21 | AI for Data Science                  | York            | Biotech  | **Code Check Project 2 Due**                  |              |            |
 | 29      | 04/30 | Student Project Presentations        | York            | Biotech  |                                               |              |            |  
 | 30      | 05/02 | TriNetX Tutorial                     | Cassel          | Biotech  |                                               | [Read][72]   | [1][73]    |       
 |         | 05/05 | Exam Week                            | York            |          | **Project 3 Due**                             |              |            |        
@@ -116,7 +116,7 @@ Love Data Week 2025 [Schedule][71]
 [73]: https://osf.io/ej5r6 "TriNetX Slides"
 
 [111]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-1.md "project 1"
-[222]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-02.md "project 2"
+[222]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-2.md "project 2"
 [333]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-03.md "project 3"
 
 
