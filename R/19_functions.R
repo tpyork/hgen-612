@@ -72,7 +72,7 @@ new(arg1 = , arg2 = )
 
 
 
-# EXAMPLE USING 1 ARGUEMENT: Report the mean of a vector ------------------
+# EXAMPLE USING 1 ARGUMENT: Report the mean of a vector ------------------
 
 myfunction <- function(.x) {
   
@@ -101,7 +101,7 @@ myfunction2 <- function(.x, .na) {
   
 }
 
-myfunction2(.x = c(1,2,NA,4), .na = TRUE)
+myfunction2(.x = c(1,2,NA,4), .na = FALSE)
 
 
 
@@ -109,8 +109,6 @@ myfunction2(.x = c(1,2,NA,4), .na = TRUE)
 # YOUR TURN:  CREATE A 2-ARGUMENT FUNCTION --------------------------------
 # create a function to test whether 2 vectors are of the same size
 # report as a logical scalar
-
-
 
 
 
@@ -127,10 +125,6 @@ myfunction2(.x = c(1,2,NA,4), .na = TRUE)
 # 3. Create a .Rprofile file in the current working directory
 
 # 4. --> Create your own package
-
-
-
-
 
 
 
@@ -190,6 +184,7 @@ data_tbl %>%
 
 
 # what if we wanted to make our function fully pipe compliant?
+# why can't this function recognize weight?
 data_tbl %>% 
   bmi_calc_2(height, weight)
 
@@ -199,9 +194,8 @@ data_tbl %>%
 # How about this?
 add_bmi <- function(.data, .h, .w) {
   
-  .data %>% 
+  .data %>%
     mutate(bmi = bmi_calc_2(.h, .w))
-  
 }
 
 data_tbl %>% 
@@ -217,6 +211,11 @@ expr(1 + 2)
 eval(expr(1 + 2))
 eval(parse(text = "1 + 2"))
 
+# Evaluation: Expressions can be evaluated using eval() in a specified environment.
+# Environment: Expressions do not retain the environment in which they were created. 
+# You need to explicitly provide an environment for evaluation.
+eval(expr, envir = list(x = 1, y = 2))  # Returns 3
+
 
 class(expr(1 + 2))
 lm(height ~ weight, data = data_tbl)
@@ -227,11 +226,17 @@ lm(height ~ weight, data = data_tbl)
 # enquo(): Freezes column names before they cause errors
 # 1. capture expressions before they are evaluated
 # 2. evaluate when ready
+# 3. preserve environment in which they were created
+# 4. Standard vs Nonstandard evaluation
 #
 # Don't get bogged down in details unless you want to take a
 #  deep dive into `rlang` : https://rlang.r-lib.org/
 #  or better yet: https://tidyeval.tidyverse.org/dplyr.html#patterns-for-single-arguments
 #  Take-home: 'rlang` facilitates working with the R language and tidyverse
+
+# Take Home: A quosure is a special type of expression that captures both the code and the
+# environment in which it was created. This ensures that the expression can be evaluated 
+# later in the same context.
 
 
 add_bmi_2 <- function(.data, .h, .w) {
@@ -239,7 +244,7 @@ add_bmi_2 <- function(.data, .h, .w) {
   h_expr <- enquo(.h)   #freeze/defuse the expression/call here
   w_expr <- enquo(.w)
   
-  .data %>% 
+  .data %>%
     mutate(bmi = bmi_calc_2(!!h_expr, !!w_expr))
   
 }
