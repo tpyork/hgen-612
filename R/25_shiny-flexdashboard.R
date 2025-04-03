@@ -137,11 +137,11 @@ lr_workflow <-
 
 # * Create tuning grid ----
 # `length.out` will determine how many penalty values are tested in `tune_grid()`
-lr_reg_grid <- tibble(penalty = 10^seq(-4, -1, length.out = 10))  ##30
+lr_reg_grid <- tibble(penalty = 10^seq(-4, -1, length.out = 30))
 
 
 # Train and tune the model
-lr_tune <- 
+lr_res <- 
   lr_workflow %>% 
   tune_grid(resamples = val_set, #rset object
             grid      = lr_reg_grid,
@@ -155,11 +155,11 @@ lr_tune <-
 # This plots shows us that model performance is generally better at
 # the smaller penalty values. This suggests that the majority of 
 # the predictors are important to the model.
-lr_tune %>% 
+lr_res %>% 
   collect_metrics() 
 
 lr_plot <- 
-  lr_tune %>% 
+  lr_res %>% 
   collect_metrics() %>% 
   ggplot(aes(x = penalty, y = mean)) + 
   geom_point() + 
@@ -169,9 +169,19 @@ lr_plot <-
 lr_plot 
 
 
-lr_best <-
-  lr_tune %>% 
-  select_best("roc_auc")
+top_models <-
+  lr_res %>% 
+  show_best(metric = "roc_auc", n = 15) %>% 
+  arrange(penalty) 
+top_models
+
+
+lr_best <- 
+  lr_res %>% 
+  collect_metrics() %>% 
+  arrange(penalty) %>% 
+  slice(12)
+lr_best
 
 
 # Sometimes we may want to choose a penalty value further along the x-axis, 
@@ -186,7 +196,7 @@ lr_plot +
 
 
 lr_auc <- 
-  lr_tune %>% 
+  lr_res %>% 
   collect_predictions(parameters = lr_best) %>% 
   roc_curve(children, .pred_children) %>% 
   mutate(model = "Logistic Regression")
@@ -297,20 +307,24 @@ lr_workflow_down <-
 
 # * Update the tune ----
 # Tune the model on the downsampled `val_set`
-lr_tune_down <- 
+lr_res_down <- 
   lr_workflow_down %>% 
   tune_grid(resamples = val_set, #rset object
             grid      = lr_reg_grid,
             control   = control_grid(save_pred = TRUE), #needed to get data for ROC curve
             metrics   = metric_set(roc_auc))
 
-lr_tune_down %>% 
+lr_res_down %>% 
   collect_metrics() 
 
 
-lr_best_down <-
-  lr_tune_down %>% 
-  select_best("roc_auc")
+lr_best_down <- 
+  lr_res_down %>% 
+  collect_metrics() %>% 
+  arrange(penalty) %>% 
+  slice(12)
+lr_best_down
+
 
 
 # Add best validation model to workflow
@@ -341,6 +355,11 @@ lr_last_fit_down <-
 lr_last_fit_down %>%
   collect_metrics()
 
+# Compare to:
+# lr_last_fit %>%
+#   collect_metrics()
+
+
 
 lr_conf_mat_down <-
   lr_last_fit_down %>%
@@ -363,8 +382,8 @@ lr_conf_mat_down %>%
 
 # Compare to:
 # lr_conf_mat %>%
-#   summary() %>% 
-#   select(-.estimator) %>% 
+#   summary() %>%
+#   select(-.estimator) %>%
 #   knitr::kable()
 
 
