@@ -39,8 +39,8 @@ Love Data Week 2025 [Schedule][71]
 | 25      | 04/11 | Integrating Shiny 3                  | York            | Biotech  | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] | 
 | 22      | 04/16 | Project 3 Consultations              | York            | Biotech  | [**Project 3 Assigned**][333]                 |              |            |  
 | 26      | 04/18 | Integrating Shiny 4                  | York            | Biotech  | [shinyWidgets][23]; [themis][24]              |              | [1][63], [2][64] | 
-| 27      | 03/19 | AI for Data Science                  | York            | Biotech  |                                               |              |            |  
-| 28      | 03/21 | AI for Data Science                  | York            | Biotech  |                                               |              |            |
+| 27      | 04/23 | AI for Data Science                  | York            | Biotech  |                                               |              |            |  
+| 28      | 04/25 | AI for Data Science                  | York            | Biotech  |                                               |              |            |
 | 29      | 04/30 | Student Project Presentations        | York            | Biotech  |                                               |              |            |  
 | 30      | 05/02 | TriNetX Tutorial                     | Cassel          | Biotech  |                                               | [Read][72]   | [1][73]    |       
 |         | 05/05 | Exam Week                            | York            |          | **Project 3 Due**                             |              |            |        
