@@ -117,7 +117,7 @@ Love Data Week 2025 [Schedule][71]
 
 [111]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-1.md "project 1"
 [222]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-2.md "project 2"
-[333]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-03.md "project 3"
+[333]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-3.md "project 3"
 
 
 
