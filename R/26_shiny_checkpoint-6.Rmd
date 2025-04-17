@@ -112,6 +112,12 @@ actionButton(inputId = "reset", label = "Reset", icon = icon("sync"))
 
 
 # Reset action
+# n.b., eventReactive creates a reactive value that changes based on the eventExpr (create an object)
+#       observeEvent simply is triggered based on eventExpr (causes a side-effect, doesn't create an object)
+#       observeEvent() just executes code within it's boundaries but does not assign the output to anything
+#       eventReactive() will save the output to a reactive variable
+#       Both of them will only execute code code if the condition at the top is satisfied. That's where they 
+#       differ from reactive() that will run anytime any of the reactive values within change.
 observeEvent(eventExpr = input$reset, handlerExpr = {
 
   updateDateRangeInput(
@@ -282,7 +288,7 @@ lr_tune <- reactive({
 
 lr_best <- reactive({
   lr_tune() %>% 
-  select_best("roc_auc")
+  select_best(metric = "roc_auc")
 })
 
 ```

@@ -19,6 +19,7 @@ runtime: shiny
 library(tidymodels)  
 library(shiny)
 library(shinyWidgets)
+# shinyWidgets::shinyWidgetsGallery()
 
 # Helper packages
 library(readr)          # for importing data
@@ -100,6 +101,7 @@ hr()
 br()
 
 
+# see fontawesome.com
 actionButton(inputId = "apply", label = "Apply", icon = icon("play"))
 # renderPrint(input$apply)
   
@@ -242,7 +244,7 @@ lr_tune <- reactive({
 
 lr_best <- reactive({
   lr_tune() %>% 
-  select_best("roc_auc")
+  select_best(metric = "roc_auc")
 })
 
 ```

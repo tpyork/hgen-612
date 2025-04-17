@@ -65,7 +65,7 @@ Love Data Week 2025 [Schedule][71]
 [20]: https://r4ds.had.co.nz/functions.html "functions"
 [21]: https://www.tidymodels.org/start/case-study/ "tidymodels hotel bookings"
 [22]: https://osf.io/5tj3n "Shiny Cheatsheet"
-[23]: http://shinyapps.dreamrs.fr/shinyWidgets/ "shinyWidgets"
+[23]: https://dreamrs.github.io/shinyWidgets/ "shinyWidgets"
 [24]: https://themis.tidymodels.org/index.html "themis recipe steps for unbalanced designs"
 [25]: https://github.com/tpyork/hgen-612/blob/main/R/00_install-course-packages.R "install course packages"  
 [26]: https://osf.io/q26ut/ "course setup" 
