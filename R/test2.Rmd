@@ -1,0 +1,97 @@
+---
+title: "Themed dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    theme:
+      bg: "#101010"
+      fg: "#FDF7F7" 
+      primary: "#ED79F9"
+      base_font:
+        google: Prompt
+      code_font:
+        google: JetBrains Mono
+    orientation: columns
+    vertical_layout: fill
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(shiny)
+library(tidyverse)
+# Install thematic and un-comment for themed static plots (i.e., ggplot2)
+# thematic::thematic_rmd()
+```
+
+
+sidebar {.sidebar}
+=====================================================
+
+```{r}
+
+choice <- mtcars %>% select(-mpg) %>% names()
+
+
+selectInput(
+  inputId  = "select_var",
+  label    = "Select Predictor",
+  choices  = choice,
+  selected = "wt"
+  )
+
+
+renderPrint(input$select_var)
+
+
+```
+
+
+
+First {data-width=650 .tabset}
+=================================================
+
+### Chart A
+
+```{r}
+
+
+output$main_plot <- renderPlot({
+  ggplot(data = mtcars, aes_string(x = input$select_var, y = "mpg")) +
+    geom_point() + 
+    theme_minimal() +
+    # xlab(input$select_var) +
+    # ylab("Miles per Gallon") +
+    labs(
+      title = paste0("My plot of mpg by ", input$select_var),
+      x     = input$select_var,
+      y     = "Miles per Gallon"
+    )
+})
+
+
+
+plotOutput(outputId = "main_plot")
+
+```
+
+### Chart B
+
+```{r}
+
+```
+
+Second {data-width=350}
+====================================================
+
+### Chart C
+
+```{r}
+
+```
+
+### Chart D
+
+```{r}
+
+```
+
