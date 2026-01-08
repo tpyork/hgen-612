@@ -15,7 +15,7 @@ Love Data Week 2026 [Schedule][71]
 | 2       | 01/16 | Git, Github & RStudio 1              | York            | Biotech  | [git][1]; [happygit][2]                       |  [1][29]     |            |  
 | 3       | 01/21 | Git, Github & RStudio 2              | York            | Biotech  | [**Project 1 Assigned**][111]                 |              |           |  
 | 4       | 01/23 | flexdashboard 1                      | York            | Biotech  | [flexdashboard1][12]                          |  [1][33]     | [1][36]    |  
-| 5       | 01/28 | flexdashboard 2 + GitHub             | York            | Biotech  | [flexdashboard2][13]                          |              | [1][37]    |  
+| 5       | 01/28 | flexdashboard 2 + GitHub             | York            | Biotech  | [flexdashboard2][13]; **RTea Paper Due**      |              | [1][37]    |  
 | 6       | 01/30 | Machine Learning: Regression-based 1 | York / Smirnova | No class | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  [1][38]     |            |  
 | 7       | 02/04 | Machine Learning: Regression-based 2 | York / Smirnova | No class | [Video-1][40], [Video-2][41]; **Project 1 Due** |  [1][39]     |            |  
 | 8       | 02/06 | Machine Learning: Regression-based 3 | York / Smirnova | Zoom     | [Video-3][42]                                 |              |            |  
