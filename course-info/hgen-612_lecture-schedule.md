@@ -5,45 +5,45 @@
 *Course location (classroom vs zoom) subject to change*  
 Biotech Location:  800 East Leigh Street, VIPBG Suite, Room 1-160  
 Zoom: https://zoom.us/j/9927704427  
-Love Data Week 2025 [Schedule][71]  
+Love Data Week 2026 [Schedule][71]  
 [Install Course Packages][25]  
 
 
 | Lecture | Date  | Topic                                | Instructor      | Location | Review                                        | Slides       | Scripts    |  
 | :-----: | :---: | :----------------------------------- | :-------------: | :------- | :-------------------------------------------- | :----------: | :--------: |
-| 1       | 01/15 | Intro & Tidyverse Features           | York            | Biotech  | [Talk to Yourself][7]                         |  [1][26], [2][27] | [1][28]|
-| 2       | 01/17 | Git, Github & RStudio 1              | York            | Biotech  | [git][1]; [happygit][2]                       |  [1][29]     |            |  
-| 3       | 01/22 | Git, Github & RStudio 2              | York            | Biotech  | [**Project 1 Assigned**][111]                  |              |           |  
-| 4       | 01/24 | flexdashboard 1                      | York            | Biotech  | [flexdashboard1][12]                          |  [1][33]     | [1][36]    |  
-| 5       | 01/29 | flexdashboard 2                      | York            | Biotech  | [flexdashboard2][13]; **Project 1 Due**       |              | [1][37]    |  
-| 6       | 01/31 | Machine Learning: Regression-based 1 | York / Smirnova | No class | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  [1][38]     |            |  
-| 7       | 02/05 | Machine Learning: Regression-based 2 | York / Smirnova | No class | [Video-1][40], [Video-2][41]                  |  [1][39]     |            |  
-| 8       | 02/07 | Machine Learning: Regression-based 3 | York / Smirnova | Zoom     | [Video-3][42]                                 |              |            |  
-| 9       | 02/12 | [Love Data Week][71]                 | York / DSL      | TBD      |                                               |              |            |  
-| 10      | 02/14 | Machine Learning: Classification 1   | York / Smirnova | No class | [Video-1][67]                                 |  [1][50]     |            |  
-| 11      | 02/19 | Machine Learning: Classification 2   | York / Smirnova | No class | [Video-2][68]                                 |  [1][51]     |            |  
-| 12      | 02/21 | Machine Learning: Classification 3   | York / Smirnova | Zoom     | [Video-3][69]                                 |  [1][52]     |            |  
-| 13      | 02/26 | tidymodels 1                         | York            | Biotech  | [tidymodels][15]                              | [1][43]      | [1][44]    | 
-| 14      | 02/28 | tidymodels 2                         | York            | Biotech  |                                               |              | [1][45]    |
-| 15      | 03/05 | tidymodels 3                         | York            | Biotech  |                                               |              | [1][47]    |  
-| 16      | 03/07 | Project 2 Consultations              | York            | Biotech  | [**Project 2 Assigned**][222]                 |              |            | 
-|         | 03/12 | *Spring Break*                       |                 |          |                                               |              |            |
-|         | 03/14 | *Spring Break*                       |                 |          |                                               |              |            |
-| 17      | 04/23 | portfoliodown                        | York            | Biotech  | [R-bloggers][48]                              |              | [1][49]    |
-| 18      | 04/25 | Functions                            | York            | Biotech  | [Functions][20] **Code Check Project 2 Due**  |              | [1][65]    |
-| 19      | 03/26 | ReproducibiliTea prep                | York / DSL      | Biotech  |                                               |              |            |
-| 20      | 03/28 | ReproducibiliTea prep                | York / DSL      | TBD      | **Project 2 Due**                             |              |            |  
-| 21      | 04/02 | Machine Learning in the Wild         | Sargent / York  | Biotech  | [Wild1][5]; [Wild2][6]; [Video][70]           |  [1][56]     |            |
-| 23      | 04/04 | Integrating Shiny 1                  | York            | Biotech  |                                               |              | [1][57]    |  
-| 24      | 04/09 | Integrating Shiny 2                  | York            | Biotech  | [tidymodels hotel bookings][21]               |              | [1][59], [2][60] |
-| 25      | 04/11 | Integrating Shiny 3                  | York            | Biotech  | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] | 
-| 22      | 04/16 | Project 3 Consultations              | York            | Biotech  | [**Project 3 Assigned**][333]                 |              |            |  
-| 26      | 04/18 | Integrating Shiny 4                  | York            | Biotech  | [shinyWidgets][23]; [themis][24]              |              | [1][63], [2][64] | 
-| 27      | 04/23 | AI for Data Science                  | York            | Biotech  |                                               |              |            |  
-| 28      | 04/25 | AI for Data Science                  | York            | Biotech  |                                               |              |            |
-| 29      | 04/30 | Student Project Presentations        | York            | Biotech  |                                               |              |            |  
-| 30      | 05/02 | TriNetX Tutorial                     | Cassel          | Biotech  |                                               | [Read][72]   | [1][73]    |       
-|         | 05/05 | Exam Week                            | York            |          | **Project 3 Due**                             |              |            |        
+| 1       | 01/14 | Course Introduction                  | York            | Biotech  | [Talk to Yourself][7]                         |  [1][26], [2][27] | [1][28]|
+| 2       | 01/16 | Git, Github & RStudio 1              | York            | Biotech  | [git][1]; [happygit][2]                       |  [1][29]     |            |  
+| 3       | 01/21 | Git, Github & RStudio 2              | York            | Biotech  | [**Project 1 Assigned**][111]                 |              |           |  
+| 4       | 01/23 | flexdashboard 1                      | York            | Biotech  | [flexdashboard1][12]                          |  [1][33]     | [1][36]    |  
+| 5       | 01/28 | flexdashboard 2 + GitHub             | York            | Biotech  | [flexdashboard2][13];                         |              | [1][37]    |  
+| 6       | 01/30 | Machine Learning: Regression-based 1 | York / Smirnova | No class | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  [1][38]     |            |  
+| 7       | 02/04 | Machine Learning: Regression-based 2 | York / Smirnova | No class | [Video-1][40], [Video-2][41] **Project 1 Due** |  [1][39]     |            |  
+| 8       | 02/06 | Machine Learning: Regression-based 3 | York / Smirnova | Zoom     | [Video-3][42]                                 |              |            |  
+| 9       | 02/11 | [Love Data Week][71]                 | York / DSL      | TBD      |                                               |              |            |  
+| 10      | 02/13 | Machine Learning: Classification 1   | York / Smirnova | No class | [Video-1][67]                                 |  [1][50]     |            |  
+| 11      | 02/18 | Machine Learning: Classification 2   | York / Smirnova | No class | [Video-2][68]                                 |  [1][51]     |            |  
+| 12      | 02/20 | Machine Learning: Classification 3   | York / Smirnova | Zoom     | [Video-3][69]                                 |  [1][52]     |            |  
+| 13      | 02/25 | tidymodels 1                         | York            | Biotech  | [tidymodels][15]                              | [1][43]      | [1][44]    | 
+| 14      | 02/27 | tidymodels 2                         | York            | Biotech  |                                               |              | [1][45]    |
+| 15      | 03/04 | tidymodels 3                         | York            | Biotech  |                                               |              | [1][47]    |  
+| 16      | 03/06 | Project 2 Consultations              | York            | Biotech  | [**Project 2 Assigned**][222]                 |              |            | 
+|         | 03/11 | *Spring Break*                       |                 |          |                                               |              |            |
+|         | 03/13 | *Spring Break*                       |                 |          |                                               |              |            |
+| 17      | 03/18 | portfoliodown & GitHub pages         | York            | Biotech  | [R-bloggers][48]                              |              | [1][49]    |
+| 18      | 03/20 | Functions                            | York            | Biotech  | [Functions][20] **Code Check Project 2 Due**  |              | [1][65]    |
+| 19      | 03/25 | ReproducibiliTea prep                | York / DSL      | Biotech  |                                               |              |            |
+| 20      | 03/27 | ReproducibiliTea prep                | York / DSL      | TBD      | **Project 2 Due**                             |              |            |  
+| 21      | 04/01 | Integrating Shiny 1                  | York            | Biotech  |                                               |              | [1][57]    |  
+| 22      | 04/03 | Integrating Shiny 2                  | York            | Biotech  | [tidymodels hotel bookings][21]               |              | [1][59], [2][60] |
+| 23      | 04/08 | Integrating Shiny 3                  | York            | Biotech  | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] | 
+| 24      | 04/10 | Integrating Shiny 4                  | York            | Biotech  | [shinyWidgets][23]; [themis][24]              |              | [1][63], [2][64] | 
+| 25      | 04/15 | Project 3 Consultations              | York            | Biotech  | [**Project 3 Assigned**][333]                 |              |            |  
+| 26      | 04/17 | Foundations of AI and LLMs           | York            | Biotech  | [Wild1][5]; [Wild2][6]; [Video][70]           |  [1][56]     |            |
+| 27      | 04/22 | Making AI Smarter with Context       | York            | Biotech  |                                               |              |            |  
+| 28      | 04/24 | Building a RAG Pipeline in R         | York            | Biotech  |                                               |              |            |
+| 29      | 04/29 | Student Project Presentations        | York            | Biotech  |                                               |              |            |  
+| 30      | 05/01 | TriNetX Tutorial                     | Cassel          | Biotech  |                                               | [Read][72]   | [1][73]    | 
+|         | 05/04 | Exam Week                            | York            |          | **Project 3 Due**                             |              |            |        
 
 
 [1]: https://osf.io/4a26g "Democratic Science"
@@ -111,7 +111,7 @@ Love Data Week 2025 [Schedule][71]
 [69]: https://drive.google.com/file/d/1tkUa5UqsMQkEPwoU0zAN4b71X9AG5klx/view?usp=drive_link "clustering"
 
 [70]: https://drive.google.com/file/d/1ypnJgXwjKvPUMX0lt9WRdI1Ia86-m_yD/view?usp=share_link "Lana Sargent ML Wild lecture"
-[71]: https://www.icpsr.umich.edu/web/about/cms/3799#:~:text=The%202025%20theme%20is%20%E2%80%9CWhose,it%20online%2C%20or%20combine%20it. "love data week"
+[71]: https://www.icpsr.umich.edu/sites/icpsr/about/news-events/international-love-data-week "love data week"
 [72]: https://osf.io/ry56k "TriNetX Tutorial"
 [73]: https://osf.io/ej5r6 "TriNetX Slides"
 

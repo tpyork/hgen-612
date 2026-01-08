@@ -1,6 +1,6 @@
 # Syllabus
-## HGEN 612: Methods in Data Science
-## SPRING 2025, 3 credit hours
+## HGEN 612: Data Science 2
+## SPRING 2026, 3 credit hours
 
 Time: Wed / Fri, 10:00a-11:20a  
 ClassRoom: VIPBG Conference Room (1-160), Biotech 1, 800 East Leigh Street  
@@ -9,18 +9,16 @@ ClassZoom: https://zoom.us/j/9927704427
 **DIRECTOR:**  
 **Tim York**, PhD  
 Director, VCU Data Science Lab  
-Professor, Human and Molecular Genetics  
+Professor, Cellular-Molecular-Genetic Medicine  
 
-**INSTRUCTORS:**  
+**INSTRUCTOR:**  
 **Ekaterina Smirnova**, PhD  
 Assistant Professor, Biostatistics  
-**Lana Sargent**, PhD, RN, FNP-C, GNP-BC  
-Assistant Professor, Adult Health and Nursing Systems  
 
 - - -
 
 ## Hybrid Synochronous Instruction
-HGEN 612 will primarily meet in-person. Please check the course schedule for meeting location (physical/remote). When remote lectures are indicated there should be no expectation that content will be recorded. The course modality is "hybrid synchronous" and there is an attendence requirement (see below).
+HGEN 612 will primarily meet in-person. Please check the course schedule for meeting location (physical/remote). When remote lectures are indicated there should be no expectation that content will be recorded. The course modality is "hybrid synchronous" and there is an attendance requirement (see below).
 
 
 ### In-person
@@ -36,7 +34,7 @@ Please note that regardless of lecture location your participation and attendanc
 
 
 ## Course Description
-This course builds upon the material introduced in the prerequisite (HGEN 611/OVPR 611) by providing instruction on advanced techniques for working with data and producing highly reproducible data products. The learning path focuses on the fundamentals of both machine learning and the creation of production ready web applications as two highly marketable skills for future data scientists. Project based assignments culminate in students creating their own applications that take advantage of tidymodel principles to automate machine learning workflows, visually communicate knowledge with interactive graphics, and the use of Git and OSF for project management. The guiding principle of the course is that the these products of research should be open and accessible to all members of a project team for maximum impact. This course will continue the use of the statistical programming language R with a focus on advanced tidyverse functions for data wrangling and statistical model development.  
+This course builds upon the material introduced in the prerequisite (HGEN 611/OVPR 611) by providing instruction on advanced techniques for working with data, applying machince learning techniques, exporing artificial intelligence, and producing highly reproducible data products - all highly marketable skills for future data scientists. Project based assignments culminate in students creating their own applications that take advantage of tidymodel principles to automate machine learning workflows, visually communicate knowledge with interactive graphics, and the use of Git and OSF for project management. The guiding principle of the course is that the these products of research should be open and accessible to all members of a project team for maximum impact. This course will continue the use of the statistical programming language R with a focus on advanced tidyverse functions for data wrangling and statistical model development.  
 
 
 ## Prerequisite
@@ -78,22 +76,22 @@ We will be using OSF (https://osf.io/24mp7/) as the hub for all course materials
 The VCU Data Science Lab will participate in this VCU Library sponsored event in mid-February. Final details have not been set but students will be encouraged to attend relevant sessions. This will be a great opportunity to learn about NIH data policies, network, and see how skills learned in HGEN 611/612 fit into the overall picture of project data management.  
 
 ## ReproducibiliTea
-Our class will participate in the informal [*ReproducibiliTea*][104] journal club. Teams of 2 students will select an article relevant to data science/open materials/reproducibility and lead a discussion open to the VCU community.  A sign-up sheet will be made available. Yes, tea will be provided.  
+Our class will participate in the informal [*ReproducibiliTea*][104] journal club. Students will select an article relevant to data science/open materials/reproducibility and lead a discussion open to the VCU community.  A sign-up sheet will be made available. Yes, tea will be provided.  
 
 ## Grading
 The point distribution for grades is listed below. Details for each assignment will be presented in class.    
 
-  - (05 points) Github assignment
-  - (05 points) Flexdashboard code check
-  - (25 points) Project 1  
-  - (05 points) Shiny code check  
-  - (25 points) Project 2  
-  - (10 points) Project 2 presentation  
+  - (05 points) Project 1: Github assignment
+  - (05 points) Project 2: Flexdashboard code check
+  - (25 points) Project 2: Final Submission  
+  - (05 points) Project 3: Shiny code check  
+  - (10 points) Project 3: Presentation 
+  - (25 points) Project 3: Final Submission  
   - (05 points) I Love Data week attendence  
-  - (10 points) ReproducibiliTea
+  - (10 points) ReproducibiliTea presentation and attendance
   - (10 points) Participation and attendance (may include other assignments TBD)  
 
-## Attendence
+## Attendance
 You are allowed one *unexcused* attendence, otherwise 4 points will be deducted from your particpation grade for any additional absences. Excused absences will be considered if I am contacted by direct messaging via Slack at least 24 hours in advance. I'm fairly lenient.  
 
 
