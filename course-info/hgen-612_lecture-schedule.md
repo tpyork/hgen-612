@@ -15,9 +15,9 @@ Love Data Week 2026 [Schedule][71]
 | 2       | 01/16 | Git, Github & RStudio 1              | York            | Biotech  | [git][1]; [happygit][2]                       |  [1][29]     |            |  
 | 3       | 01/21 | Git, Github & RStudio 2              | York            | Biotech  | [**Project 1 Assigned**][111]                 |              |           |  
 | 4       | 01/23 | flexdashboard 1                      | York            | Biotech  | [flexdashboard1][12]                          |  [1][33]     | [1][36]    |  
-| 5       | 01/28 | flexdashboard 2 + GitHub             | York            | Biotech  | [flexdashboard2][13];                         |              | [1][37]    |  
+| 5       | 01/28 | flexdashboard 2 + GitHub             | York            | Biotech  | [flexdashboard2][13]                          |              | [1][37]    |  
 | 6       | 01/30 | Machine Learning: Regression-based 1 | York / Smirnova | No class | [ML1][3]; [ML2][4] (Ch 3 (skip 3.5) & Ch 4.3) |  [1][38]     |            |  
-| 7       | 02/04 | Machine Learning: Regression-based 2 | York / Smirnova | No class | [Video-1][40], [Video-2][41] **Project 1 Due** |  [1][39]     |            |  
+| 7       | 02/04 | Machine Learning: Regression-based 2 | York / Smirnova | No class | [Video-1][40], [Video-2][41]; **Project 1 Due** |  [1][39]     |            |  
 | 8       | 02/06 | Machine Learning: Regression-based 3 | York / Smirnova | Zoom     | [Video-3][42]                                 |              |            |  
 | 9       | 02/11 | [Love Data Week][71]                 | York / DSL      | TBD      |                                               |              |            |  
 | 10      | 02/13 | Machine Learning: Classification 1   | York / Smirnova | No class | [Video-1][67]                                 |  [1][50]     |            |  
@@ -26,18 +26,18 @@ Love Data Week 2026 [Schedule][71]
 | 13      | 02/25 | tidymodels 1                         | York            | Biotech  | [tidymodels][15]                              | [1][43]      | [1][44]    | 
 | 14      | 02/27 | tidymodels 2                         | York            | Biotech  |                                               |              | [1][45]    |
 | 15      | 03/04 | tidymodels 3                         | York            | Biotech  |                                               |              | [1][47]    |  
-| 16      | 03/06 | Project 2 Consultations              | York            | Biotech  | [**Project 2 Assigned**][222]                 |              |            | 
+| 16      | 03/06 | Project 2 Consultations              | York            | Biotech  | [**Project 2 Assigned**][]                    |              |            | 
 |         | 03/11 | *Spring Break*                       |                 |          |                                               |              |            |
 |         | 03/13 | *Spring Break*                       |                 |          |                                               |              |            |
 | 17      | 03/18 | portfoliodown & GitHub pages         | York            | Biotech  | [R-bloggers][48]                              |              | [1][49]    |
-| 18      | 03/20 | Functions                            | York            | Biotech  | [Functions][20] **Code Check Project 2 Due**  |              | [1][65]    |
+| 18      | 03/20 | Functions                            | York            | Biotech  | [Functions][20]; **Code Check Project 2 Due**  |              | [1][65]    |
 | 19      | 03/25 | ReproducibiliTea prep                | York / DSL      | Biotech  |                                               |              |            |
 | 20      | 03/27 | ReproducibiliTea prep                | York / DSL      | TBD      | **Project 2 Due**                             |              |            |  
 | 21      | 04/01 | Integrating Shiny 1                  | York            | Biotech  |                                               |              | [1][57]    |  
 | 22      | 04/03 | Integrating Shiny 2                  | York            | Biotech  | [tidymodels hotel bookings][21]               |              | [1][59], [2][60] |
 | 23      | 04/08 | Integrating Shiny 3                  | York            | Biotech  | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] | 
 | 24      | 04/10 | Integrating Shiny 4                  | York            | Biotech  | [shinyWidgets][23]; [themis][24]              |              | [1][63], [2][64] | 
-| 25      | 04/15 | Project 3 Consultations              | York            | Biotech  | [**Project 3 Assigned**][333]                 |              |            |  
+| 25      | 04/15 | Project 3 Consultations              | York            | Biotech  | [**Project 3 Assigned**][]                    |              |            |  
 | 26      | 04/17 | Foundations of AI and LLMs           | York            | Biotech  | [Wild1][5]; [Wild2][6]; [Video][70]           |  [1][56]     |            |
 | 27      | 04/22 | Making AI Smarter with Context       | York            | Biotech  |                                               |              |            |  
 | 28      | 04/24 | Building a RAG Pipeline in R         | York            | Biotech  |                                               |              |            |
