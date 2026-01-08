@@ -26,7 +26,7 @@ Love Data Week 2026 [Schedule][71]
 | 13      | 02/25 | tidymodels 1                         | York            | Biotech  | [tidymodels][15]                              | [1][43]      | [1][44]    | 
 | 14      | 02/27 | tidymodels 2                         | York            | Biotech  |                                               |              | [1][45]    |
 | 15      | 03/04 | tidymodels 3                         | York            | Biotech  |                                               |              | [1][47]    |  
-| 16      | 03/06 | Project 2 Consultations              | York            | Biotech  | [**Project 2 Assigned**][]                    |              |            | 
+| 16      | 03/06 | Project 2 Consultations              | York            | Biotech  | **Project 2 Assigned**                        |              |            | 
 |         | 03/11 | *Spring Break*                       |                 |          |                                               |              |            |
 |         | 03/13 | *Spring Break*                       |                 |          |                                               |              |            |
 | 17      | 03/18 | portfoliodown & GitHub pages         | York            | Biotech  | [R-bloggers][48]                              |              | [1][49]    |
@@ -37,7 +37,7 @@ Love Data Week 2026 [Schedule][71]
 | 22      | 04/03 | Integrating Shiny 2                  | York            | Biotech  | [tidymodels hotel bookings][21]               |              | [1][59], [2][60] |
 | 23      | 04/08 | Integrating Shiny 3                  | York            | Biotech  | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] | 
 | 24      | 04/10 | Integrating Shiny 4                  | York            | Biotech  | [shinyWidgets][23]; [themis][24]              |              | [1][63], [2][64] | 
-| 25      | 04/15 | Project 3 Consultations              | York            | Biotech  | [**Project 3 Assigned**][]                    |              |            |  
+| 25      | 04/15 | Project 3 Consultations              | York            | Biotech  | **Project 3 Assigned**                        |              |            |  
 | 26      | 04/17 | Foundations of AI and LLMs           | York            | Biotech  | [Wild1][5]; [Wild2][6]; [Video][70]           |  [1][56]     |            |
 | 27      | 04/22 | Making AI Smarter with Context       | York            | Biotech  |                                               |              |            |  
 | 28      | 04/24 | Building a RAG Pipeline in R         | York            | Biotech  |                                               |              |            |
