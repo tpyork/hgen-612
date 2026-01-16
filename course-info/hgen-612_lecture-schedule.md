@@ -38,9 +38,9 @@ Love Data Week 2026 [Schedule][71]
 | 23      | 04/08 | Integrating Shiny 3                  | York            | Biotech  | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] | 
 | 24      | 04/10 | Integrating Shiny 4                  | York            | Biotech  | [shinyWidgets][23]; [themis][24]              |              | [1][63], [2][64] | 
 | 25      | 04/15 | Project 3 Consultations              | York            | Biotech  | **Project 3 Assigned**                        |              |            |  
-| 26      | 04/17 | Foundations of AI and LLMs           | York            | Biotech  | [Wild1][5]; [Wild2][6]; [Video][70]           |  [1][56]     |            |
-| 27      | 04/22 | Making AI Smarter with Context       | York            | Biotech  |                                               |              |            |  
-| 28      | 04/24 | Building a RAG Pipeline in R         | York            | Biotech  |                                               |              |            |
+| 26      | 04/17 | AI: Foundations of AI and LLMs       | York            | Biotech  | [Wild1][5]; [Wild2][6]; [Video][70]           |  [1][56]     |            |
+| 27      | 04/22 | AI: Making AI Smarter with Context   | York            | Biotech  |                                               |              |            |  
+| 28      | 04/24 | AI: Building a RAG Pipeline in R     | York            | Biotech  |                                               |              |            |
 | 29      | 04/29 | Student Project Presentations        | York            | Biotech  |                                               |              |            |  
 | 30      | 05/01 | TriNetX Tutorial                     | Cassel          | Biotech  |                                               | [Read][72]   | [1][73]    | 
 |         | 05/04 | Exam Week                            | York            |          | **Project 3 Due**                             |              |            |        
