@@ -1,0 +1,223 @@
+---
+title: "Week 1 R practice" 
+author:
+- Ekaterina Smirnova
+institute: Virginia Commonwealth University, Richmond, VA \newline email:esmirnova@vcu.edu \newline webpage:http://bit.ly/VCUwebpage \newline \vspace{2mm} 
+header-includes:
+   - \usepackage{xcolor}
+fontsize: 12pt
+output:
+  html_document
+editor_options:
+    chunk_output_type: console
+always_allow_html: yes 
+includes:
+    in_header: header_pagenrs.tex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning= FALSE)
+```
+
+Install R packages
+
+```{r, eval = FALSE, echo = TRUE}
+install.packages("ISLR")
+```
+
+## Load packages
+
+
+```{r, echo = TRUE}
+#clear workspace
+rm(list=ls())
+#contains Boston data set if you want to run chapter 3 lab 
+library(MASS) 
+#package to accompany the book
+library(ISLR) 
+#plots
+library(ggplot2) 
+#styling output 
+library(knitr)  
+#styling tables output
+library(kableExtra) 
+#to create lm diagnostics plots
+library(ggfortify)
+#to assure identical results if simulation methods are used
+set.seed(321321)
+```
+
+Set working directory
+
+
+```{r, out.width = '90%', out.height= '65%', results='hold', echo = TRUE}
+data_dir <- "C:/Users/work/Teaching/OnlineBios667" #change me
+
+
+```
+
+
+
+
+## Load 1993 data
+
+
+```{r}
+
+#exel file
+library(readxl)
+#specify sheet numerically
+data <- read_excel(file.path(data_dir, "Data", "Data_1993.xlsx"), sheet = 1)
+# Alternatively, can specify sheet name
+data <- read_excel(file.path(data_dir, "Data", "Data_1993.xlsx"), sheet = "Sheet1")
+#number of trees
+dim(data)[1]
+#number of variables/forest characteristics
+dim(data)[2]
+```
+
+
+
+## JPB-attacked trees plot
+
+
+```{r, fig.height=6, fig.width = 8, out.height = '65%'}
+p.all <- ggplot(data = data, aes(x = Easting, y = Northing)) + 
+  geom_point(aes(color = factor(Response), alpha = factor(Response))) + 
+  scale_alpha_discrete(range = c(0.5, 1), guide=FALSE)+
+  scale_color_manual("",values=c("yellowgreen", "red"), 
+  labels = c("Alive", "JPB-attacked")) + theme_bw() + xlab("UTM X") + ylab("UTM Y")+
+  theme(legend.position = c(0,1), legend.text=element_text(size=15))
+p.all
+```
+
+
+
+```{r}
+head(names(data), n=10)
+```
+
+
+## A relashionship between  variables
+
+
+
+```{r, fig.height=6, fig.width = 8, out.height = '75%'}
+library(GGally)
+ggpairs(data[,c("SDI_20th", "DeadDist", "TreeDiam", "BA_20th")], 
+  diag = list(continuous ="barDiag", discrete = "barDiag", na = "naDiag") )
+```
+
+
+```{r, fig.height=6, fig.width = 8, out.height = '45%'}
+ggplot(data = data, aes(x = BA_20th, y = SDI_20th))+
+  geom_point(color="blue")+theme_bw()+
+  xlab("BA_20th: Basal Area @ 1/20th-acre neighborhood")+
+  ylab("SDI_20th: Stand Density Index @ 1/20th-acre neighborhood")+
+  theme(axis.title.x = element_text(size = 16),
+        axis.title.y = element_text(size = 16))
+```
+
+
+## Jeffrey pine beetle data example
+
+
+```{r, echo = TRUE, eval=TRUE}
+# Simple Linear Regression
+lm.fit=lm(SDI_20th~BA_20th,data=data)
+
+summary(lm.fit)
+```
+
+
+## Extracting coefficients
+
+
+```{r}
+coefficients(lm.fit)
+```
+
+
+```{r}
+#objects in lm.fit output
+names(summary(lm.fit))
+#extract coefficients
+summary(lm.fit)$coefficients
+#extract value for r-squared
+summary(lm.fit)$r.squared
+```
+
+## Fitted values
+
+
+```{r}
+#first record observations
+data[1, c("TreeNum", "Response", "SDI_20th", "BA_20th")]
+#fitted value of standard density index  at basal area 
+SDI_20th_hat <- coefficients(lm.fit)[1] + coefficients(lm.fit)[2]*data[1,"BA_20th"]
+#compare fitted and actual values  for standard density index
+df <- round(data.frame(actual = data[1,"SDI_20th"], fitted = SDI_20th_hat),3)
+kable(df, format="latex", col.names = c("actual", "fitted")) %>%    
+  kable_styling(latex_options = c("striped","HOLD_position"),
+                full_width = FALSE, font_size = 8)
+
+```
+
+## Fitted regression line
+
+
+```{r, out.height = '50%', echo = TRUE}
+ggplot(data = data, aes(x = BA_20th, y = SDI_20th))+
+  geom_point(color="blue", alpha = 0.1)+theme_bw()+
+  geom_abline(intercept = coefficients(lm.fit)[1], slope = coefficients(lm.fit)[2],
+              colour = "red", size = 2, linetype = "solid")+#best fit line
+  xlab("BA_20th: Basal Area @ 1/20th-acre neighborhood")+
+  ylab("SDI_20th: Stand Density Index @ 1/20th-acre neighborhood")+
+  theme(axis.title.x = element_text(size = 16),
+        axis.title.y = element_text(size = 16))
+```
+
+
+## Confidence intervals for estimated coefficients
+
+
+```{r, echo = TRUE,  results = 'hold'}
+#accessing linear model fit objects
+names(lm.fit)
+```
+
+
+```{r, echo = TRUE,  results = 'hold'}
+
+kable(round(confint(lm.fit),3)[-1,], col.names = c("CI"),
+      format="latex") %>%    
+  kable_styling(latex_options = c("striped","HOLD_position"),
+                full_width = FALSE, font_size = 8)
+```
+
+## Model diagnostics: constant variance of error terms
+
+
+- https://data.library.virginia.edu/diagnostic-plots/
+- Ideally --  no discernible pattern
+- pattern:  sign of non-linearity
+- points not randomly scattered around zero -- sign of heteroscedasticity 
+
+```{r, out.height = '55%', fig.height = 3, fig.width = 14, fig.align = "center"}
+autoplot(lm.fit, which = 1, label.size = 2)+theme_bw()
+```
+
+
+## Model diagnostics: normality of error terms
+
+
+- Theoretical versus sample quantiles plots
+
+- checking normality assumption
+
+- straight line -- indicates data is close to normal
+
+```{r, out.height = '55%',  fig.height = 3, fig.width = 13, fig.align = "center"}
+autoplot(lm.fit, which = 2, label.size = 2)+theme_bw()
+```
+
