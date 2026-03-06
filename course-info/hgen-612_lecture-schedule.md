@@ -26,7 +26,7 @@ Love Data Week 2026 [Schedule][71]
 | 13      | 02/25 | tidymodels 1                         | York            | Biotech  | [tidymodels][15]                              | [1][43]      | [1][44]    | 
 | 14      | 02/27 | tidymodels 2                         | York            | Biotech  |                                               |              | [1][45]    |
 | 15      | 03/04 | tidymodels 3                         | York            | Biotech  |                                               |              | [1][47]    |  
-| 16      | 03/06 | Project 2 Consultations              | York            | Biotech  | **Project 2 Assigned**                        |              |            | 
+| 16      | 03/06 | Project 2 Consultations              | York            | Biotech  | [**Project 2 Assigned**][222]                 |              |            | 
 |         | 03/11 | *Spring Break*                       |                 |          |                                               |              |            |
 |         | 03/13 | *Spring Break*                       |                 |          |                                               |              |            |
 | 17      | 03/18 | portfoliodown & GitHub pages         | York            | Biotech  | [R-bloggers][48]                              |              | [1][49]    |
