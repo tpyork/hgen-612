@@ -29,16 +29,16 @@ Love Data Week 2026 [Schedule][71]
 | 16      | 03/06 | Project 2 Consultations              | York            | Biotech  | [**Project 2 Assigned**][222]                 |              |            | 
 |         | 03/11 | *Spring Break*                       |                 |          |                                               |              |            |
 |         | 03/13 | *Spring Break*                       |                 |          |                                               |              |            |
-| 17      | 03/18 | portfoliodown & GitHub pages         | York            | Biotech  | [R-bloggers][48]                              |              | [1][49]    |
-| 18      | 03/20 | Functions                            | York            | Biotech  | [Functions][20]; **Code Check Project 2 Due**  |              | [1][65]    |
-| 19      | 03/25 | ReproducibiliTea prep                | York / DSL      | Biotech  |                                               |              |            |
-| 20      | 03/27 | ReproducibiliTea prep                | York / DSL      | TBD      | **Project 2 Due**                             |              |            |  
+| 17      | 03/18 | Functions                            | York            | Biotech  | [Functions][20]                               |              | [1][65]    |
+| 18      | 03/20 | ReproducibiliTea prep                | York / DSL      | TBD      | **Code Check Project 2 Due**                  |              |            |
+| 19      | 03/25 | ReproducibiliTea prep                | York / DSL      | TBD      |                                               |              |            |  
+| 20      | 03/27 | portfoliodown & GitHub pages         | York            | Biotech  | [R-bloggers][48]; **Project 2 Due**           |              | [1][49]    |
 | 21      | 04/01 | Integrating Shiny 1                  | York            | Biotech  |                                               |              | [1][57]    |  
 | 22      | 04/03 | Integrating Shiny 2                  | York            | Biotech  | [tidymodels hotel bookings][21]               |              | [1][59], [2][60] |
 | 23      | 04/08 | Integrating Shiny 3                  | York            | Biotech  | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] | 
 | 24      | 04/10 | Integrating Shiny 4                  | York            | Biotech  | [shinyWidgets][23]; [themis][24]              |              | [1][63], [2][64] | 
 | 25      | 04/15 | Project 3 Consultations              | York            | Biotech  | **Project 3 Assigned**                        |              |            |  
-| 26      | 04/17 | AI: Foundations of AI and LLMs       | York            | Biotech  | [Wild1][5]; [Wild2][6]; [Video][70]           |  [1][56]     |            |
+| 26      | 04/17 | AI: Foundations of AI and LLMs       | York            | Biotech  |                                               |              |            |
 | 27      | 04/22 | AI: Making AI Smarter with Context   | York            | Biotech  |                                               |              |            |  
 | 28      | 04/24 | AI: Building a RAG Pipeline in R     | York            | Biotech  |                                               |              |            |
 | 29      | 04/29 | Student Project Presentations        | York            | Biotech  |                                               |              |            |  
