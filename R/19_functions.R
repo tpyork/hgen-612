@@ -214,12 +214,12 @@ eval(parse(text = "1 + 2"))
 # Evaluation: Expressions can be evaluated using eval() in a specified environment.
 # Environment: Expressions do not retain the environment in which they were created. 
 # You need to explicitly provide an environment for evaluation.
-eval(expr, envir = list(x = 1, y = 2))  # Returns 3
+eval(expr(x + y))
+eval(expr(x + y), envir = list(x = 1, y = 2))  # Returns 3
 
 
 class(expr(1 + 2))
 lm(height ~ weight, data = data_tbl)
-
 
 
 
@@ -228,6 +228,8 @@ lm(height ~ weight, data = data_tbl)
 # 2. evaluate when ready
 # 3. preserve environment in which they were created
 # 4. Standard vs Nonstandard evaluation
+# 5. STALLS UNTIL EXPRESSIONS ARE CAPTURED, A DATA MASK IS CREATED, AND THEN EVALUATES QUOSURES IN SPECIAL ENV
+#    `eval_tidy()` evaluates the quosure inside the mask
 #
 # Don't get bogged down in details unless you want to take a
 #  deep dive into `rlang` : https://rlang.r-lib.org/
@@ -248,7 +250,7 @@ add_bmi_2 <- function(.data, .h, .w) {
     mutate(bmi = bmi_calc_2(!!h_expr, !!w_expr))
   
 }
-  
+
 
 # pipe friendly version
 data_tbl %>% 
