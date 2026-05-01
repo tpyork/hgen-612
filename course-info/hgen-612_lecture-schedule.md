@@ -23,7 +23,7 @@ Love Data Week 2026 [Schedule][71]
 | 10      | 02/13 | Machine Learning: Classification 1   | York / Smirnova | No class | [Video-1][67]                                 |  [1][50]     |            |  
 | 11      | 02/18 | Machine Learning: Classification 2   | York / Smirnova | No class | [Video-2][68]                                 |  [1][51]     |            |  
 | 12      | 02/20 | Machine Learning: Classification 3   | York / Smirnova | Zoom     | [Video-3][69]                                 |  [1][52]     |            |  
-| 13      | 02/25 | tidymodels 1                         | York            | Biotech  | [tidymodels][15]                              | [1][43]      | [1][44]    | 
+| 13      | 02/25 | tidymodels 1                         | York            | Biotech  | [tidymodels][15]                              |  [1][43]     | [1][44]    | 
 | 14      | 02/27 | tidymodels 2                         | York            | Biotech  |                                               |              | [1][45]    |
 | 15      | 03/04 | tidymodels 3                         | York            | Biotech  |                                               |              | [1][47]    |  
 | 16      | 03/06 | Project 2 Consultations              | York            | Biotech  | [**Project 2 Assigned**][222]                 |              |            | 
@@ -38,12 +38,12 @@ Love Data Week 2026 [Schedule][71]
 | 23      | 04/08 | Integrating Shiny 3                  | York            | Biotech  | [Shiny Cheatsheet][22]                        |              | [1][61], [2][62] | 
 | 24      | 04/10 | Integrating Shiny 4                  | York            | Biotech  | [shinyWidgets][23]; [themis][24]              |              | [1][63], [2][64] | 
 | 25      | 04/15 | Project 3 Consultations              | York            | Biotech  | **Project 3 Assigned**                        |              |            |  
-| 26      | 04/17 | AI: Foundations of AI and LLMs       | York            | Biotech  |                                               |              |            |
-| 27      | 04/22 | AI: Making AI Smarter with Context   | York            | Biotech  |                                               |              |            |  
+| 26      | 04/17 | AI: Foundations of AI and LLMs       | York            | Biotech  | [Open Source LLMs][74]                        |              |            |
+| 27      | 04/22 | AI: Chatbots with shinychat          | York            | Biotech  |                                               |              |            |  
 | 28      | 04/24 | AI: Building a RAG Pipeline in R     | York            | Biotech  |                                               |              |            |
 | 29      | 04/29 | Student Project Presentations        | York            | Biotech  |                                               |              |            |  
 | 30      | 05/01 | TriNetX Tutorial                     | Cassel          | Biotech  |                                               | [Read][72]   | [1][73]    | 
-|         | 05/04 | Exam Week                            | York            |          | **Project 3 Due**                             |              |            |        
+|         | 05/04 | Exam Week                            | York            |          | **Project 3 Due May 9**                       |              |            |        
 
 
 [1]: https://osf.io/4a26g "Democratic Science"
@@ -114,6 +114,8 @@ Love Data Week 2026 [Schedule][71]
 [71]: https://www.icpsr.umich.edu/sites/icpsr/about/news-events/international-love-data-week "love data week"
 [72]: https://osf.io/ry56k "TriNetX Tutorial"
 [73]: https://osf.io/ej5r6 "TriNetX Slides"
+
+[74]: https://www.youtube.com/watch?v=sYliwvml9Es "A hackers guide to open source LLMs"
 
 [111]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-1.md "project 1"
 [222]: https://github.com/tpyork/hgen-612/blob/main/assignments/project-2.md "project 2"
